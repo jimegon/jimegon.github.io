@@ -1,12 +1,12 @@
 ---
 title: "An Overview of Carbon Offsets from Agriculture"
 collection: publications
-permalink: /publication/2012-04-17-carbon-offets
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+permalink: /publication/2012-04-17-carbon-offsets
+excerpt: ''
 date: 2012-04-17
 venue: 'Annual Review of Resource Economics'
 paperurl: 'https://doi.org/10.1146/annurev-resource-083110-120016'
-citation: 'González-Ramírez, Jimena, Kling, Catherine L., Valcu, Adriana. (2012). &quot;An Overview of Carbon Offsets from Agriculture.&quot; <i>Annual Review of Resource Economics</i>. 4(1).'
+citation: 'González-Ramírez, Jimena, Kling, Catherine L., & Valcu, Adriana. (2012). &quot;An Overview of Carbon Offsets from Agriculture.&quot; <i>Annual Review of Resource Economics</i>. 4(1).'
 ---
 
 
@@ -25,7 +25,7 @@ citation: 'González-Ramírez, Jimena, Kling, Catherine L., Valcu, Adriana. (201
 </body>
 
 
-<details>
+<details open>
 <summary>
 Abstract
 </summary>
@@ -34,7 +34,7 @@ Although climate change has largely been removed from the federal policy agenda 
 
 </details>
 
-<details>
+<details open>
 <summary>
 Keywords
 </summary>
