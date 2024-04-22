@@ -1,7 +1,7 @@
 ---
 title: "An Overview of Carbon Offsets from Agriculture"
 collection: publications
-permalink: /publication/2012-04-17-carbon-offets-number-1
+permalink: /publication/2012-04-17-carbon-offets
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2012-04-17
 venue: 'Annual Review of Resource Economics'
@@ -32,16 +32,25 @@ Abstract
 
 Although climate change has largely been removed from the federal policy agenda of the United States in the near term, the continued reliance on fossil fuels as a dominant energy source leaves many analysts to conclude that climate policy will eventually reappear on that agenda. We present a review of recent research related to the design and implementation of one instrument for greenhouse gas (GHG) reduction: offsets. As these are implemented, policy makers must understand the way these programs work. In this review, we describe the basic features of carbon offset markets, along with the potential supply of offsets from agricultural sources and associated cost considerations. In this discussion we highlight the role of institutional design of contracts and transactions costs. We then turn to the benefits of including offsets in policies to reduce GHGs and complete the review with a discussion of the challenges in implementing the programs.
 
-<details class="sub_detail">
-<summary>This is a sub detail</summary>
-Blah blah blah
 </details>
 
+<details>
+<summary>
+Keywords
+</summary>
+additionality <br>
+
+carbon policy <br>
+
+carbon supply curves <br>
+
+conservation practices <br>
+
+GHGs <br>
+
+leakage <br>
+
+<br>
+
 </details>
-__Abstract:__
-
-Although climate change has largely been removed from the federal policy agenda of the United States in the near term, the continued reliance on fossil fuels as a dominant energy source leaves many analysts to conclude that climate policy will eventually reappear on that agenda. We present a review of recent research related to the design and implementation of one instrument for greenhouse gas (GHG) reduction: offsets. As these are implemented, policy makers must understand the way these programs work. In this review, we describe the basic features of carbon offset markets, along with the potential supply of offsets from agricultural sources and associated cost considerations. In this discussion we highlight the role of institutional design of contracts and transactions costs. We then turn to the benefits of including offsets in policies to reduce GHGs and complete the review with a discussion of the challenges in implementing the programs.
-
-__Keywords__: additionality, carbon policy, carbon supply curves, conservation practices, GHGs, leakage
-
 
