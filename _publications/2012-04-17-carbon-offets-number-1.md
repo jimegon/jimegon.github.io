@@ -17,8 +17,8 @@ citation: 'González-Ramírez, Jimena, Kling, Catherine L., Valcu, Adriana. (201
             <figcaption><a href="https://economics.cornell.edu/catherine-kling" target="_blank">Cathy Kling</a></figcaption>
         </figure>
         <figure>
-            <img src="/images/profile.png" alt="Image 2" width="100" height="auto">
-            <figcaption>Jimena Gonzalez</figcaption>
+            <img src="/images/co-authors/adriana_valcu.png" alt="Image 2" width="100" height="auto">
+            <figcaption><a href="https://www.ers.usda.gov/authors/ers-staff-directory/adriana-valcu-lisman/" target="_blank">Adriana Valcu-Lisman</a></figcaption>
         </figure>
         <!-- Add more images as needed -->
     </div>
