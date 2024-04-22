@@ -399,3 +399,65 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*------------------------------------------------------------
+              CODE ADDED BY JIMEGON
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------*/
+/* Code for flexbox */
+/*------------------------------------------------------------*/
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+}
+
+figure {
+  max-width:40%;
+  margin: 10px; /* Margin between images */
+  text-align: center; /* Center-align the image and caption */
+}
+
+figcaption {
+  margin-top: 5px; /* Margin between image and caption */
+  font-size: 14px; /* Font size of the caption */
+}
+
+
+/*------------------------------------------------------------
+                  Code for Collapsible
+------------------------------------------------------------*/
+summary {
+  background: darkslateblue;
+  color:white;
+  padding: 5px;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+details {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.content {
+  border-top: none;
+  padding: 10px;
+  border: 2px solid #8dd792;
+  border-top: none;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 10px;
+  &:last-child {
+    padding: 0;
+  }
+}
+
+.sub_detail {
+  margin-left:20px;
+}
