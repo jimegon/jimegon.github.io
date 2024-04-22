@@ -413,14 +413,21 @@
 }
 
 figure {
-  max-width:40%;
+  max-width: 40%;
   margin: 10px; /* Margin between images */
   text-align: center; /* Center-align the image and caption */
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
 }
 
+
+
 figcaption {
-  margin-top: 5px; /* Margin between image and caption */
-  font-size: 14px; /* Font size of the caption */
+  color:darkblue;
+  margin-top: 0.5px; /* Margin between image and caption */
+  font-size: 20px; /* Font size of the caption */
+  text-align: center; /* Center-align text */
 }
 
 
