@@ -13,7 +13,7 @@ citation: 'González-Ramírez, Jimena, Kling, Catherine L., Valcu, Adriana. (201
 <body>
 <div class="image-container">
         <figure>
-            <img src="/images/co-authors/cathy_kling.png" alt="Cathy" width="100" height="auto">
+            <img src="/images/co-authors/Cathy_kling.png" alt="Cathy" width="100" height="auto">
             <figcaption><a href="https://economics.cornell.edu/catherine-kling" target="_blank">Cathy Kling</a></figcaption>
         </figure>
         <figure>
@@ -24,17 +24,6 @@ citation: 'González-Ramírez, Jimena, Kling, Catherine L., Valcu, Adriana. (201
     </div>
 </body>
 
-__Co-Authors:__
-
-Catherine L. Kling
-
-<a href="https://economics.cornell.edu/catherine-kling" target="_blank">
-        <img src='/images/co-authors/cathy_kling.png' alt="Cathy Kling" width="300" height="200">
-</a>
-
-
-
-Adriana Valcu
 
 <details>
 <summary>
