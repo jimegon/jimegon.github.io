@@ -7,6 +7,7 @@ date: 2018-08-01
 venue: 'Sustainability'
 paperurl: 'https://doi.org/10.3390/su10082693'
 citation: 'González-Ramírez, Jimena, Arora, Poonam, & Podesta, Guillermo. (2018). &quot;Using Insights from Prospect Theory to Enhance Sustainable Decision Making by Agribusinesses in Argentina.&quot; <i>Sustainability</i>. 10(8).'
+category: 'behavioral'
 ---
 
 <body>

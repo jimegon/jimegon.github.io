@@ -11,6 +11,29 @@ author_profile: true
 
 {% include base_path %}
 
+<details open>
+<summary>
+Environmental Economics
+</summary>
+
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.category == 'environmental' %}
+  {% include archive-single-publications.html %}
+  {% endif %}
 {% endfor %}
+
+</details>
+
+
+<details open>
+<summary class="id1">
+Behavioral Economics
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.category == 'behavioral' %}
+  {% include archive-single-publications.html %}
+  {% endif %}
+{% endfor %}
+
+</details>

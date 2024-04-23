@@ -53,6 +53,7 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    
   }
 
   p, li, dl {
@@ -437,9 +438,22 @@ figcaption {
                   Code for Collapsible
 ------------------------------------------------------------*/
 summary {
-  background: darkslateblue;
+  background: darkblue;
   color:white;
   padding: 5px;
+  font-size: large;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+summary.id1 {
+  background: purple;
+  color:white;
+  padding: 5px;
+  font-size: medium;
   border: 2px solid transparent;
   outline: none;
   &:focus {
@@ -451,6 +465,7 @@ details {
   max-width: 100%;
   box-sizing: border-box;
   margin-top: 5px;
+  padding-bottom: 10px;
 }
 .content {
   border-top: none;

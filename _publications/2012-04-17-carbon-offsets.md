@@ -7,6 +7,8 @@ date: 2012-04-17
 venue: 'Annual Review of Resource Economics'
 paperurl: 'https://doi.org/10.1146/annurev-resource-083110-120016'
 citation: 'González-Ramírez, Jimena, Kling, Catherine L., & Valcu, Adriana. (2012). &quot;An Overview of Carbon Offsets from Agriculture.&quot; <i>Annual Review of Resource Economics</i>. 4(1).'
+category: 'environmental'
+co-authors: 'Cathy Kling and Adriana Valcu-Lisman'
 ---
 
 
