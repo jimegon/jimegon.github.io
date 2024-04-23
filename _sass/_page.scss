@@ -416,7 +416,7 @@
 }
 
 figure {
-  max-width: 40%;
+  max-width: 24%;
   margin: 10px; /* Margin between images */
   text-align: center; /* Center-align the image and caption */
   display: flex; /* Add flex display */
@@ -489,6 +489,7 @@ details {
 p {
   margin: 0;
   padding-bottom: 10px;
+  text-align: justify;
   &:last-child {
     padding: 0;
   }

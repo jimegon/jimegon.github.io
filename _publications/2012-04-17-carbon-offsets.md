@@ -32,7 +32,9 @@ co-authors: 'Cathy Kling and Adriana Valcu-Lisman'
 Abstract
 </summary>
 
+<p>
 Although climate change has largely been removed from the federal policy agenda of the United States in the near term, the continued reliance on fossil fuels as a dominant energy source leaves many analysts to conclude that climate policy will eventually reappear on that agenda. We present a review of recent research related to the design and implementation of one instrument for greenhouse gas (GHG) reduction: offsets. As these are implemented, policy makers must understand the way these programs work. In this review, we describe the basic features of carbon offset markets, along with the potential supply of offsets from agricultural sources and associated cost considerations. In this discussion we highlight the role of institutional design of contracts and transactions costs. We then turn to the benefits of including offsets in policies to reduce GHGs and complete the review with a discussion of the challenges in implementing the programs.
+</p>
 
 </details>
 

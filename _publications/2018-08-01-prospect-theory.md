@@ -31,7 +31,9 @@ co-authors: 'Poonam Arora and Guillermo Podesta'
 Abstract
 </summary>
 
+<p>
 Farm production often involves family-owned agribusinesses where decisions are made by households or individuals, not corporate managers. As these decisions have important economic, environmental, and social implications, decision-making processes must be understood to foster sustainable agricultural production. Decision experiments, involving lotteries, targeting farmers in the Argentine Pampas were used to estimate prospect theory (PT) parameters. Results suggest that decisions under risk are better represented by prospect theory than by expected utility (EU) theory: Decision makers treat gains and losses differently and use subjective probabilities of outcomes; they are quite loss averse and are more likely to overweigh probabilities of infrequent events, such as large droughts or floods. Statistical testing revealed heterogeneity in the risk tied to land tenure (land owners vs. renters) and agribusiness roles (farmers vs. technical advisors). Perceptions of risk, probability, and outcomes played a large role in the sustainability of production. Due to a strong desire to avoid losses, decision makers have a greater short term focus: Immediate economic outcomes are more salient, and environmental and social investments are framed as costs rather than long-term gains. This research can help design policies, programs, and tools that assist agribusinesses in managing better contradictions across the triple bottom line to ensure greater sustainability.
+</p>
 
 </details>
 
