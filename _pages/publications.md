@@ -37,3 +37,16 @@ Behavioral Economics
 {% endfor %}
 
 </details>
+
+<details open>
+<summary class="id2">
+Pedagogy
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.category == 'pedagogy' %}
+  {% include archive-single-publications.html %}
+  {% endif %}
+{% endfor %}
+
+</details>

@@ -441,7 +441,7 @@ summary {
   background: darkblue;
   color:white;
   padding: 5px;
-  font-size: large;
+  font-size: larger;
   border: 2px solid transparent;
   outline: none;
   &:focus {
@@ -453,7 +453,19 @@ summary.id1 {
   background: purple;
   color:white;
   padding: 5px;
-  font-size: medium;
+  font-size: larger;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+summary.id2 {
+  background: #ff0080;
+  color:white;
+  padding: 5px;
+  font-size: larger;
   border: 2px solid transparent;
   outline: none;
   &:focus {
