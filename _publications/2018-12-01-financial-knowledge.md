@@ -19,7 +19,7 @@ co-authors: 'Amira Annabi and Fabian Müller'
         </figure>
         <figure>
             <img src="/images/co-authors/fabian_muller.png" alt="Image 2" width="100" height="auto">
-            <figcaption><a href="https://www.linkedin.com/in/fabianmueller123/" target="_blank">Fabian Müller (MBA Studeet)</a></figcaption>
+            <figcaption><a href="https://www.linkedin.com/in/fabianmueller123/" target="_blank">Fabian Müller </a> <br> (MBA Student) </figcaption>
         </figure>
         <!-- Add more images as needed -->
     </div>
