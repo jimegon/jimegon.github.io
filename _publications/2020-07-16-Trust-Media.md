@@ -1,9 +1,9 @@
 ---
 title: "Trust and the Media: Perceptions of Climate Change News Sources Among US College Students"
 collection: publications
-permalink: /publication/2021-07-16-Trust-Media
+permalink: /publication/2020-07-16-Trust-Media
 excerpt: ''
-date: 2021-07-16
+date: 2020-07-16
 venue: 'Postdigital Science and Education'
 paperurl: 'https://doi.org/10.1007/s42438-020-00163-y'
 citation: 'Cheng, Heyi, González-Ramírez, Jimena (2021). &quot;Trust and the Media: Perceptions of Climate Change News Sources Among US College Students&quot; <i> Postdigit Sci Educ </i>. 3(1): 910-933'
