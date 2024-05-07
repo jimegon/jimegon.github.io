@@ -27,7 +27,7 @@ Environmental Economics
 
 <details open>
 <summary class="id1">
-Behavioral Economics
+Behavioral and Environmental Economics
 </summary>
 
 {% for post in site.publications reversed %}
@@ -50,3 +50,8 @@ Pedagogy
 {% endfor %}
 
 </details>
+
+\\
+\\
+\* Undergraduate Student \\
+\*\* MBA Student
