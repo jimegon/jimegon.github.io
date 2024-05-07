@@ -1,7 +1,7 @@
 ---
 title: "Trust and the Media: Perceptions of Climate Change News Sources Among US College Students"
 collection: publications
-permalink: /publication/2020-07-16-Trust-Media
+permalink: /publication/2020-07-16-trust-media
 excerpt: ''
 date: 2020-07-16
 venue: 'Postdigital Science and Education'
