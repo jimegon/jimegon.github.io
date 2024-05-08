@@ -8,7 +8,6 @@ venue: 'Journal of Financial Education'
 paperurl: 'https://www.jstor.org/stable/26775511'
 citation: 'Annabi, Amira, González-Ramírez, Jimena, & Müller, Fabian (2018). &quot;What Determines Financial Knowledge among College Students?&quot; <i>Journal of Financial Education</i>. 44(22): 344-366'
 category: 'pedagogy'
-type: 'pr'
 co-authors: 'Amira Annabi and Fabian Müller**'
 ---
 

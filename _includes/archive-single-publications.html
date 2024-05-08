@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline" style="margin:1em 0 0 0.5em;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin:1em 0 0 0em;">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -39,10 +39,10 @@
     {% endif %}
 
 
-    Published in <i>{{ post.venue }}</i>, {{post.date| default: "1900-01-01" | date: "%Y"}}. <br>
+   <i>{{ post.venue }}</i>, {{post.date| default: "1900-01-01" | date: "%Y"}}. <br>
 
     {% if post.co-authors %}
-    Co-Authors: {{post.co-authors}}
+    {{post.co-authors}}
     {% endif %}
 
   </article>

@@ -8,7 +8,6 @@ venue: 'AXIS: Journal of Lasallian Higher Education'
 paperurl: 'https://axisjournal.org/2020/05/30/exploring-academic-collaborative-opportunities-between-lasallian-colleges-and-their-potential-impact/'
 citation: 'BuShell, Shawna, González-Ramírez, Jimena, Wilkins, Bryan, Boliari, Natalia, El-Hakim, Mohab, López, Sandra Verónica, Michel, Mary & Gómez-Restrepo, Carlos (2020). &quot;Exploring Academic Collaborative Opportunities between Lasallian Colleges and Their Potential Impact&quot; <i>AXIS: Journal of Lasallian Higher Education </i>. 11(1)'
 category: 'pedagogy'
-type: 'pr'
 co-authors: 'Shawna BuShell, Bryan Wilkins, Natalia Boliari, Mohab El-Hakim, Sandra López, Mary Michel, and Carlos Gómez-Restrepo'
 ---
 

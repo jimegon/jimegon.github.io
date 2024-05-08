@@ -8,7 +8,6 @@ venue: 'Postdigital Science and Education'
 paperurl: 'https://doi.org/10.1007/s42438-020-00163-y'
 citation: 'Cheng, Heyi, González-Ramírez, Jimena (2021). &quot;Trust and the Media: Perceptions of Climate Change News Sources Among US College Students&quot; <i> Postdigit Sci Educ </i>. 3(1): 910-933'
 category: 'behavioral'
-type: 'pr'
 co-authors: 'Heyi Cheng*'
 ---
 

@@ -40,12 +40,22 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Peer-Reviewed Publications
+======
+  <ol reversed>{% for post in site.publications reversed %}
+    {% if post.type == 'pr' %}
+    {% include archive-single-cv.html %}
+    {% endif %} 
+  {% endfor %}</ol>
+  
+Other Publications
 ======
   <ul>{% for post in site.publications reversed %}
+    {% if post.type == 'other' %}
     {% include archive-single-cv.html %}
+    {% endif %} 
   {% endfor %}</ul>
-  
+   
 Talks
 ======
   <ul>{% for post in site.talks reversed %}

@@ -8,7 +8,6 @@ venue: ' The Journal of Economic Education'
 paperurl: 'https://doi.org/10.1080/00220485.2021.1925185'
 citation: 'Silz Carson, Katherine, Adams, Hiuko, González-Ramírez, Jimena, Heinicke, Craig, Latham, James Michael, Maier, Mark, Malakar, C. Lucy, Ruder, Phil, Simkins, Scott  (2021). &quot;Challenges and lessons: Design and implementation of a multi-site evaluation of team-based learning &quot; <i>  The Journal of Economic Education </i>. 241-248.'
 category: 'pedagogy'
-type: 'pr'
 co-authors: 'Katherine Silz Carson, Huiko Adams, Craig Heinicke, James Michael Latham, Mark Meier, C. Lucy Malakar, Phil Ruder, and Scott Simkins'
 ---
 
