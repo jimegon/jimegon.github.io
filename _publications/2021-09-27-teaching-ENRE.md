@@ -6,7 +6,7 @@ excerpt: ''
 date: 2021-09-27
 venue: 'International Review of Environmental and Resource Economics'
 paperurl: 'http://dx.doi.org/10.1561/101.00000143'
-citation: 'González-Ramírez, Jimena, Caviglia-Harris, Jill, \& Whitehead, John (2021). &quot;Teaching Environmental and Natural Resource Economics: A Review of the Economic Education Literature &quot; <i>  International Review of Environmental and Resource Economics </i>. 15(3): 235-369.'
+citation: 'González-Ramírez, Jimena, Caviglia-Harris, Jill, & Whitehead, John (2021). &quot;Teaching Environmental and Natural Resource Economics: A Review of the Economic Education Literature &quot; <i>  International Review of Environmental and Resource Economics </i>. 15(3): 235-369.'
 category: 'pedagogy'
 co-authors: 'Jill Caviglia-Harris and John Whitehead'
 ---
