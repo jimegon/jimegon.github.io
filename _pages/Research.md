@@ -26,7 +26,7 @@ Environmental Economics
 Behavioral and Environmental Economics
 </summary>
 
-{% for post in site.publications reversed %}
+{% for post in site.research reversed %}
   {% if post.category == 'behavioral' %}
   {% include archive-single-publications.html %}
   {% endif %}
@@ -39,7 +39,7 @@ Behavioral and Environmental Economics
 Pedagogy
 </summary>
 
-{% for post in site.publications reversed %}
+{% for post in site.research reversed %}
   {% if post.category == 'pedagogy' %}
   {% include archive-single-publications.html %}
   {% endif %}
