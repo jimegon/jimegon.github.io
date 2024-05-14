@@ -9,36 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
+Academic Appointments
+======
+
+* __O'Malley School of Business, Manhattan College__ - Riverdale, NY <br>
+  * Associate Professor (2022 - Present) 
+  * Assistant Professor (2016 - 2022)
+
 Education
 ======
-* Ph.D in Economics, Iowa State University, 2016
-* B.S. in Applied Mathematics and Economics, Loras College, 2009
+* Ph.D in Economics, __Iowa State University__, 2016
+* B.S. in Applied Mathematics and Economics, __Loras College__, 2009
+  * _Maxima Cum Lade_
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Peer-Reviewed Publications
 ======
@@ -56,6 +40,19 @@ Other Publications
     {% endif %} 
   {% endfor %}</ul>
    
+Working Papers
+=====
+
+## Environmental: 
+  <ul>{% for post in site.research reversed %}
+    {% if post.type == 'working paper' %}
+        {% if post.category == 'environmental' %}
+        {% include archive-single-publications.html %}
+        {% endif %}
+    {% endif %} 
+  {% endfor %}</ul>
+
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -71,3 +68,13 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
