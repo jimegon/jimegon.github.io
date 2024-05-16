@@ -17,7 +17,7 @@ author_profile: true
 
 <details open>
 <summary>
-Environmental Economics
+Environmental 
 </summary>
 
 {% for post in site.publications reversed %}
@@ -33,7 +33,7 @@ Environmental Economics
 
 <details open>
 <summary class="id1">
-Behavioral and Environmental Economics
+Behavioral 
 </summary>
 
 {% for post in site.publications reversed %}

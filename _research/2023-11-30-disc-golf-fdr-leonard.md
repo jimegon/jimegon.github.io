@@ -6,7 +6,7 @@ excerpt: ''
 date: 2023-11-30
 venue: 'SSRN Working Paper'
 paperurl: 'https://dx.doi.org/10.2139/ssrn.4636565'
-citation: 'González-Ramírez, Jimena, Liao, Kenneth, Meyer, Kevin, & Adamas, Victoria (2023). &quot;An The Effect of Seasonal Parking Fees on Disc Golfing.&quot; <i>SSRN Working Paper</i>. 4(1).'
+citation: 'González-Ramírez, Jimena, Liao, Kenneth, Meyer, Kevin, & Adamas, Victoria (2023). &quot;An The Effect of Seasonal Parking Fees on Disc Golfing.&quot; <i>SSRN Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
 co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'

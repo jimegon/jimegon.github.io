@@ -6,7 +6,7 @@ excerpt: ''
 date: 2024-04-12
 venue: 'SSRN Working Paper'
 paperurl: 'https://dx.doi.org/10.2139/ssrn.4761101'
-citation: 'Liao, Kenneth, González-Ramírez, Jimena, &  Meyer, Kevin (2024). &quot;Impact of Entrance Fees on Disc Golf Course Attendance: Empirical Insights from Heckscher State Park.&quot; <i>SSRN Working Paper</i>. 4(1).'
+citation: 'Liao, Kenneth, González-Ramírez, Jimena, &  Meyer, Kevin (2024). &quot;Impact of Entrance Fees on Disc Golf Course Attendance: Empirical Insights from Heckscher State Park.&quot; <i>SSRN Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
 co-authors: 'Kenny Liao and Kevin Meyer'
@@ -35,7 +35,7 @@ Abstract
 </summary>
 
 <p>
-This study investigates the impact of price changes on the behavior of disc golf players using a natural experiment involving two nearby courses. One of these courses enforces a seasonal parking fee, while the other remains free all year. By integrating data from a popular disc golf scorekeeping app, state park fee schedules, and weather conditions, we assess the fee's effect on the visitation dynamics between the two courses. Our results indicate that introducing a parking fee can lead to a drop of up to 30 percent in daily visits to the course with the fee, compared to times when both courses are free. However, considering the potential substitution to the free course, the daily share of visits to the fee-charging course diminishes by about 6 percent, and the average monthly visits per player decrease by around 7 percent. This research sheds light on how pricing affects participation in recreational activities, offering insights that can inform decisions related to course management, pricing strategies, and the promotion of disc golf.
+This study examines the effects of seasonal congestion pricing on disc golf participation at Heckscher State Park using data from a disc golf scorekeeping app between January 1, 2015, and December 31, 2023. By comparing daily visits on days with and without entrance fees and accounting for variables such as weather, total regional disc golf activity, and the presence of holidays, we isolate the impact of pricing on recreational choices. Our analysis also considers the Empire Pass's role in mitigating fee sensitivity among players. Findings indicate a significant negative relationship between the imposition of fees and course attendance, highlighting the importance of pricing strategies in balancing revenue generation with accessible recreation. This research contributes to the sports economics discourse, offering insights for policymakers and park administrators on optimizing public access to recreational facilities while managing financial objectives.
 </p>
 
 </details>
@@ -54,11 +54,11 @@ congestion pricing <br>
 
 demand estimation <br>
 
-substitutability <br>
-
 public parks <br>
 
 user fees <br>
+
+visitation patterns <br>
 
 <br>
 

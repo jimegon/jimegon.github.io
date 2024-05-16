@@ -12,7 +12,7 @@ author_profile: true
 
 <details open>
 <summary>
-Environmental Economics
+Environmental 
 </summary>
 {% for post in site.research reversed %}
   {% if post.type == 'working paper' %}
@@ -27,7 +27,7 @@ Environmental Economics
 
 <details open>
 <summary class="id1">
-Behavioral and Environmental Economics
+Behavioral 
 </summary>
 
 {% for post in site.research reversed %}

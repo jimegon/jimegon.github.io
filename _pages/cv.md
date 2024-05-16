@@ -47,7 +47,7 @@ Working Papers
   <ul>{% for post in site.research reversed %}
     {% if post.type == 'working paper' %}
         {% if post.category == 'environmental' %}
-        {% include archive-single-publications.html %}
+        {% include archive-single-cv.html %}
         {% endif %}
     {% endif %} 
   {% endfor %}</ul>
