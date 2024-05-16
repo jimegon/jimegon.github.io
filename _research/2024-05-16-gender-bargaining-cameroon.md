@@ -6,7 +6,7 @@ excerpt: ''
 date: 2024-05-16
 venue: 'Working Paper'
 paperurl: ''
-citation: 'Eber, Max, González-Ramírez, Jimena, &  Meriggi, Niccolò (2024). &quot;Gender, Bargaining, and Investment: Experimental Evidence from Rural Cameroon.&quot; <i></i>.'
+citation: 'Harnack-Eber, Max, González-Ramírez, Jimena, &  Meriggi, Niccolò (2024). &quot;Gender, Bargaining, and Investment: Experimental Evidence from Rural Cameroon &quot; <i></i>.'
 category: 'behavioral'
 type: "working paper"
 co-authors: 'Max Harnack-Eber and Niccolò Meriggi'

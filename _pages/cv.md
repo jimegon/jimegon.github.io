@@ -52,6 +52,15 @@ Working Papers
     {% endif %} 
   {% endfor %}</ul>
 
+## Behavioral: 
+  <ul>{% for post in site.research reversed %}
+    {% if post.type == 'working paper' %}
+        {% if post.category == 'behavioral' %}
+        {% include archive-single-cv.html %}
+        {% endif %}
+    {% endif %} 
+  {% endfor %}</ul>
+
 
 Talks
 ======
