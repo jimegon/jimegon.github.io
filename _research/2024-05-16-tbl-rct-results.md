@@ -9,7 +9,7 @@ paperurl: ''
 citation: 'Silz Carson, Katherine, González-Ramírez, Jimena, Heinicke, Craig, Maier, Mark, Ruder, Phil, Simkins, Scott,  Adams, Hiuko, Latham, James Michael, & Malakar, C. Lucy (2024). &quot;What is the Marginal Benefit of Team-Based Learning Application Exercises? Results of a Multi-Site, Randomized Controlled Evaluation  &quot; <i>   </i>.'
 category: 'pedagogy'
 type: 'working paper'
-co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scott Simkins, Huiko Adams, James Michael Latham, and C. Lucy Malakar '
+co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scott Simkins, Huiko Adams, James Michael Latham, and C. Lucy Malakar'
 ---
 
 <body>
