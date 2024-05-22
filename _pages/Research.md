@@ -55,7 +55,15 @@ Pedagogy
 
 </details>
 
+<hr style="border: 2px solid;">
+
 # __Work in Progress__
+
+{% for post in site.research reversed %}
+  {% if post.type == 'work in progress' %}
+    {% include archive-single-research.html %}
+  {% endif %}
+{% endfor %}
 
 \\
 \\
