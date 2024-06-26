@@ -42,11 +42,12 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+        <br>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         {% if page.venue %}<p class="archive__item-excerpt" itemprop="description">{{page.type}} {% endif %}
-        {% if page.venue %}<p class="archive__item-excerpt" itemprop="description">Conference: {{ page.venue }},  {{page.location}} {% endif %}
-        {% if page.venue %}<p class="archive__item-excerpt" itemprop="description">Location: {{page.location}} {% endif %}
-        {% if page.co-authors %}<p class="archive__item-excerpt" itemprop="description">Co-authors: {{page.co-authors}}</p>{% endif %}
+        {% if page.venue %}<p class="archive__item-excerpt" itemprop="description"><strong>Conference: </strong>{{ page.venue }},  {{page.location}} {% endif %}
+        {% if page.venue %}<p class="archive__item-excerpt" itemprop="description"><strong>Location: </strong> {{page.location}} {% endif %}
+        {% if page.co-authors %}<p class="archive__item-excerpt" itemprop="description"><strong>Co-authors: </strong>Co-authors: {{page.co-authors}}</p>{% endif %}
       </section>
 
       <footer class="page__meta">
