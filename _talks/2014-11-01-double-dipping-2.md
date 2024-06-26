@@ -1,11 +1,11 @@
 ---
-title: "Conference Proceeding talk 3 on Relevant Topic in Your Field"
+title: "Double-dipping in Environmental Markets under Uncoordinated Regulators or under a Regulator who Ignores Pollutants’ Complementarities"
 collection: talks
-type: "Conference proceedings talk"
-permalink: /talks/2014-03-01-talk-3
-venue: "Testing Institute of America 2014 Annual Conference"
-date: 2014-03-01
-location: "Los Angeles, CA"
+type: "Poster Presentation"
+permalink: /talks/double-dipping-2
+venue: "Heartland Environmental and Resource Economics Workshop at Illinois"
+date: 2014-11-01
+location: "Champaign, IL"
+co-authors: 'Cathy Kling'
 ---
 
-This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
