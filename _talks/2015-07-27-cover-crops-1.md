@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 1 on Relevant Topic in Your Field"
+title: "Adoption and Attitudes towards Cover Crops in Iowa"
 collection: talks
 type: "Conference presentation"
 permalink: /talks/2015-07-27-cover-crops-1
