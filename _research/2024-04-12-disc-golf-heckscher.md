@@ -12,7 +12,7 @@ type: "working paper"
 co-authors: 'Kenny Liao and Kevin Meyer'
 ---
 
-<i>under review</i>
+<i>R&R</i>
 
 <body>
 <div class="image-container">

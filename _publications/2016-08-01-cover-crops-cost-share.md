@@ -6,7 +6,7 @@ excerpt: ''
 date: 2016-08-01
 venue: 'Iowa State University Digital Repository'
 paperurl: 'https://doi.org/10.31274/etd-180810-5333'
-citation: 'González-Ramírez, Jimena, &  J Arbuckle Jr. (2016). &quot;Cost-Share Effectiveness in the Diffusion of a New Pollution Abatement Technology in Agriculture: The Case of Cover Crops in Iowa.&quot; <i></i>.'
+citation: 'González-Ramírez, Jimena, &  J Arbuckle Jr. (2016). &quot;Cost-Share Effectiveness in the Diffusion of a New Pollution Abatement Technology in Agriculture: The Case of Cover Crops in Iowa&quot; <i></i>.'
 category: 'environmental'
 type: "other"
 co-authors: 'J Arbuckle Jr.'

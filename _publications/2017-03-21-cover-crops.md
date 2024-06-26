@@ -6,7 +6,7 @@ excerpt: ''
 date: 2017-03-21
 venue: 'Agricultural Policy Review'
 paperurl: 'https://agpolicyreview.card.iastate.edu/spring-2017/cover-crop-adoption-decisions-iowa-insights-person-survey'
-citation: 'González-Ramírez, M. Jimena, Kling, Catherine L., Arbuckle, J, Wright Morton, Lois, McGuire, Jean, Ingels, Chad, & Benning, Jamie. (2017). &quot; Cover Crop Adoption Decisions in Iowa: Insights from an In-Person Survey .&quot; <i>Agricultural Policy Review</i>. 4(1).'
+citation: 'González-Ramírez, M. Jimena, Kling, Catherine L., Arbuckle, J, Wright Morton, Lois, McGuire, Jean, Ingels, Chad, & Benning, Jamie. (2017). &quot;Cover Crop Adoption Decisions in Iowa: Insights from an In-Person Survey.&quot; <i>Agricultural Policy Review</i>. 4(1).'
 category: 'environmental'
 type: 'other'
 co-authors: 'Catherine Kling, J Arbuckle Jr., Lois Wright Morton, Jean McGuire, Chad Ingels, and Jamie Benning'

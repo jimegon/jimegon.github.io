@@ -12,8 +12,6 @@ type: "working paper"
 co-authors: 'Sierra Arral* and Veronica Cheng*'
 ---
 
-<i>under review</i>
-
 <body>
 <div class="image-container">
         <figure>
