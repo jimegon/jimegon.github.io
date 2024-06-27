@@ -2,7 +2,7 @@
 title: "Price Responsiveness and Course Substitutability among Disc Golfers"
 collection: talks
 type: "Conference presentation"
-permalink: /talks/disc-golf-fee-1
+permalink: /talks/disc-golf-fee-3
 venue: "New York State Economic Association Conference"
 date: 2022-10-07
 location: "Westbury, NY"

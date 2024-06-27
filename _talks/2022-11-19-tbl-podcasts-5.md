@@ -1,5 +1,5 @@
 ---
-title: "Combining Media and Team-based Learning Application Exercises to Engage Students    "
+title: "Combining Media and Team-based Learning Application Exercises to Engage Students"
 collection: talks
 type: "Conference presentation"
 permalink: /talks/tbl-podcasts-5
