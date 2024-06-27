@@ -1,5 +1,5 @@
 ---
-title: "What Determines Financial Knowledge among College Students?"
+title: "Risk Preferences among Argentine Farmers"
 collection: talks
 type: "Poster presentation"
 permalink: /talks/risk-argentina-1
