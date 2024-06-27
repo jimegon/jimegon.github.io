@@ -3,9 +3,9 @@ title: "The Application of Economics through Podcasts and TED Talks in Principle
 collection: talks
 type: "Poster presentation"
 permalink: /talks/tbl-podcasts-3
-venue: "New York State Economic Association Conference"
+venue: "New York State Economic Association Conference, Virtual"
 date: 2021-10-16
-location: "Virtual"
+location: 
 co-authors: 
 ---
 

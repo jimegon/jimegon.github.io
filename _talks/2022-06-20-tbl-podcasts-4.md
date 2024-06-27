@@ -3,9 +3,9 @@ title: "The Application of Economics through Podcasts and TED Talks in Principle
 collection: talks
 type: "Conference presentation"
 permalink: /talks/tbl-podcasts-4
-venue: "Center for Teaching and Learning Economics at the University College London - TeachECONference"
+venue: "Center for Teaching and Learning Economics at the University College London - TeachECONference, Virtual"
 date: 2022-06-20
-location: "Virtual"
+location: 
 co-authors: 
 ---
 

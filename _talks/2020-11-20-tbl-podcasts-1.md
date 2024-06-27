@@ -3,9 +3,9 @@ title: "The Application of Economics through Podcasts and TED Talks in Principle
 collection: talks
 type: "Conference presentation"
 permalink: /talks/tbl-podcasts-1
-venue: "Faculty Resource Network (FRN) Virtual National Symposium - Curriculum Innovation for Transformative Learning (Hosted by NYU)"
+venue: "Faculty Resource Network (FRN) Virtual National Symposium - Curriculum Innovation for Transformative Learning (Hosted by NYU), Virtual"
 date: 2020-11-20
-location: "Virtual"
+location: 
 co-authors: 
 ---
 
