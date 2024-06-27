@@ -143,5 +143,15 @@ var addressPoints = [
     "Old Westbury, NY",
     40.7887113,
     -73.5995717
+  ],
+  [
+    "Washington, DC",
+    38.8950368,
+    -77.0365427
+  ],
+  [
+    "Rehoboth Beach, DE",
+    38.7164771,
+    -75.0835107
   ]
 ];
