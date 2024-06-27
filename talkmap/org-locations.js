@@ -58,5 +58,10 @@ var addressPoints = [
     "Minneapolis, MN",
     44.9772995,
     -93.2654692
+  ],
+  [
+    "Farmingdale, NY",
+    40.7328811,
+    -73.4458564
   ]
 ];
