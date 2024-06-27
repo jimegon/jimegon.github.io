@@ -53,5 +53,10 @@ var addressPoints = [
     "Denver, CO",
     39.7392364,
     -104.984862
+  ],
+  [
+    "Minneapolis, MN",
+    44.9772995,
+    -93.2654692
   ]
 ];
