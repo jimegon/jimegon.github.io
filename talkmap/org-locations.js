@@ -118,5 +118,10 @@ var addressPoints = [
     "Montego Bay, Jamaica",
     18.4724603,
     -77.9217357
+  ],
+  [
+    "Miami, FL",
+    25.7741728,
+    -80.19362
   ]
 ];
