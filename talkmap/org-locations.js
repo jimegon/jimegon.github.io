@@ -88,5 +88,20 @@ var addressPoints = [
     "Villanova, PA",
     40.0373323,
     -75.3490769
+  ],
+  [
+    "Riverdale, NY",
+    40.90056,
+    -73.90639
+  ],
+  [
+    "Spokane, WA",
+    47.6571934,
+    -117.42351
+  ],
+  [
+    "Fort Lauderdale, FL",
+    26.1223084,
+    -80.1433786
   ]
 ];
