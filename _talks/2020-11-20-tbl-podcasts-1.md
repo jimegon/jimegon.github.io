@@ -1,0 +1,11 @@
+---
+title: "The Application of Economics through Podcasts and TED Talks in Principles of Microeconomics and Environmental Economics in a Team-Based Learning Setting"
+collection: talks
+type: "Conference presentation"
+permalink: /talks/tbl-podcasts-1
+venue: "Faculty Resource Network (FRN) Virtual National Symposium - Curriculum Innovation for Transformative Learning (Hosted by NYU)"
+date: 2020-11-20
+location: "Virtual"
+co-authors: 
+---
+
