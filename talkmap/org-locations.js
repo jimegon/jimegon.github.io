@@ -68,5 +68,15 @@ var addressPoints = [
     "Washington, DC, United States",
     38.8950368,
     -77.0365427
+  ],
+  [
+    "St. Louis, MO",
+    38.6280278,
+    -90.1910154
+  ],
+  [
+    "Sedona, AZ",
+    34.8629426,
+    -111.8137097
   ]
 ];
