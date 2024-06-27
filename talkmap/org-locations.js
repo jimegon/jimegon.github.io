@@ -103,5 +103,20 @@ var addressPoints = [
     "Fort Lauderdale, FL",
     26.1223084,
     -80.1433786
+  ],
+  [
+    "Virtual",
+    -22.0709421,
+    -46.5723318
+  ],
+  [
+    "New Orleans, LA",
+    29.9759983,
+    -90.0782127
+  ],
+  [
+    "Montego Bay, Jamaica",
+    18.4724603,
+    -77.9217357
   ]
 ];
