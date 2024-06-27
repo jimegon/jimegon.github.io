@@ -7,10 +7,21 @@ author_profile: true
 
 {% if site.talkmap_link == true %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all my presentations!</a></p>
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map 🌎 of all my presentations!</a></p>
 
 {% endif %}
 
+<details close>
+  <summary>
+  2020
+  </summary>
+  {% for post in site.talks reversed %}
+    {% assign year = post.date | date: "%Y" %}
+      {% if year == "2020" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+  {% endfor %} 
+ </details>
 
 <details close>
   <summary>
