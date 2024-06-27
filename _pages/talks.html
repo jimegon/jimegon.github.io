@@ -11,6 +11,18 @@ author_profile: true
 
 {% endif %}
 
+<details open>
+  <summary>
+  2024
+  </summary>
+  {% for post in site.talks reversed %}
+    {% assign year = post.date | date: "%Y" %}
+      {% if year == "2024" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+  {% endfor %} 
+ </details>
+
 <details close>
   <summary>
   2023
