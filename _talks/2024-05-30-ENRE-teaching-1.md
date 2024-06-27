@@ -7,4 +7,4 @@ venue: "Association of Environmental and Natural Resource Economists Conference"
 date: 2024-05-30
 location: "Washington, DC"
 co-authors: 'Sarah Jacobson, Jill Caviglia-Harris (Presenter and Panelist), Fidel González, Sumeet Gulati, Danae Hernández-Cortes, and Diya Mazumder'
-
+---
