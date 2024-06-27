@@ -63,5 +63,10 @@ var addressPoints = [
     "Farmingdale, NY",
     40.7328811,
     -73.4458564
+  ],
+  [
+    "Washington, DC, United States",
+    38.8950368,
+    -77.0365427
   ]
 ];
