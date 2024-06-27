@@ -2,9 +2,9 @@
 title: "The Application of Economics through Podcasts and TED Talks in Principles of Microeconomics and Environmental Economics in a Team-Based Learning Setting"
 collection: talks
 type: "Poster presentation"
-permalink: /talks/tbl-podcasts-2
-venue: "American Economic Association's Allied Social Science Association Virtual Conference"
-date: 2021-01-03
+permalink: /talks/tbl-podcasts-3
+venue: "New York State Economic Association Conference"
+date: 2021-10-16
 location: "Virtual"
 co-authors: 
 ---
