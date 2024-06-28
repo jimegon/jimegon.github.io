@@ -1,11 +1,16 @@
 ---
 permalink: /
-title: "Jimena González-Ramírez, Ph.D <br> Associate Professor <br> O'Malley School of Business <br> Manhattan College"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<div style="background-color: #e6f3ff; padding: 20px; border-radius: 10px; text-align: center;">
+  <h1 style="color: #0066cc;">Jimena González-Ramírez, Ph.D.</h1>
+  <p style="color: #004080;">Associate Professor of Economics</p>
+</div>
 
 Welcome to my website!
 I am an Associate Professor of Economics at the [O’Malley School of Business](https://manhattan.edu/campus-directory/mgonzalezramirez01) at Manhattan College.
