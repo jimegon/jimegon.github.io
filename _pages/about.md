@@ -12,7 +12,7 @@ redirect_from:
   <h2 style="color: #004080; margin: 0; line-height: 1;">Associate Professor of Economics</h2>
 </div>
 
-======
+
 Welcome to my website!
 I am an Associate Professor of Economics at the [O’Malley School of Business](https://manhattan.edu/campus-directory/mgonzalezramirez01) at Manhattan College.
 
