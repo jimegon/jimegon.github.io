@@ -12,16 +12,15 @@ redirect_from:
   <h2 style="color: #004080; margin: 0; line-height: 1;">Associate Professor of Economics</h2>
 </div>
 
-<div style="background-color: #e6f3ff; padding: 20px; border-radius: 10px; text-align: center;">
-  <p>
-  Welcome to my website! <br>
-  I am an Associate Professor of Economics at the [O’Malley School of Business](https://manhattan.edu/campus-directory/mgonzalezramirez01) at Manhattan College. <br>
 
-  My main field of specialty is environmental economics. My other research interests include behavioral economics and development economics. <br>
+Welcome to my website! <br>
 
-  During the Fall 2023 and Spring 2024, I’m on sabbatical. 
-  </p>
-</div>
+I am an Associate Professor of Economics at the [O’Malley School of Business](https://manhattan.edu/campus-directory/mgonzalezramirez01) at Manhattan College. <br>
+
+My main field of specialty is environmental economics. My other research interests include behavioral economics and development economics. <br>
+
+During the Fall 2023 and Spring 2024, I’m on sabbatical. 
+
 
 Welcome to my website!
 I am an Associate Professor of Economics at the [O’Malley School of Business](https://manhattan.edu/campus-directory/mgonzalezramirez01) at Manhattan College.
