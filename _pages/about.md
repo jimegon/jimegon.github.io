@@ -9,7 +9,7 @@ redirect_from:
 
 <div style="background-color: #e6f3ff; padding: 20px; border-radius: 10px; text-align: center;">
   <h1 style="color: #0066cc;">Jimena González-Ramírez, Ph.D.</h1>
-  <p style="color: #004080;">Associate Professor of Economics</p>
+  <center style="color: #004080;"> Associate Professor of Economics  </center>
 </div>
 
 Welcome to my website!
