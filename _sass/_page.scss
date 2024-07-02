@@ -543,3 +543,16 @@ p {
 .left-align {
   text-align: left;
 }
+
+
+/* -------------------------------------------
+          to have clickable images
+--------------------------------------------*/
+
+.image-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.image-link:hover {
+  transform: scale(2);
+}
