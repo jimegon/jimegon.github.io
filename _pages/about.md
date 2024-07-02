@@ -51,7 +51,7 @@ During the Fall 2023 and Spring 2024, I’m on sabbatical.
             <figcaption><a>Bogotá, Colombia </a></figcaption>
         </figure>
         <figure>
-            <img src="/images/about/Loras.JPG" alt="Loras" width="100" height="auto">
+            <img src="/images/about/Loras.jpg" alt="Loras" width="100" height="auto">
             <figcaption><a>Loras College <br> Dubuque, Iowa </a></figcaption>
         </figure>
         <figure>
@@ -63,7 +63,7 @@ During the Fall 2023 and Spring 2024, I’m on sabbatical.
             <figcaption><a> Commencement ceremony with <br> Cathy Kling </a></figcaption>
         </figure>
                 <figure>
-            <img src="/images/about/ISU_graduation_4.JPG" alt="isu2" width="100" height="auto">
+            <img src="/images/about/ISU_graduation_4.jpg" alt="isu2" width="100" height="auto">
             <figcaption><a>Commencement ceremony with <br> Cathy Kling </a></figcaption>
         </figure>
         <figure>
