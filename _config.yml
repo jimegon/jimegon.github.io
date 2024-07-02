@@ -212,7 +212,7 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  grants:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -267,10 +267,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _grants
   - scope:
       path: ""
-      type: portfolio
+      type: grants
     values:
       layout: single
       author_profile: true
