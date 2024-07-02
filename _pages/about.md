@@ -7,6 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MPQ0M7N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HS2MPQ0M7N');
+</script>
+
 <div style="background-color: #e6f3ff; padding: 20px; border-radius: 10px; text-align: center;">
   <h1 style="color: #0066cc; margin: 0; line-height: 1;">Jimena González-Ramírez, Ph.D.</h1>
   <h2 style="color: #004080; margin: 0; line-height: 1;">Associate Professor of Economics</h2>
