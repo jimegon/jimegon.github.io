@@ -59,15 +59,15 @@ During the Fall 2023 and Spring 2024, I’m on sabbatical.
             <figcaption><a>Commencement Speech <br> Loras College (2016)</a></figcaption>
         </figure>
         <figure>
-            <img src="/images/about/ISU_graduation_3.jpg" alt="Bogotá" width="100" height="auto">
+            <img src="/images/about/ISU_graduation_3.jpg" alt="isu1" width="100" height="auto">
             <figcaption><a> Commencement ceremony with <br> Cathy Kling </a></figcaption>
         </figure>
                 <figure>
-            <img src="/images/about/ISU_graduation_4.JPG" alt="Bogotá" width="100" height="auto">
+            <img src="/images/about/ISU_graduation_4.JPG" alt="isu2" width="100" height="auto">
             <figcaption><a>Commencement ceremony with <br> Cathy Kling </a></figcaption>
         </figure>
         <figure>
-            <img src="/images/about/Iowa State.JPG" alt="Bogotá" width="100" height="auto">
+            <img src="/images/about/Iowa State.JPG" alt="isu3" width="100" height="auto">
             <figcaption><a>Iowa State University, <br> Ames, Iowa </a></figcaption>
         </figure>
         <!-- Add more images as needed -->
