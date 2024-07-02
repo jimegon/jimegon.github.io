@@ -33,12 +33,12 @@ During the Fall 2023 and Spring 2024, I’m on sabbatical.
 </style>
 
 <div class="column-container" style= "display: flex; justify-content: space-between; background-color: #e6f3ff; padding: 10px; border-radius: 10px;">
-    <div class="column" style="width: 45%;">
+    <div class="column" style="width: 47%;">
         <p>I'm from Bogotá, Colombia </p>
         <p><b>2009</b>: B.S. in mathematics and economics (<i>Maxima Cum Lade  </i>) <br> Loras College </p>
         <p><b>2016</b>: Ph.D. in economics <br> Iowa State University</p>
     </div>
-    <div class="column" style="width: 45%;">
+    <div class="column" style="width: 47%;">
         <p><b>2016 - 2022</b>: Assistant Professor <br> O'Malley School of Business <br> Manhattan College</p>
         <p><b>2022 - Present</b>: Associate Professor <br> O'Malley School of Business <br> Manhattan College</p>
     </div>
