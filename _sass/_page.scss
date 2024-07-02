@@ -433,6 +433,35 @@ figcaption {
   text-align: center; /* Center-align text */
 }
 
+/*------------------------------------------------------------*/
+/* Code for flexbox */
+/*------------------------------------------------------------*/
+.image-container2 {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  align-items:center;
+  justify-content: center;
+}
+
+figure {
+  max-width: 30%;
+  margin: 10px; /* Margin between images */
+  text-align: center; /* Center-align the image and caption */
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+
+
+figcaption {
+  color:black;
+  margin-top: 0.5px; /* Margin between image and caption */
+  font-size: 14px; /* Font size of the caption */
+  text-align: center; /* Center-align text */
+}
+
+
 
 /*------------------------------------------------------------
                   Code for Collapsible
