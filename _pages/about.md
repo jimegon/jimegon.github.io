@@ -17,7 +17,7 @@ redirect_from:
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<div style="background-color: #e6f3ff; padding: 20px; border-radius: 10px; text-align: center;">
+<div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center;">
   <h1 style="color: #0066cc; margin: 0; line-height: 1;">Jimena González-Ramírez, Ph.D.</h1>
   <h2 style="color: #004080; margin: 0; line-height: 1;">Associate Professor of Economics</h2>
   <h3 style="color: #004080; margin: 0; line-height: 1;">O'Malley School of Business, Manhattan College</h3>
@@ -31,7 +31,7 @@ During the Fall 2023 and Spring 2024, I’m on sabbatical.
 <img src="/images/about/Nature.jpg" alt="nature" style="width: 350px; height: 200px;">
 <img src="/images/about/nature2.jpg" alt="nature2" style="width: 350px; height: auto;">
 
-<div style="background-color: #e6f3ff; padding: 20px; border-radius: 10px; text-align: center;">
+<div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center;">
         <p>I'm from Bogotá, Colombia <br>
         <b>2009</b>: B.S. in mathematics and economics (<i>Maxima Cum Lade  </i>),  Loras College <br> 
         <b>2016</b>: Ph.D. in economics, Iowa State University <br>
