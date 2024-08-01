@@ -4,7 +4,7 @@ collection: research
 permalink: /research/2024-05-16-tbl-rct-results
 excerpt: ''
 date: 2024-05-16
-venue: 'Working Paper'
+venue: 'SSRN Working Paper'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4896585'
 citation: 'Silz Carson, Katherine, González-Ramírez, Jimena, Heinicke, Craig, Maier, Mark, Ruder, Phil, Simkins, Scott,  Adams, Hiuko, Latham, James Michael, & Malakar, C. Lucy (2024). &quot;What is the Marginal Benefit of Team-Based Learning Application Exercises? Results of a Multi-Site, Randomized Controlled Evaluation  &quot; <i>   </i>.'
 category: 'pedagogy'
