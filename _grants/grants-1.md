@@ -3,13 +3,13 @@ title: "Grabriel Hauge Fellowship"
 excerpt: 
 years: 2019-2022
 collection: grants
-amount: 
+amount: $21,000
 ---
 
 **Years:** 2019-2022
 
-**Amount:** 
+**Amount:** $7,000 per year and a course release
 
-**Description:**
+**Purpose:** To support a pre-tenure faculty member with research and funding support.
 
-This is an item in your grants. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Funder:** O'Malley School of Business at Manhattan College
