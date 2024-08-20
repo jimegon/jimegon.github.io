@@ -1,8 +1,13 @@
 ---
-title: "grants item number 2"
-excerpt: "Short description of grants item number 2 <br/><img src='/images/500x300.png'>"
+title: "Summer Research Grant"
+excerpt: 
+permalink: /grants/2017-summer
+years: Summer 2017
+start_year: 2017
 collection: grants
+amount: $3,000
 ---
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
 <script>
@@ -13,4 +18,11 @@ collection: grants
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-This is an item in your grants. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
+**Years:** Summer 2017
+
+**Amount:** $3,000
+
+**Research Topic:** Sustainability on campus
+
+**Funder:** Manhattan College
