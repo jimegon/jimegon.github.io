@@ -16,7 +16,7 @@ main:
     url: /grants/
         
   - title: "Podcasts"
-    url: /podcasts/
+    url: /posts/
     
   - title: "CV"
     url: /cv/
