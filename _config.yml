@@ -239,7 +239,7 @@ defaults:
   # _podenre
   - scope:
       path: ""
-      type: podenre
+      type: posts
     values:
       layout: single
       author_profile: true
