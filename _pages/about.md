@@ -20,7 +20,7 @@ redirect_from:
 <div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center;">
   <h1 style="color: #0066cc; margin: 0; line-height: 1;">Jimena González-Ramírez, Ph.D.</h1>
   <h2 style="color: #004080; margin: 0; line-height: 1;">Associate Professor of Economics</h2>
-  <h3 style="color: #004080; margin: 0; line-height: 1;">O'Malley School of Business, Manhattan College</h3>
+  <h3 style="color: #004080; margin: 0; line-height: 1;">O'Malley School of Business, Manhattan University</h3>
 </div>
 
 
@@ -36,7 +36,7 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
         <b>2009</b>: B.S. in mathematics and economics (<i>Maxima Cum Lade  </i>),  Loras College <br> 
         <b>2016</b>: Ph.D. in economics, Iowa State University <br>
         <b>2016 - 2022</b>: Assistant Professor, O'Malley School of Business, Manhattan College <br>
-        <b>2022 - Present</b>: Associate Professor, O'Malley School of Business,  Manhattan College</p>
+        <b>2022 - Present</b>: Associate Professor, O'Malley School of Business,  Manhattan University</p>
 </div>
 
 <body>
