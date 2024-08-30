@@ -218,6 +218,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  podenre:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -226,6 +229,17 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _podenre
+  - scope:
+      path: ""
+      type: podenre
     values:
       layout: single
       author_profile: true
