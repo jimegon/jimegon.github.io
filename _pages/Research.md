@@ -17,8 +17,8 @@ author_profile: true
 
 {% include base_path %}
 
-<br>
-# __Working Papers__
+
+## __Working Papers__
 
 <details open>
 <summary>

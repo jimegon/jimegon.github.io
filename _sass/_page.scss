@@ -62,7 +62,7 @@
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 0;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -106,6 +106,10 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+}
+
+.page__date {
+  margin:0 0 1em;
 }
 
 .page__hero {
@@ -568,21 +572,29 @@ p {
     font-family: 'Arial', sans-serif; /* Change font family */
   }
 
-  .medium-podcast {
+  .bold-podcast {
     font-size: 18px; /* Change font size */
+    font-weight: bold; /* Make text bold */ 
+    display: inline-block;  /* Change to block to control spacing */
+    margin: 0;       /* Remove any default margins */
+    margin-right: 0; /* Remove any right margin */
+    padding: 0;      /* Remove any default padding */
     color: black; /* Change font color */
     /*font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .text-podcast {
+    font-size: 18px; /* Change font size */
+    display: inline-block;  /* Change to block to control spacing */
+    color: default; /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
   }
 
   .small-podcast {
     font-size: 16px; /* Change font size */
     color: black; /* Change font color */
-    font-family: 'Arial', sans-serif; /* Change font family */
-  }
-
-  .summary-podcast {
-    font-size: 16px; /* Change font size */
-    color: rgb(74, 14, 74); /* Change font color */
     font-family: 'Arial', sans-serif; /* Change font family */
   }
 
