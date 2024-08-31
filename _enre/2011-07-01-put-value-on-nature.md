@@ -1,7 +1,7 @@
 ---
 title: 'Put a value on nature!'
 date: 2011-07-01
-permalink: /podcasts/enre/put-value-on-nature
+permalink: /resources/enre/put-value-on-nature
 tags:
   - externalities
   - natural capital

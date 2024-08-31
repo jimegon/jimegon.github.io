@@ -218,7 +218,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  podenre:
+  enre:
     output: true
     permalink: /:collection/:path/
 
@@ -228,7 +228,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: podcasts
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -236,10 +236,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _podenre
+  # _enre
   - scope: # Define the scope of the settings
       path: "" # Apply these settings to the root directory (all paths)
-      type: podenre # Target content of type 'podenre' (a collection)
+      type: enre # Target content of type 'enre' (a collection)
     values: # Values to be applied to the specified scope
       layout: single # Use the 'single' layout for podcast
       author_profile: true # Display the author's profile on the publication page

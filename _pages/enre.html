@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /enre-podcasts/
+permalink: /resources/enre/
 title: "Environmental Econ Podcasts & More"
 author_profile: true
 ---
@@ -21,11 +21,23 @@ author_profile: true
   <summary>
   Externalities
   </summary>
-  {% for post in site.podenre reversed %}
+  {% for post in site.enre reversed %}
     {% if post.category == 'externalities' %}
       {% include archive-single-podcasts.html %}
     {% endif %}
   {% endfor %}
   
   </details>
+
+  <details open>
+    <summary>
+    Tragedy of the Commons
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'tragedy of the commons' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+    </details>
 
