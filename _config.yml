@@ -228,7 +228,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: podcasts
     values:
       layout: single
       author_profile: true
@@ -237,16 +237,16 @@ defaults:
       share: true
       related: true
   # _podenre
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  - scope: # Define the scope of the settings
+      path: "" # Apply these settings to the root directory (all paths)
+      type: podenre # Target content of type 'podenre' (a collection)
+    values: # Values to be applied to the specified scope
+      layout: single # Use the 'single' layout for podcast
+      author_profile: true # Display the author's profile on the publication page
+      read_time: false  # Show estimated reading time for podcast
+      comments: true  # Enable comments for podcast
+      share: true # Enable sharing options for podcast
+      related: true # Show related content at the end of each publication
   # _pages
   - scope:
       path: ""

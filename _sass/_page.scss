@@ -556,3 +556,45 @@ p {
 .image-link:hover {
   transform: scale(2);
 }
+
+/* -------------------------------------------
+          Podcast Fonts
+--------------------------------------------*/
+
+
+  .title-podcast {
+    font-size: 30px; /* Change font size */
+    color: black; /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .medium-podcast {
+    font-size: 18px; /* Change font size */
+    color: black; /* Change font color */
+    /*font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .small-podcast {
+    font-size: 16px; /* Change font size */
+    color: black; /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .summary-podcast {
+    font-size: 16px; /* Change font size */
+    color: rgb(74, 14, 74); /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+
+  .links-podcast {
+    font-size: 14px; /* Change font size */
+    color: #1a73e8; /* Change font color */
+    text-decoration: none;  /* Removes the underline from the link */
+    font-family: 'Arial', sans-serif;  /* Sets the font family */
+  }
+
+  .links-podcast a:hover {
+    text-decoration: underline;  /* Underline  link on hover */
+    color: #0c47a1;  /* Change color on hover */
+  }
