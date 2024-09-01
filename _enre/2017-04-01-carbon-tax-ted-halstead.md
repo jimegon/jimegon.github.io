@@ -5,6 +5,7 @@ permalink: /resources/enre/carbon-tax-ted-halstead
 tags:
   - carbon tax
   - environmental policies
+  - climate change
   - market-based policies
 category: "carbon tax"
 type: "video"

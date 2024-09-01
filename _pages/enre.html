@@ -64,3 +64,15 @@ author_profile: true
         {% endfor %}
         
         </details>
+
+        <details open>
+          <summary>
+          Cap-and-Trade
+          </summary>
+          {% for post in site.enre reversed %}
+            {% if post.category == 'cap-and-trade' %}
+              {% include archive-single-podcasts.html %}
+            {% endif %}
+          {% endfor %}
+          
+          </details>
