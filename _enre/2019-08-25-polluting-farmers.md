@@ -13,9 +13,9 @@ duration: "N/A"
 ---
 
 
-**<span class="bold-podcast"><u>Publisher: </u> </span><span class="text-podcast">{{ page.publisher }}</span>**
+**<span class="bold-podcast">Publisher:</span>&nbsp;<span class="text-podcast">{{ page.publisher }}</span>**
 
-**<span class="bold-podcast"><u>Duration:</u> {{ page.duration }}</span>**
+**<span class="bold-podcast">Duration: </span>&nbsp;<span class="text-podcast"> {{ page.duration }}</span>**
 
 **<span class="bold-podcast">Author:</span>**
 Catherine L. Kling

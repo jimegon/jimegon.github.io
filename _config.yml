@@ -235,7 +235,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
   # _enre
   - scope: # Define the scope of the settings
       path: "" # Apply these settings to the root directory (all paths)
