@@ -21,4 +21,4 @@ duration: "N/A"
 **<span class="bold-podcast">Author:</span>**
 James Johnson
 
-**<span class="small-podcast">Link:</span>** **<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
+**<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**

@@ -24,4 +24,4 @@ One reason it is so hard to slash carbon emissions is that climate change occurs
 
 <iframe src="https://www.npr.org/player/embed/120883813/120883802" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 
-**<span class="small-podcast">Link:</span>** **<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
+**<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**

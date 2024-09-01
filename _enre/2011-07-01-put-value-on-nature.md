@@ -26,4 +26,4 @@ Every day, we use materials from the earth without thinking, for free. But what 
   </div>
 </div>
 
-**<span class="small-podcast">Link:</span>** **<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
+**<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**

@@ -28,4 +28,4 @@ In this video, we show how bees and pollination demonstrate the Coase Theorem in
 </div>
 
 
-**<span class="small-podcast">Link:</span>** **<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
+**<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
