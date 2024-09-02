@@ -39,40 +39,52 @@ author_profile: true
       {% endif %}
     {% endfor %}
     
-    </details>
+  </details>
 
-    <details open>
-      <summary>
-      Coase Theorem
-      </summary>
-      {% for post in site.enre reversed %}
-        {% if post.category == 'coase theorem' %}
-          {% include archive-single-podcasts.html %}
-        {% endif %}
-      {% endfor %}
-      
-      </details>
+  <details open>
+    <summary>
+    Coase Theorem
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'coase theorem' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
 
-      <details open>
+  <details open>
+    <summary>
+    Carbon Tax
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'carbon tax' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+   </details>
+
+  <details open>
         <summary>
-        Carbon Tax
+        Cap-and-Trade
         </summary>
         {% for post in site.enre reversed %}
-          {% if post.category == 'carbon tax' %}
+          {% if post.category == 'cap-and-trade' %}
             {% include archive-single-podcasts.html %}
           {% endif %}
         {% endfor %}
         
-        </details>
+  </details>
 
-        <details open>
-          <summary>
-          Cap-and-Trade
-          </summary>
-          {% for post in site.enre reversed %}
-            {% if post.category == 'cap-and-trade' %}
-              {% include archive-single-podcasts.html %}
-            {% endif %}
-          {% endfor %}
-          
-          </details>
+  <details open>
+    <summary>
+    Carbon Offsets
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'carbon offsets' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
