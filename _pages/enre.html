@@ -29,7 +29,7 @@ author_profile: true
   
   </details>
 
-  <details open>
+  <details close>
     <summary>
     Tragedy of the Commons
     </summary>
@@ -41,7 +41,7 @@ author_profile: true
     
   </details>
 
-  <details open>
+  <details close>
     <summary>
     Coase Theorem
     </summary>
@@ -53,7 +53,7 @@ author_profile: true
     
   </details>
 
-  <details open>
+  <details close>
     <summary>
     Carbon Tax
     </summary>
@@ -65,7 +65,7 @@ author_profile: true
     
    </details>
 
-  <details open>
+  <details close>
         <summary>
         Cap-and-Trade
         </summary>
@@ -77,12 +77,24 @@ author_profile: true
         
   </details>
 
-  <details open>
+  <details close>
     <summary>
     Carbon Offsets
     </summary>
     {% for post in site.enre reversed %}
       {% if post.category == 'carbon offsets' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details open>
+    <summary>
+    Subsidies
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'subsidies' %}
         {% include archive-single-podcasts.html %}
       {% endif %}
     {% endfor %}
