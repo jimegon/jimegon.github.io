@@ -17,6 +17,8 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 style="color: darkblue;">Market Failure</h2>
+
 <details open>
   <summary>
   Externalities
@@ -41,20 +43,48 @@ author_profile: true
     
   </details>
 
-  <details close>
-    <summary>
-    Coase Theorem
+
+
+
+<h2 style="color: purple;"> Policies and Strategies </h2> 
+
+    <details close>
+      <summary class="id1">
+      Coase Theorem
+      </summary>
+      {% for post in site.enre reversed %}
+        {% if post.category == 'coase theorem' %}
+          {% include archive-single-podcasts.html %}
+        {% endif %}
+      {% endfor %}
+      
+    </details>
+
+  <details open>
+    <summary class="id1">
+    Command-and-Control
     </summary>
     {% for post in site.enre reversed %}
-      {% if post.category == 'coase theorem' %}
+      {% if post.category == 'command-and-control' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+   </details>
+
+  <details close>
+    <summary class="id1">
+    Subsidies
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'subsidies' %}
         {% include archive-single-podcasts.html %}
       {% endif %}
     {% endfor %}
     
   </details>
-
-  <details close>
-    <summary>
+   <details close>
+    <summary class="id1">
     Carbon Tax
     </summary>
     {% for post in site.enre reversed %}
@@ -66,7 +96,7 @@ author_profile: true
    </details>
 
   <details close>
-        <summary>
+        <summary class="id1">
         Cap-and-Trade
         </summary>
         {% for post in site.enre reversed %}
@@ -78,7 +108,7 @@ author_profile: true
   </details>
 
   <details close>
-    <summary>
+    <summary class="id1">
     Carbon Offsets
     </summary>
     {% for post in site.enre reversed %}
@@ -89,14 +119,3 @@ author_profile: true
     
   </details>
 
-  <details open>
-    <summary>
-    Subsidies
-    </summary>
-    {% for post in site.enre reversed %}
-      {% if post.category == 'subsidies' %}
-        {% include archive-single-podcasts.html %}
-      {% endif %}
-    {% endfor %}
-    
-  </details>
