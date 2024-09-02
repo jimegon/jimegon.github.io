@@ -5,8 +5,6 @@ permalink: /resources/enre/qatar-world-cup
 tags:
   - carbon offsets
   - climate change
-  - environmental policies
-  - market-based policies
 category: "carbon offsets"
 type: "podcast"
 publisher: "How to Save a Planey - Gimlet Media"
