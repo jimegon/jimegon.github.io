@@ -45,22 +45,9 @@ author_profile: true
 
 
 
+<h2 style="color: purple;"> Policies </h2> 
 
-<h2 style="color: purple;"> Policies and Strategies </h2> 
-
-    <details close>
-      <summary class="id1">
-      Coase Theorem
-      </summary>
-      {% for post in site.enre reversed %}
-        {% if post.category == 'coase theorem' %}
-          {% include archive-single-podcasts.html %}
-        {% endif %}
-      {% endfor %}
-      
-    </details>
-
-  <details open>
+  <details close>
     <summary class="id1">
     Command-and-Control
     </summary>
@@ -119,3 +106,42 @@ author_profile: true
     
   </details>
 
+<h2 style="color: #b8035d;"> Private Solutions and Voluntary Strategies </h3>
+
+  <details close>
+    <summary class="id2">
+    Coase Theorem
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'coase theorem' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class="id2">
+    Recycling
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'recycling' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+<h2 style="color: darkblue;">Benefit-Cost Analysis</h2>
+
+  <details open>
+    <summary>
+    Benefits
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'benefits' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
