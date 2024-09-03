@@ -18,7 +18,7 @@ duration: "32:16"
 **<span class="bold-podcast">Duration: </span>&nbsp;<span class="text-podcast"> {{ page.duration }}</span>**
 
 **<span class="bold-podcast">Summary from website:</span>**
-This week we tackle the War on Straws and how worried we should be about all the plastic filling our oceans. We speak to marine biologist Christine Figgener, environmental educator Carrie Roble, physiology Prof. John Weinstein, and ecology Prof. David Barnes.
+This week we tackle the War on Straws and how worried we should be about all the plastic filling our oceans. We speak to marine biologist Christine Figgener, environmental educator Carrie Roble, physiology Prof. John Weinstein, and ecology Prof. David Barnes. 
 
 <iframe scrolling="no" frameborder="0" width="100%" height="152" allowtransparency="true" allow="encrypted-media" src="https://open.spotify.com/embed/episode/3XozBNEv7alzWopDYObrxq"></iframe>
 
