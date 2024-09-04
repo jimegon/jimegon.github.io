@@ -1,7 +1,7 @@
 ---
 title: "Valuation of Ecosystem Services: Intro to Valuation"
 date: 2015-06-19
-permalink: /resources/enre/valuation-classes-of-values
+permalink: /resources/enre/intro-to-valuation
 tags:
   - benefit-cost analysis
   - benefits
@@ -10,7 +10,7 @@ tags:
 category: "benefits"
 type: "video"
 publisher: "Conservation Strategy Fund"
-paperurl: 'https://youtu.be/0CHIs9dLvxA?si=tm5LQgfagmClNlPF'
+paperurl: 'https://youtu.be/0CHIs9dLvxA?si=W-4BrXXyTUVQ_mz9'
 duration: "7:40"
 ---
 
@@ -24,8 +24,9 @@ This video is a part of Conservation Strategy Fund's collection of environmental
 
 <div style="max-width:1024px">
   <div style="position:relative;height:0;padding-bottom:56.25%">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0CHIs9dLvxA?si=tm5LQgfagmClNlPF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0CHIs9dLvxA?si=W-4BrXXyTUVQ_mz9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
+
 
 **<span class="small-podcast">Link:</span> &nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**

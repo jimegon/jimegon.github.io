@@ -6,7 +6,6 @@ tags:
   - benefit-cost analysis
   - benefits
   - valuation
-  - hedonic
   - stated preferences
   - contingent valuation
 category: "benefits"
