@@ -1,6 +1,6 @@
 ---
 title: "Can Corporations Stop Climate Change"
-date: 2020-04-24
+date: 2020-02-24
 permalink: /resources/enre/corporations-climate-change
 tags:
   - carbon offsets

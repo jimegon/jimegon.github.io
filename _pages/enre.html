@@ -106,17 +106,6 @@ author_profile: true
         
   </details>
 
-  <details close>
-    <summary class="id1">
-    Carbon Offsets
-    </summary>
-    {% for post in site.enre reversed %}
-      {% if post.category == 'carbon offsets' %}
-        {% include archive-single-podcasts.html %}
-      {% endif %}
-    {% endfor %}
-    
-  </details>
 
 <h2 style="color: #b8035d;"> Private Solutions and Voluntary Strategies </h3>
 
@@ -169,3 +158,44 @@ author_profile: true
     {% endfor %}
     
   </details>
+
+<h2 style="color: purple;"> Climate Change 🌎 </h2> 
+
+  <details close>
+    <summary class="id1">
+    Climate Change
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'climate change' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+   </details>  
+
+  <details close>
+    <summary class="id1">
+    Carbon Offsets
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'carbon offsets' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class="id1">
+    Renewable Energy
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'energy' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+
+

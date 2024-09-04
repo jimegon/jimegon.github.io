@@ -8,7 +8,7 @@ tags:
   - climate change
   - market-based policies
   - sustainability
-category: "cap-and-trade"
+category: "climate change"
 type: "video"
 publisher: "TED Talk"
 paperurl: 'https://www.ted.com/talks/tshering_tobgay_this_country_isn_t_just_carbon_neutral_it_s_carbon_negative?subtitle=en'
