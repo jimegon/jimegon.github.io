@@ -1,5 +1,5 @@
 ---
-title: 'Emission Impossible'
+title: "Emission Impossible"
 date: 2021-05-07
 permalink: /resources/enre/emission-impossible
 tags:

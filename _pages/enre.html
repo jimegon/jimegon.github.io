@@ -146,12 +146,24 @@ author_profile: true
 
 <h2 style="color: darkblue;">Benefit-Cost Analysis</h2>
 
-  <details open>
+  <details close>
     <summary>
     Benefits
     </summary>
     {% for post in site.enre reversed %}
       {% if post.category == 'benefits' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary>
+    Benefit-Cost Analysis
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'benefit-cost' %}
         {% include archive-single-podcasts.html %}
       {% endif %}
     {% endfor %}
