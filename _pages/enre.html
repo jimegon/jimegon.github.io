@@ -188,7 +188,7 @@ author_profile: true
 
 
 
-<h2 style="color: #b8035d;"> Other Important Topics </h3>
+<h2 style="color: #b8035d;"> Other Topics </h3>
 
   <details close>
       <summary class="id2">
@@ -213,4 +213,16 @@ author_profile: true
         {% endif %}
       {% endfor %}
       
+  </details>
+
+  <details close>
+    <summary class="id2">
+    ESG
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'ESG' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
   </details>
