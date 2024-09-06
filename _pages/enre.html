@@ -185,17 +185,32 @@ author_profile: true
     
   </details>
 
+
+
+
+<h2 style="color: #b8035d;"> Other Important Topics </h3>
+
   <details close>
-    <summary class="id1">
-    Energy
-    </summary>
-    {% for post in site.enre reversed %}
-      {% if post.category == 'energy' %}
-        {% include archive-single-podcasts.html %}
-      {% endif %}
-    {% endfor %}
-    
+      <summary class="id2">
+      Energy
+      </summary>
+      {% for post in site.enre reversed %}
+        {% if post.category == 'energy' %}
+          {% include archive-single-podcasts.html %}
+        {% endif %}
+      {% endfor %}
+      
   </details>
 
 
-
+  <details close>
+      <summary class="id2">
+      Environmental Justice
+      </summary>
+      {% for post in site.enre reversed %}
+        {% if post.category == 'environmental justice' %}
+          {% include archive-single-podcasts.html %}
+        {% endif %}
+      {% endfor %}
+      
+  </details>
