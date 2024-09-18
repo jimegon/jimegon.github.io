@@ -33,7 +33,7 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
 
 <div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center;">
         <p>I'm from Bogotá, Colombia <br>
-        <b>2009</b>: B.S. in mathematics and economics (<i>Maxima Cum LaUde  </i>),  Loras College <br> 
+        <b>2009</b>: B.S. in mathematics and economics (<i>Maxima Cum Laude  </i>),  Loras College <br> 
         <b>2016</b>: Ph.D. in economics, Iowa State University <br>
         <b>2016 - 2022</b>: Assistant Professor, O'Malley School of Business, Manhattan College <br>
         <b>2022 - Present</b>: Associate Professor, O'Malley School of Business,  Manhattan University</p>
