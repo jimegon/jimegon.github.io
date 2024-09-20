@@ -22,12 +22,17 @@ redirect_from:
 
 Below, you find highlights from my CV related to publications and academic presentations generated from this website's content. 
 
-For my complete CV, click here. 
+
+
+<div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 35px; color = #003366;"> 
+<a href="http://jimegon.github.io/files/GonzalezRamirez_CV_2024_9_20.pdf" target="_blank">View my complete CV</a> 
+</div>
+
 
 Academic Appointments
 ======
 
-* __O'Malley School of Business, Manhattan College__ - Riverdale, NY <br>
+* __O'Malley School of Business, Manhattan University__ - Riverdale, NY <br>
   * Associate Professor (2022 - Present) 
   * Assistant Professor (2016 - 2022)
 

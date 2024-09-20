@@ -1,13 +1,13 @@
 ---
-title: "Air Conditioned Stadiums. Cruise Ships. New Hotels. Can the World Cup in Qatar Really Be Carbon Neutral?"
-date: 2022-07-07
+title: "Are My Retirement Savings Invested in Fossil Fuels?? Help!"
+date: 2021-08-12
 permalink: /resources/enre/qatar-world-cup
 tags:
   - ESG
 category: "ESG"
 type: "podcast"
 publisher: "How to Save a Planey - Gimlet Media"
-paperurl: 'https://gimletmedia.com/shows/howtosaveaplanet/xjhz746'
+paperurl: 'https://gimletmedia.com/shows/howtosaveaplanet/o2ha54l'
 duration: "48:25"
 ---
 
@@ -17,10 +17,10 @@ duration: "48:25"
 **<span class="bold-podcast">Duration: </span>&nbsp;<span class="text-podcast"> {{ page.duration }}</span>**
 
 **<span class="bold-podcast">Summary from website:</span>**
-More than a million soccer fans will travel to Qatar this fall for one of the biggest sporting events on Earth: The FIFA World Cup. The event sounds like it will be a climate nightmare, thanks to all the flights, air conditioned outdoor fields, docked cruise ships and brand new stadiums. But despite all this – the organizers claim this month-long event will be carbon neutral. How can they say that? Thanks to carbon offset credits. On this episode we dive deep into the murky world of carbon offset credits to find out how they work, who makes the rules and what all this means for the World Cup.
+Look inside your retirement savings and you may find some surprises: oil and gas companies, pipeline operators, utilities with coal-fired power plants. It can feel like no matter what you’re doing to combat climate change in your daily life, your money is retirement savings are working against you. So how do you invest without wrecking the planet? Is there such a thing as green investing? And why isn’t this easier to figure out? This week we ask: What does it mean to try to put your money where your values are?
 
-<iframe src="https://open.spotify.com/embed/episode/6Msfjv021Y6S3Usa1ZupZW" width="100%" height="290" frameborder="0" scrolling="no" title="Air Conditioned Stadiums. Cruise Ships. New Hotels. Can the World Cup in Qatar Really Be Carbon Neutral?"></iframe>
+Guests: Andrea Egan, Leslie Samuelrich, Boris Khentov
 
-
+<iframe scrolling="no" frameborder="0" width="100%" height="152" allowtransparency="true" allow="encrypted-media" src="https://open.spotify.com/embed/episode/5oWAhgTtzTZPOR03eRasuF"></iframe>
 
 **<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**

@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/principles-of-microeconomics
 venue: "Manhattan University"
-date: 2024-09-01
+years: 2016-2024
 location: "Riverdale, New York"
 ---
 
