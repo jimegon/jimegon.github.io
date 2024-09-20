@@ -18,6 +18,11 @@ redirect_from:
 </script>
 
 {% include base_path %}
+<br>
+
+Below, you find highlights from my CV related to publications and academic presentations generated from this website's content. 
+
+For my complete CV, click here. 
 
 Academic Appointments
 ======
@@ -72,13 +77,13 @@ Working Papers
   {% endfor %}</ul>
 
 
-Talks
+Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
@@ -86,7 +91,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 
 
 
 Skills
@@ -97,3 +102,4 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+-->
