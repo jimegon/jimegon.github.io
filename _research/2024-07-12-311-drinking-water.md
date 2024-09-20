@@ -6,7 +6,7 @@ excerpt: ''
 date: 2024-07-12
 venue: 'Working Paper'
 paperurl: ''
-citation: 'Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot;Unveiling NYC’s Drinking Water Quality:  Perspectives on 15-Years of Customer Complaints and Call to Collaboration.&quot; <i>SSRN Working Paper</i>.'
+citation: 'Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot;Unveiling NYC’s Drinking Water Quality:  Perspectives on 15-Years of Customer Complaints and Call to Collaboration.&quot; <i>Working Paper</i>.'
 category: 'environmental'
 type: 'working paper'
 co-authors: 'Adam Kulaczkowski, Jarai Sanneh, Miah Cohall*, Ali Ahmad Sabri*, Yi Wang, Anna Di Mauro, Giovanni F. Santonastaso, Armando Di Nardo, Jonathan Keck, and Juneseok Lee'
