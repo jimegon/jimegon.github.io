@@ -29,3 +29,5 @@ mode: "face-to-face"
 **<span class="bold-podcast">Level: </span>&nbsp;<span class="text-podcast"> {{ page.type }}</span>**
 
 **<span class="bold-podcast">Modality: </span>&nbsp;<span class="text-podcast"> {{ page.mode }}</span>**
+
+This course is part of an environmental economics concentration available for economics majors. 

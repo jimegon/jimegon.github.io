@@ -29,3 +29,5 @@ style: "Flipped"
 
 **<span class="bold-podcast">Modality: </span>&nbsp;<span class="text-podcast"> {{ page.mode }}</span>**
 
+This course is part of an environmental economics concentration available for economics majors. 
+
