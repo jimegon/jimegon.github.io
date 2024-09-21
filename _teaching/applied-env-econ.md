@@ -1,7 +1,7 @@
 ---
 title: "Applied Environmental Economics"
 collection: teaching
-type: "Undergraduate upper-level course"
+type: "Undergraduate upper-level elective course"
 permalink: /teaching/applied-environmental-econ
 venue: "Manhattan University"
 years: 2016-2024
