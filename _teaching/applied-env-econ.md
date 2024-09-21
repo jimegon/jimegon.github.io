@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate upper-level elective course"
 permalink: /teaching/applied-environmental-econ
 venue: "Manhattan University"
-years: 2016-2024
+years: 2019-Present
 location: "Riverdale, New York"
 style: "Flipped"
 ---
@@ -22,4 +22,10 @@ style: "Flipped"
 <div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color: #004080; display: inline-block;"> 
 <a href="http://jimegon.github.io/files\Econ_432__Spring_2023_Syllabus_González-Ramírez.pdf" target="_blank">Syllabus</a> 
 </div>
+
+**<span class="bold-podcast">Style: </span>&nbsp;<span class="text-podcast"> {{ page.style }}</span>**
+
+**<span class="bold-podcast">Level: </span>&nbsp;<span class="text-podcast"> {{ page.type }}</span>**
+
+**<span class="bold-podcast">Modality: </span>&nbsp;<span class="text-podcast"> {{ page.mode }}</span>**
 
