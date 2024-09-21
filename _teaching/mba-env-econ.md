@@ -19,7 +19,7 @@ style: "Online - Asynchronous"
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color: #004080; display: inline-block;"> 
+<div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color: #004080; display: inline-block;"> 
 <a href="http://jimegon.github.io/files\MBAC626EnvironmentalEcon&PolicySpring2023Gonzalez.pdf" target="_blank">Syllabus</a> 
 </div>
 
