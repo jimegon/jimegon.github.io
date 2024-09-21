@@ -1,11 +1,13 @@
 ---
 title: "Introduction to Environmental Economics"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate upper-level elective course"
 permalink: /teaching/intro-to-environmental-econ
 venue: "Manhattan University"
-years: 2016-2024
+years: 2017-Present
 location: "Riverdale, New York"
+style: "Partially-Flipped"
+mode: "face-to-face"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -18,7 +20,12 @@ location: "Riverdale, New York"
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366; display: inline-block;"> 
+<div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color: #004080; display: inline-block;"> 
 <a href="http://jimegon.github.io/files\González-Ramírez_Econ203_5_Fall_2024_Syllabus.pdf" target="_blank">Syllabus</a> 
 </div>
 
+**<span class="bold-podcast">Style: </span>&nbsp;<span class="text-podcast"> {{ page.style }}</span>**
+
+**<span class="bold-podcast">Level: </span>&nbsp;<span class="text-podcast"> {{ page.type }}</span>**
+
+**<span class="bold-podcast">Modality: </span>&nbsp;<span class="text-podcast"> {{ page.mode }}</span>**
