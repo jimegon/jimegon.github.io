@@ -9,6 +9,7 @@ amount: $198,450
 type: "external"
 funder: "Committee on the Status of Women in the Profession (CSWEP) & Social Science Research Council (SSRC) Women in Economics and Mathematics Research Consortium."
 role: "Co-PI"
+funder2: "SSRC-CSWEP"
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>

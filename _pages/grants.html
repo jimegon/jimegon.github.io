@@ -18,14 +18,14 @@ author_profile: true
 {% include base_path %}
 
 <h2 style="color: darkblue;">External Grants</h2>
-{% for post in site.grants %}
+{% for post in site.grants reversed %}
   {% if post.type == "external" %}
     {% include archive-single-grants.html %}
   {% endif %}
 {% endfor %}
 
 <h2 style="color: darkblue;">Internal Grants</h2>
-{% for post in site.grants %}
+{% for post in site.grants reversed %}
   {% if post.type == "internal" %}
     {% include archive-single-grants.html %}
   {% endif %}
