@@ -16,6 +16,20 @@ author_profile: true
 
 {% include base_path %}
 
+<hr>
+<h2> Undergraduate Courses </h2>
+
 {% for post in site.teaching reversed %}
-  {% include archive-single-teaching.html %}
+  {% if post.cat == 'undergrad' %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
+{% endfor %}
+
+
+<h2>Graduate Courses</h2>
+
+{% for post in site.teaching reversed %}
+  {% if post.cat == 'grad' %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
 {% endfor %}

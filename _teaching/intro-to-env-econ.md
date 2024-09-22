@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Environmental Economics"
+title: "Econ 332 Introduction to Environmental Economics"
 collection: teaching
 type: "Undergraduate upper-level elective course"
 permalink: /teaching/intro-to-environmental-econ
@@ -8,6 +8,7 @@ years: 2017-Present
 location: "Riverdale, New York"
 style: "Partially-Flipped"
 mode: "face-to-face"
+cat: "undergrad"
 ---
 
 <!-- Google tag (gtag.js) -->

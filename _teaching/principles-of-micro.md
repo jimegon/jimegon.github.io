@@ -1,5 +1,5 @@
 ---
-title: "Principles of Microeconomics"
+title: "Econ 203 Principles of Microeconomics"
 collection: teaching
 type: "Undergraduate introductory core course"
 permalink: /teaching/principles-of-microeconomics
@@ -8,6 +8,7 @@ years: 2016-Present
 location: "Riverdale, New York"
 style: "Team-Based Learning"
 mode: "face-to-face"
+cat: "undergrad"
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>

@@ -1,5 +1,5 @@
 ---
-title: "Applied Environmental Economics"
+title: "Econ 432 Applied Environmental Economics"
 collection: teaching
 type: "Undergraduate upper-level elective course"
 permalink: /teaching/applied-environmental-econ
@@ -8,6 +8,7 @@ years: 2019-Present
 location: "Riverdale, New York"
 style: "Flipped"
 mode: "face-to-face"
+cat: "undergrad"
 ---
 
 <!-- Google tag (gtag.js) -->

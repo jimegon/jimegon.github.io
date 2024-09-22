@@ -1,5 +1,5 @@
 ---
-title: "Environmental Economics and Policy"
+title: "MBA 626 Environmental Economics and Policy"
 collection: teaching
 type: "MBA elective course"
 permalink: /teaching/environmental-economics-and-policy-mba
@@ -7,6 +7,7 @@ venue: "Manhattan University"
 years: 2017-Present
 location: "Riverdale, New York"
 style: "Online - Asynchronous"
+cat: "grad"
 ---
 
 <!-- Google tag (gtag.js) -->
