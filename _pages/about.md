@@ -49,7 +49,7 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
         </figure>
         <figure>
           <a href="/images/about/Loras.jpg" class="image-link">
-            <img src="/images/about/Loras.jpg" alt="Loras" width="100" height="auto">
+            <img src="/images/about/Loras.png" alt="Loras" width="100" height="auto">
           </a>
             <figcaption><a>Loras College <br> Dubuque, Iowa </a></figcaption>
         </figure>
