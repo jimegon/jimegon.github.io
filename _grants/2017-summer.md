@@ -6,6 +6,7 @@ years: Summer 2017
 start_year: 2017
 collection: grants
 amount: $3,000
+type: "internal"
 ---
 
 <!-- Google tag (gtag.js) -->

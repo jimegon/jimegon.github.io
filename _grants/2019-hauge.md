@@ -6,6 +6,7 @@ years: 2019-2022
 start_year: 2019
 collection: grants
 amount: $21,000
+type: "internal"
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>

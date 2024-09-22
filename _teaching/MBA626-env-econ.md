@@ -30,5 +30,5 @@ cat: "grad"
 
 **<span class="bold-podcast">Modality: </span>&nbsp;<span class="text-podcast"> {{ page.mode }}</span>**
 
-This course is part of an economics and finance concentration available for MBA students. 
+This course is part of an economics and finance concentration available to MBA students. 
 

@@ -6,6 +6,7 @@ years: Summer 2021
 start_year: 2021
 collection: grants
 amount: $3,000
+type: "internal"
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
