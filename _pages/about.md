@@ -48,20 +48,20 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
             <figcaption><a>Bogotá, Colombia </a></figcaption>
         </figure>
         <figure>
-          <a href="/images/about/Loras.jpg" class="image-link">
+          <a href="/images/about/Loras.png" class="image-link">
             <img src="/images/about/Loras.png" alt="Loras" width="100" height="auto">
           </a>
             <figcaption><a>Loras College <br> Dubuque, Iowa </a></figcaption>
         </figure>
         <figure>
-          <a href="/images/about/Loras_2.jpg" class="image-link">
-            <img src="/images/about/Loras_2.jpg" alt="Loras2" width="100" height="auto">
+          <a href="/images/about/Loras_2.png" class="image-link">
+            <img src="/images/about/Loras_2.png" alt="Loras2" width="100" height="auto">
           </a>
             <figcaption><a>Commencement Speech <br> Loras College (2016)</a></figcaption>
         </figure>
         <figure>
-          <a href="/images/about/ISU_graduation_3.jpg" class="image-link">
-            <img src="/images/about/ISU_graduation_3.jpg" alt="isu1" width="100" height="auto">
+          <a href="/images/about/ISU_graduation_3.png" class="image-link">
+            <img src="/images/about/ISU_graduation_3.png" alt="isu1" width="100" height="auto">
           </a>
             <figcaption><a> Commencement ceremony with <br> Cathy Kling </a></figcaption>
         </figure>
