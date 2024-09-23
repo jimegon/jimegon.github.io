@@ -67,3 +67,22 @@ funder2: "SSRC-CSWEP"
         <!-- Add more images as needed -->
     </div>
 </body>
+
+**Pictures from SSRC Conference**
+
+<body>
+<div class="image-container2">
+        <figure>
+            <a href="/images/presentations/ssrc_panel.png" class="image-link">
+              <img src="/images/presentations/ssrc_panel.png" alt="panel" width="1080" height="auto">
+            </a>
+            <!--<figcaption><a>Bogotá, Colombia </a></figcaption>-->
+        </figure>
+        <figure>
+          <a href="/images/presentations/ssrc_motivation.png.png" class="image-link">
+            <img src="/images/presentations/ssrc_motivation.png" alt="panel" width="1080" height="auto">
+          </a>
+            <!--<figcaption><a>SSRC Conference </a></figcaption>-->
+        </figure>
+    </div>
+</body>
