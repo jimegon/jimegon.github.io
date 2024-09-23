@@ -42,8 +42,8 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
 <body>
 <div class="image-container2">
         <figure>
-          <a href="/images/about/Bogota.jpg" class="image-link">
-            <img src="/images/about/Bogota.jpg" alt="Bogotá" width="100" height="auto">
+          <a href="/images/about/Bogota.png" class="image-link">
+            <img src="/images/about/Bogota.png" alt="Bogotá" width="100" height="auto">
           </a>
             <figcaption><a>Bogotá, Colombia </a></figcaption>
         </figure>
@@ -72,8 +72,8 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
             <figcaption><a>Commencement ceremony with <br> Cathy Kling </a></figcaption>
         </figure>
         <figure>
-          <a href="/images/about/Iowa State.jpg" class="image-link">
-            <img src="/images/about/Iowa State.JPG" alt="isu3" width="100" height="auto">
+          <a href="/images/about/Iowa State.png" class="image-link">
+            <img src="/images/about/Iowa State.png" alt="isu3" width="100" height="auto">
           </a>
             <figcaption><a>Iowa State University, <br> Ames, Iowa </a></figcaption>
         </figure>
