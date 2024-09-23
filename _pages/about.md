@@ -28,8 +28,8 @@ Welcome to my website! I'm an environmental economist. My other research interes
 
 During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Environmental Econ.
 
-<img src="/images/about/Nature.jpg" alt="nature" style="width: 180px; height: 120px;">
-<img src="/images/about/nature2.jpg" alt="nature2" style="width: 180px; height: 120px;">
+<img src="/images/about/Nature.jpg" alt="nature" style="width: 360px; height: 240px ;">
+<img src="/images/about/nature2.jpg" alt="nature2" style="width: 360px; height: 240px;">
 
 
 <div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center;">
