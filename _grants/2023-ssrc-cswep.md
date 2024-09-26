@@ -54,7 +54,7 @@ funder2: "SSRC-CSWEP"
         </figure>
         <figure>
             <img src="/images/co-authors/kim_holder.png" alt="Image 2" width="100" height="auto">
-            <figcaption><a href="" target="_blank">Kim Holder (Co-PI)</a></figcaption>
+            <figcaption><a href="https://linktr.ee/cubegrl" target="_blank">Kim Holder (Co-PI)</a></figcaption>
         </figure>     
         <figure>
             <img src="/images/co-authors/sarah_jacobson.png" width="100" height="auto">
