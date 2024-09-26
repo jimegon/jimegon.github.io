@@ -25,7 +25,7 @@ repository               : "jimegon/justice-oriented-enre-teaching.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"profile.png"
+  avatar           : "profile.png"
   name             : "Justice-Oriented ENRE Teaching"
   pronouns         : # example: "she/her"  
   bio              : #""
