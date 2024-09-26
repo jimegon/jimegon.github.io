@@ -23,8 +23,6 @@ redirect_from:
   <h3 style="color: #004080; margin: 0; line-height: 1;">O'Malley School of Business, Manhattan University</h3>
 </div>
 
-Welcome to this website.
-Here, you will find resource to incorporate justice and equity topics into an environmental and natural resource course. 
 
 Welcome to my website! I'm an environmental economist. My other research interests include behavioral economics and pedagogy.
 
@@ -45,59 +43,41 @@ This website is part of a project led by:
 
 <body>
 <div class="image-container2">
-<div class="image-container">
         <figure>
           <a href="/images/about/Bogota.png" class="image-link">
             <img src="/images/about/Bogota.png" alt="Bogotá" width="100" height="auto">
           </a>
             <figcaption><a>Bogotá, Colombia </a></figcaption>
-            <img src="/images/co-authors/sarah_jacobson.png" width="100" height="auto">
-            <figcaption><a href="https://econ.williams.edu/profile/saj2/" target="_blank"> Sarah Jacobson </a></figcaption>
         </figure>
         <figure>
           <a href="/images/about/Loras.png" class="image-link">
             <img src="/images/about/Loras.png" alt="Loras" width="100" height="auto">
           </a>
             <figcaption><a>Loras College <br> Dubuque, Iowa </a></figcaption>
-            <img src="/images/co-authors/jill_caviglia_harris.png" width="100" height="auto">
-            <figcaption><a href="https://jlcaviglia-harris.wixsite.com/jlcaviglia-harris" target="_blank">Jill Caviglia-Harris</a></figcaption>
         </figure>
         <figure>
           <a href="/images/about/Loras_2.png" class="image-link">
             <img src="/images/about/Loras_2.png" alt="Loras2" width="100" height="auto">
           </a>
             <figcaption><a>Commencement Speech <br> Loras College (2016)</a></figcaption>
-            <img src="/images/co-authors/fidel_gonzalez.png" width="100" height="auto">
-            <figcaption><a href="https://sites.google.com/view/fidelgonzalez" target="_blank">Jimena González-Ramírez</a></figcaption>
-        </figure>
-                <figure>
-            <img src="/images/co-authors/jimena_gonzalez.png" width="100" height="auto">
-            <figcaption><a href="https://https://jimegon.github.io/" target="_blank">Fidel Gonzalez</a></figcaption>
-        </figure>           
+        </figure>      
         <figure>
           <a href="/images/about/ISU_graduation_3.png" class="image-link">
             <img src="/images/about/ISU_graduation_3.png" alt="isu1" width="100" height="auto">
           </a>
             <figcaption><a> Commencement ceremony with <br> Cathy Kling </a></figcaption>
-            <img src="/images/co-authors/sumeet_gulati.png" width="100" height="auto">
-            <figcaption><a href="https://sumeetgulati.landfood.ubc.ca/" target="_blank">Sumeet Gulati</a></figcaption>
         </figure>
         <figure>
           <a href="/images/about/ISU_graduation_4.jpg" class="image-link">
             <img src="/images/about/ISU_graduation_4.jpg" alt="isu2" width="100" height="auto">
           </a>
             <figcaption><a>Commencement ceremony with <br> Cathy Kling </a></figcaption>
-            <img src="/images/co-authors/danae_hernandez-cortes.png" width="100" height="auto">
-            <figcaption><a href="https://hernandezcortes.github.io/" target="_blank">Danae Hernandez-Cortes</a></figcaption>
         </figure>
         <figure>
           <a href="/images/about/Iowa State.png" class="image-link">
             <img src="/images/about/Iowa State.png" alt="isu3" width="100" height="auto">
           </a>
             <figcaption><a>Iowa State University, <br> Ames, Iowa </a></figcaption>
-        </figure>
-            <img src="/images/co-authors/diya_mazumder.png" width="100" height="auto">
-            <figcaption><a href="https://hernandezcortes.github.io/" target="_blank">Diya Mazumder</a></figcaption>
         </figure>                
         <!-- Add more images as needed -->
     </div>
