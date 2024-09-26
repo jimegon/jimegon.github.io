@@ -14,15 +14,9 @@
 locale                   : "en-US"
 title                    : "Jimena González-Ramírez, Ph.D."
 title_separator          : "-"
-<<<<<<< HEAD
-name                     : &name "Team"
-description              : &description "Environmental economists with a passion for justice and equity"
-url                      : https://justice-oriented-enre-teaching.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-=======
 name                     : &name "Jimena González-Ramírez"
 description              : &description "Associate Professor of Economics, O'Malley School of Business, Manhattan College"
 url                      : https://jimegon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
->>>>>>> parent of 9ad2851 (changes)
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jimegon/jimegon.github.io"
 
