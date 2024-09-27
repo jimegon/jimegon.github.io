@@ -39,7 +39,6 @@ During the Fall 2024, I'm teaching Principles of Microeconomics and Intro to Env
         <b>2016 - 2022</b>: Assistant Professor, O'Malley School of Business, Manhattan College <br>
         <b>2022 - Present</b>: Associate Professor, O'Malley School of Business,  Manhattan University</p>
 </div>
-This website is part of a project led by:
 
 <body>
 <div class="image-container2">
@@ -60,7 +59,7 @@ This website is part of a project led by:
             <img src="/images/about/Loras_2.png" alt="Loras2" width="100" height="auto">
           </a>
             <figcaption><a>Commencement Speech <br> Loras College (2016)</a></figcaption>
-        </figure>      
+        </figure>
         <figure>
           <a href="/images/about/ISU_graduation_3.png" class="image-link">
             <img src="/images/about/ISU_graduation_3.png" alt="isu1" width="100" height="auto">
@@ -78,7 +77,8 @@ This website is part of a project led by:
             <img src="/images/about/Iowa State.png" alt="isu3" width="100" height="auto">
           </a>
             <figcaption><a>Iowa State University, <br> Ames, Iowa </a></figcaption>
-        </figure>                
+        </figure>
         <!-- Add more images as needed -->
     </div>
 </body>
+

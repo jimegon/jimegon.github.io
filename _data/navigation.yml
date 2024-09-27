@@ -4,22 +4,21 @@ main:
     url: /publications/
 
   - title: "Research"
-    url: /research/  
+    url: /research/
 
   - title: "Presentations"
     url: /talks/    
 
-  - title: "Grants"
-    url: /grants/ 
-
   - title: "Teaching"
     url: /teaching/    
+    
+  - title: "Grants"
+    url: /grants/
         
   - title: "Resources"
     url: /resources/
-
+    
   - title: "CV"
     url: /cv/
-    
     
 
