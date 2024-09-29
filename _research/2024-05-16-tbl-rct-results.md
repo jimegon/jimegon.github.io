@@ -12,7 +12,7 @@ type: 'working paper'
 co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scott Simkins, Huiko Adams, James Michael Latham, and C. Lucy Malakar'
 ---
 
-<i>under review</i>
+<i>R&R at the International Review of Economic Education</i>
 
 <body>
 <div class="image-container">

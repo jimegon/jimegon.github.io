@@ -12,7 +12,7 @@ type: "working paper"
 co-authors: 'Kenny Liao and Kevin Meyer'
 ---
 
-<i>Conditionally Accepted at the New York Economic Review</i>
+<i>Accepted at the New York Economic Review</i>
 
 <body>
 <div class="image-container">

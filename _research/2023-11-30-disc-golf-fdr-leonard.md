@@ -12,7 +12,7 @@ type: "working paper"
 co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'
 ---
 
-<i> under review </i>
+<i> R&R at Journal of Sports Economics</i>
 
 <body>
 <div class="image-container">
