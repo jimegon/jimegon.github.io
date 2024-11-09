@@ -1,18 +1,17 @@
 ---
 title: "Impact of Entrance Fees on Disc Golf Course Attendance: Empirical Insights from Heckscher State Park"
-collection: research
-permalink: /research/2024-04-12-disc-golf-heckscher
+collection: publications
+permalink: /publications/2024-04-12-disc-golf-heckscher
 excerpt: ''
-date: 2024-04-12
-venue: 'SSRN Working Paper'
-paperurl: 'https://dx.doi.org/10.2139/ssrn.4761101'
-citation: 'Liao, Kenneth, González-Ramírez, Jimena, &  Meyer, Kevin (2024). &quot;Impact of Entrance Fees on Disc Golf Course Attendance: Empirical Insights from Heckscher State Park.&quot; <i>SSRN Working Paper</i>.'
+date: 2024-10-01
+venue: 'New York Economic Review'
+paperurl: 'https://www.nyseconomicsassociation.org/wp-content/uploads/2024/10/NYER_F24_Final.pdf'
+citation: 'Liao, Kenneth, González-Ramírez, Jimena, &  Meyer, Kevin (2024). &quot;Impact of Entrance Fees on Disc Golf Course Attendance: Empirical Insights from Heckscher State Park.&quot; <i>New York Economic Review</i>. 54: 37-66'
 category: 'environmental'
-type: "working paper"
+type: "pr"
 co-authors: 'Kenny Liao and Kevin Meyer'
 ---
 
-<i>Accepted at the New York Economic Review</i>
 
 <body>
 <div class="image-container">
