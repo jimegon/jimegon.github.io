@@ -9,7 +9,7 @@ paperurl: ''
 citation: 'Meyer, Kevin, González-Ramírez, Jimena, & Penn, Jerrod (2024). &quot;An Willingness to Pay for Study Abroad Attributes; <i>SSRN Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
-co-authors: 'Kevin Meyer and Jerrod Penn*'
+co-authors: 'Kevin Meyer and Jerrod Penn'
 ---
 
 <body>
