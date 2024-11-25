@@ -12,7 +12,7 @@ type: "working paper"
 co-authors: 'Max Harnack-Eber and Niccolò Meriggi'
 ---
 
-<i>under review</i>
+
 
 <body>
 <div class="image-container">
