@@ -9,7 +9,7 @@ paperurl: ''
 citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2024). &quot;An Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences.&quot; <i>SSRN Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
-co-authors: 'Kevin Meyer and Kenny Liao*'
+co-authors: 'Kevin Meyer and Kenny Liao'
 ---
 
 [Download the paper](files\Gonzalez-Ramírez_Value_of_Disc_Golf_Course.pdf)
