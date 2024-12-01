@@ -36,7 +36,7 @@ co-authors: 'Sarah Jacobson, Jill Caviglia-Harris, Fidel Gonzalez, Sumeet Gulati
         </figure>
         <figure>
             <img src="/images/co-authors/diya_mazumder.png" width="100" height="auto">
-            <figcaption><a href="https://hernandezcortes.github.io/" target="_blank">Diya Mazumder</a></figcaption>
+            <figcaption><a href="https://sites.soka.edu/dmazumder/" target="_blank">Diya Mazumder</a></figcaption>
         </figure>                
         <!-- Add more images as needed -->
     </div>
