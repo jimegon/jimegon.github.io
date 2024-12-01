@@ -14,6 +14,16 @@ paperurl: 'https://www.ted.com/talks/ted_halstead_a_climate_solution_where_all_s
 duration: "12:58"
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
+
 
 **<span class="bold-podcast">Publisher: </span>&nbsp;<span class="text-podcast">{{ page.publisher }}</span>**
 

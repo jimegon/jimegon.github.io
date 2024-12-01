@@ -12,6 +12,15 @@ paperurl: 'https://youtu.be/E1v5eRs0_fw?si=iPHuYbqhnoMVK7V4'
 duration: "8:13"
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
 
 **<span class="bold-podcast">Publisher: </span>&nbsp;<span class="text-podcast">{{ page.publisher }}</span>**
 

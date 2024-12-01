@@ -13,6 +13,15 @@ paperurl: 'https://www.npr.org/2019/08/14/751234092/episode-616-how-solar-got-ch
 duration: "17:31"
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
 
 **<span class="bold-podcast">Publisher: </span>&nbsp;<span class="text-podcast"> {{ page.publisher }}</span>**
 

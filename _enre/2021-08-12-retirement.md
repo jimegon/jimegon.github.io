@@ -11,6 +11,15 @@ paperurl: 'https://gimletmedia.com/shows/howtosaveaplanet/o2ha54l'
 duration: "48:25"
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
 
 **<span class="bold-podcast">Publisher: </span>&nbsp;<span class="text-podcast"> {{ page.publisher }}</span>**
 

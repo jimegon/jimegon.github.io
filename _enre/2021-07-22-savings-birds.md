@@ -18,6 +18,16 @@ paperurl: 'https://www.npr.org/2021/07/22/1019488080/saving-birds-with-economics
 duration: "10:00"
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
+
 
 **<span class="bold-podcast">Publisher: </span>&nbsp;<span class="text-podcast"> {{ page.publisher }}</span>**
 
