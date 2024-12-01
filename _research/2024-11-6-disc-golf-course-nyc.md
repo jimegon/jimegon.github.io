@@ -4,9 +4,9 @@ collection: research
 permalink: /research/disc-golf-course-nyc
 excerpt: ''
 date: 2024-11-06
-venue: 'SSRN Working Paper'
+venue: 'Working Paper'
 paperurl: ''
-citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2024). &quot;An Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences.&quot; <i>SSRN Working Paper</i>.'
+citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2024). &quot;An Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences.&quot; <i> Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
 co-authors: 'Kevin Meyer and Kenny Liao'
