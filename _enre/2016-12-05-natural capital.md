@@ -1,7 +1,7 @@
 ---
 title: "How to build a greener, more circular economy"
 date: 2016-12-05
-permalink: /resources/enre/bhutan-carbon-negative
+permalink: /resources/enre/natural-capital
 tags:
   - climate change
   - carbon taxes
