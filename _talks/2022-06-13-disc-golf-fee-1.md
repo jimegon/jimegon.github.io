@@ -9,3 +9,12 @@ location: "Mystic, CT"
 co-authors: 'Kenny Liao (Co-Presenter), Kevin Meyer, and Victoria Adams'
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
