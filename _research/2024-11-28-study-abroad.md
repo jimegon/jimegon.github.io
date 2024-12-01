@@ -1,7 +1,7 @@
 ---
 title: "Willingness to Pay for Study Abroad Attributes"
 collection: research
-permalink: /research/2024-11-28-
+permalink: /research/study-abroad
 excerpt: ''
 date: 2024-11-18
 venue: ''

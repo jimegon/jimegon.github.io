@@ -12,6 +12,16 @@ type: 'working paper'
 co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scott Simkins, Huiko Adams, James Michael Latham, and C. Lucy Malakar'
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
+
 <i>R&R at the International Review of Economic Education</i>
 
 <body>
