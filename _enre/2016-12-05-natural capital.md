@@ -1,7 +1,7 @@
 ---
 title: "How to build a greener, more circular economy"
 date: 2016-12-05
-permalink: /resources/enre/natural-capital
+permalink: /resources/enre/greener-more-circular-economy
 tags:
   - climate change
   - carbon taxes
@@ -23,7 +23,7 @@ In 2008, the US was smack in the middle of one of the largest recessions in its 
 
 <div style="max-width:1024px">
   <div style="position:relative;height:0;padding-bottom:56.25%">
-    <iframe src="https://www.youtube.com/embed/5eN_F709Exw?si=aY_cpHCXl0NKFD04" width="1024px" height="576px" title="This country isn't just carbon neutral -- it's carbon negative" style="position:absolute;left:0;top:0;width:100%;height:100%"  frameborder="0" scrolling="no" allowfullscreen onload="window.parent.postMessage('iframeLoaded', 'https://embed.ted.com')"></iframe>
+    <iframe src="https://youtu.be/5eN_F709Exw?si=Fu5cKZfl95oE2UVi" width="1024px" height="576px" title="How to build a greener, more circular economy | Pavan Sukhdev" style="position:absolute;left:0;top:0;width:100%;height:100%"  frameborder="0" scrolling="no" allowfullscreen onload="window.parent.postMessage('iframeLoaded', 'https://embed.ted.com')"></iframe>
   </div>
 </div>
 
