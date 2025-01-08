@@ -22,7 +22,9 @@ co-authors: 'Kevin Meyer and Kenny Liao'
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-[Download the paper](files\Gonzalez-Ramírez_Value_of_Disc_Golf_Course.pdf)
+<div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
+<a href="http://jimegon.github.io/files/GonzalezRamirez_CV.pdf" target="_blank">Download the paper</a> 
+</div>
 
 <body>
 <div class="image-container">
