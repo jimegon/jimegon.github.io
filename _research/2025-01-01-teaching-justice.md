@@ -3,12 +3,12 @@ title: "From Efficiency to Inclusion: The Present and Future of Undergraduate Te
 collection: research
 permalink: /research/teaching-justice
 excerpt: ''
-date: 2024-05-23
+date: 2025-01-01
 venue: ''
 paperurl: ''
 citation: ''
 category: 'pedagogy'
-type: 'working paper'
+type: 'work in progress'
 co-authors: 'Sarah Jacobson, Jill Caviglia-Harris, Fidel Gonzalez, Sumeet Gulati, Danae Hernandez-Cortes, and Diya Mazumder'
 ---
 
