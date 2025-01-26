@@ -3,7 +3,7 @@ title: "From Efficiency to Inclusion: The Present and Future of Undergraduate Te
 collection: research
 permalink: /research/teaching-justice
 excerpt: ''
-date: 2025-01-01
+date: 2025-01-02
 venue: ''
 paperurl: ''
 citation: ''
