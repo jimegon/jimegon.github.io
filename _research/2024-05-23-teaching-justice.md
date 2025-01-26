@@ -7,7 +7,7 @@ date: 2024-05-23
 venue: ''
 paperurl: ''
 citation: ''
-category: 'pedagody'
+category: 'pedagogy'
 type: 'working paper'
 co-authors: 'Sarah Jacobson, Jill Caviglia-Harris, Fidel Gonzalez, Sumeet Gulati, Danae Hernandez-Cortes, and Diya Mazumder'
 ---
