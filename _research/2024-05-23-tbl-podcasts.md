@@ -3,7 +3,7 @@ title: "Combining Media and Team-Based Learning Application Exercises to Engage 
 collection: research
 permalink: /research/tbl-podcasts
 excerpt: ''
-date: 2022-05-03
+date: 2025-01-01
 venue: 'SSRN Working Paper'
 paperurl: 'https://dx.doi.org/10.2139/ssrn.4083837'
 citation: ''
