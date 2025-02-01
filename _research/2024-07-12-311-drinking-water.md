@@ -3,10 +3,10 @@ title: "Unveiling NYC’s Drinking Water Quality: Perspectives on 15-Years of Cu
 collection: research
 permalink: /research/311-drinking-water
 excerpt: ''
-date: 2024-07-12
-venue: 'Working Paper'
+date: 2025-02-01
+venue: 'Journal AWWA (forthcoming)'
 paperurl: ''
-citation: 'Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot;Unveiling NYC’s Drinking Water Quality:  Perspectives on 15-Years of Customer Complaints and Call to Collaboration.&quot; <i>Working Paper</i>.'
+citation: 'Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot;Unveiling NYC’s Drinking Water Quality:  Perspectives on 15-Years of Customer Complaints and Call to Collaboration.&quot; <i>Journal AWWA (forthcoming)</i>.'
 category: 'environmental'
 type: 'working paper'
 co-authors: 'Adam Kulaczkowski, Jarai Sanneh, Miah Cohall*, Ali Ahmad Sabri*, Yi Wang, Anna Di Mauro, Giovanni F. Santonastaso, Armando Di Nardo, Jonathan Keck, and Juneseok Lee'
@@ -22,7 +22,7 @@ co-authors: 'Adam Kulaczkowski, Jarai Sanneh, Miah Cohall*, Ali Ahmad Sabri*, Yi
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<i> under review </i>
+<i> forthcoming at the Journal AWWA </i>
 
 
 
