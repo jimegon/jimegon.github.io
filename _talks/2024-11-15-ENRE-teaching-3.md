@@ -2,7 +2,7 @@
 title: "From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics"
 collection: talks
 type: "Panel presentation"
-permalink: /talks/ENRE-teaching-2
+permalink: /talks/ENRE-teaching-3
 venue: "Northeastern Agricultural and Resource Economics Association Conference"
 date: 2024-11-15
 location: "New Orleans, LA"
