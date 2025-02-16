@@ -3,7 +3,7 @@ title: "From Efficiency to Inclusion: The Present and Future of Undergraduate Te
 collection: talks
 type: "Panel presentation"
 permalink: /talks/ENRE-teaching-3
-venue: "Northeastern Agricultural and Resource Economics Association Conference"
+venue: "8th Annual Meeting of the Philosophy, Politics, and Economics Society"
 date: 2024-11-15
 location: "New Orleans, LA"
 co-authors: 'Sarah Jacobson, Jill Caviglia-Harris, Fidel González (Presenter), Sumeet Gulati, Danae Hernández-Cortes, and Diya Mazumder'
