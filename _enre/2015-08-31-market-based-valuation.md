@@ -8,7 +8,7 @@ tags:
   - valuation
   - market-based valuation
   - revealed preference
-category: "benefits"
+category: "other valuation"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://youtu.be/M0ZdV5WU5K4?si=bunZy7ADa_0eQQ9A'

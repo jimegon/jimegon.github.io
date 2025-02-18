@@ -8,7 +8,7 @@ tags:
   - valuation
   - stated preferences
   - contingent valuation
-category: "benefits"
+category: "stated preferences"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://www.youtube.com/watch?v=LkXVCQam5kw'

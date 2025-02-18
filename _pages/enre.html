@@ -140,18 +140,6 @@ Click on each topic to expand or collapse the section.
 
   <details close>
     <summary>
-    Benefits
-    </summary>
-    {% for post in site.enre reversed %}
-      {% if post.category == 'benefits' %}
-        {% include archive-single-podcasts.html %}
-      {% endif %}
-    {% endfor %}
-    
-  </details>
-
-  <details close>
-    <summary>
     Benefit-Cost Analysis
     </summary>
     {% for post in site.enre reversed %}
@@ -162,10 +150,71 @@ Click on each topic to expand or collapse the section.
     
   </details>
 
-<h2 style="color: purple;"> Climate Change 🌎 </h2> 
+<h2 style="color:  purple;">Benefits</h2>
+  <details close>
+    <summary class = "id1">
+    Benefits - General
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'benefits' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+
+  </details>
 
   <details close>
-    <summary class="id1">
+    <summary class = "id1">
+    Hedonic Pricing Mehod
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'hedonic' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class = "id1">
+    Travel Cost Method
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'travel cost' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class = "id1">
+    Stated Preference Methods
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'stated preferences' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class = "id1">
+    Other Valuation Methods
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'other valuation' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+<h2 style="color: #b8035d;"> Climate Change 🌎 </h2> 
+
+  <details close>
+    <summary class="id2">
     Climate Change
     </summary>
     {% for post in site.enre reversed %}
@@ -177,7 +226,7 @@ Click on each topic to expand or collapse the section.
    </details>  
 
   <details close>
-    <summary class="id1">
+    <summary class="id2">
     Carbon Offsets
     </summary>
     {% for post in site.enre reversed %}
@@ -191,10 +240,10 @@ Click on each topic to expand or collapse the section.
 
 
 
-<h2 style="color: #b8035d;"> Other Topics </h3>
+<h2 style="color: darkblue;"> Other Topics </h2>
 
   <details close>
-      <summary class="id2">
+      <summary>
       Energy
       </summary>
       {% for post in site.enre reversed %}
@@ -207,7 +256,7 @@ Click on each topic to expand or collapse the section.
 
 
   <details close>
-      <summary class="id2">
+      <summary>
       Environmental Justice
       </summary>
       {% for post in site.enre reversed %}
@@ -219,7 +268,7 @@ Click on each topic to expand or collapse the section.
   </details>
 
   <details close>
-    <summary class="id2">
+    <summary>
     ESG
     </summary>
     {% for post in site.enre reversed %}

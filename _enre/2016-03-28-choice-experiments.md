@@ -8,7 +8,7 @@ tags:
   - valuation
   - stated preferences
   - choice experiments
-category: "benefits"
+category: "stated preferences"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://youtu.be/txScPIsxyCM?si=WreqGQcKlleQMOnZ'

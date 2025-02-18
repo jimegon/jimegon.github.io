@@ -8,7 +8,7 @@ tags:
   - valuation
   - travel cost
   - revealed preferences 
-category: "benefits"
+category: "travel cost"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://www.youtube.com/watch?v=AjcQpzIBu1I'

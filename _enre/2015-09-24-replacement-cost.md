@@ -9,7 +9,7 @@ tags:
   - market-based valuation
   - replacement cost
   - revealed preference
-category: "benefits"
+category: "other valuation"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://youtu.be/iTW05vFILXY?si=7X1zdlTE8sCjFSnF'

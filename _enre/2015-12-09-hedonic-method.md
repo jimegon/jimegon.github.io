@@ -8,7 +8,7 @@ tags:
   - valuation
   - hedonic
   - revealed preferences 
-category: "benefits"
+category: "hedonic"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://www.youtube.com/watch?v=LkXVCQam5kw'

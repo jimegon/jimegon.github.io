@@ -7,7 +7,7 @@ tags:
   - benefits
   - valuation
   - benefits transfer
-category: "benefits"
+category: "other valuation"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://youtu.be/xpXvnbNeOEo?si=hlxUvtlqZV5_vgDA'

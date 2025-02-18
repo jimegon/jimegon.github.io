@@ -9,7 +9,7 @@ tags:
   - market-based valuation
   - avoided cost
   - revealed preference
-category: "benefits"
+category: "other valuation"
 type: "video"
 publisher: "Conservation Strategy Fund"
 paperurl: 'https://youtu.be/hOX6WrR79Ao?si=I7IntPRyhn8GnBjj'
