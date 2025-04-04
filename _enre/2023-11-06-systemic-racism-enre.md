@@ -30,9 +30,7 @@ duration: "35:15"
 In this week’s episode, host Daniel Raimi talks with Jimena González Ramírez, an associate professor at Manhattan College, and Sarah Jacobson, a professor at Williams College. González Ramírez and Jacobson discuss some ways that systemic racism can unintentionally permeate research in the field of environmental and natural resource economics. They consider how historically racist policies and practices can affect research data and analysis and, in turn, produce findings which may render outcomes that discriminate. Specifically, the scholars identify several contributing issues: the prioritization of cost-effectiveness; inattention to procedural justice; abstraction from social and historical context; and a focus on problems that are easier, rather than more important, to solve. A recent Common Resources article by González Ramírez, Jacobson, and other coauthors delves into even more of the details that their conversation here doesn’t cover.
 
 
-<div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
-<a href="http://jimegon.github.io/files/Silz-Carson _et_al_RTC_TBL_Appendix.pdf" target="_blank">Download the paper</a> 
-</div>
+
 
 
 
