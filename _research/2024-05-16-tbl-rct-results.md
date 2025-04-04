@@ -89,5 +89,6 @@ team-based learning <br>
 </details>
 
 <div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
-<a href="http://jimegon.github.io/files/Silz-Carson _et_al_RTC_TBL_Appendix.pdf" target="_blank">Download the paper</a> 
+<a href="http://jimegon.github.io/files/Silz-Carson _et_al_RTC_TBL_Appendix.pdf" target="_blank">Download the Appendix</a> 
 </div>
+<br>
