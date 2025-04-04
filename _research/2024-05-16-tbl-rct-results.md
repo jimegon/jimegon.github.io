@@ -1,7 +1,7 @@
 ---
 title: "What is the Marginal Benefit of Team-Based Learning Application Exercises? Results from a Multi-Site, Randomized Controlled Evaluation"
 collection: research
-permalink: /research/2024-05-16-tbl-rct-results
+permalink: /research/tbl-rct-results
 excerpt: ''
 date: 2024-05-16
 venue: 'SSRN Working Paper'
