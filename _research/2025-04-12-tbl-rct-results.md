@@ -3,8 +3,8 @@ title: "What is the Marginal Benefit of Team-Based Learning Application Exercise
 collection: research
 permalink: /research/tbl-rct-results
 excerpt: ''
-date: 2024-05-16
-venue: 'SSRN Working Paper'
+date: 2025-4-12
+venue: 'International Review of Economic Education (forthcoming)'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4896585'
 citation: 'Silz Carson, Katherine, González-Ramírez, Jimena, Heinicke, Craig, Maier, Mark, Ruder, Phil, Simkins, Scott,  Adams, Hiuko, Latham, James Michael, & Malakar, C. Lucy (2024). &quot;What is the Marginal Benefit of Team-Based Learning Application Exercises? Results of a Multi-Site, Randomized Controlled Evaluation  &quot; <i>   </i>.'
 category: 'pedagogy'
@@ -22,7 +22,7 @@ co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scot
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<i>R&R at the International Review of Economic Education</i>
+<i>Accepted at the International Review of Economic Education</i>
 
 <body>
 <div class="image-container">
