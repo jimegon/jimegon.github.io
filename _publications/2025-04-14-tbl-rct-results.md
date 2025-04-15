@@ -1,14 +1,14 @@
 ---
 title: "What is the Marginal Benefit of Team-Based Learning Application Exercises? Results from a Multi-Site, Randomized Controlled Evaluation"
-collection: research
+collection: publications
 permalink: /research/tbl-rct-results
 excerpt: ''
-date: 2025-4-12
-venue: 'International Review of Economic Education (forthcoming)'
-paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4896585'
+date: 2025-4-14
+venue: 'International Review of Economic Education'
+paperurl: 'https://doi.org/10.1016/j.iree.2025.100316'
 citation: 'Silz Carson, Katherine, González-Ramírez, Jimena, Heinicke, Craig, Maier, Mark, Ruder, Phil, Simkins, Scott,  Adams, Hiuko, Latham, James Michael, & Malakar, C. Lucy (2024). &quot;What is the Marginal Benefit of Team-Based Learning Application Exercises? Results of a Multi-Site, Randomized Controlled Evaluation  &quot; <i>   </i>.'
 category: 'pedagogy'
-type: 'working paper'
+type: 'pr'
 co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scott Simkins, Huiko Adams, James Michael Latham, and C. Lucy Malakar'
 ---
 
@@ -22,7 +22,7 @@ co-authors: 'Katherine Silz Carson, Craig Heinicke, Mark Meier, Phil Ruder, Scot
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<i>Accepted at the International Review of Economic Education</i>
+
 
 <body>
 <div class="image-container">
@@ -70,7 +70,7 @@ Abstract
 </summary>
 
 <p>
-This paper describes the results of a fall 2019 multi-site evaluation of the effect on student learning of Team-Based Learning (TBL) application exercises vs. traditional exercises in Principles of Microeconomics courses using the Team-Based Learning (TBL) pedagogy. The evaluation is designed as a multi-site randomized controlled trial in which all sites incorporate TBL modules using a common set of treatment or control exercises into their courses. The use of random assignment to either the treatment or control group for each module combined with a fixed effects econometric model enables measurement of the treatment effect on student learning while controlling for both student demographic and behavioral (e.g., attendance, study effort) characteristics.  The results show moderate positive treatment effects of the TBL application exercises overall and for female and first-time college students.
+This paper describes the results of a multi-site randomized-controlled evaluation of the effect on student learning of Team-Based Learning (TBL) application exercises vs. traditional exercises in Principles of Microeconomics courses using the TBL pedagogy. The use of random assignment of a site to treatment or control group for each of four study modules combined with student fixed effects enables identification of the treatment effect on student learning while controlling for student characteristics. The results show moderate positive treatment effects of the TBL application exercises.
 </p>
 
 </details>
