@@ -1,7 +1,7 @@
 ---
 title: "Challenges and lessons: Design and implementation of a multi-site evaluation of team-based learning"
 collection: publications
-permalink: /publication/2021-06-17-tbl-rct-design
+permalink: /publication/tbl-rct-design
 excerpt: ''
 date: 2021-06-17
 venue: ' The Journal of Economic Education'
