@@ -1,15 +1,15 @@
 ---
-title: "Unveiling NYC’s Drinking Water Quality: Perspectives on 15-Years of Customer Complaints and Call to Collaboration"
-collection: research
-permalink: /research/311-drinking-water
+title: "Insights From 15 Years of New York City's Drinking Water Quality Complaints"
+collection: publications
+permalink: /publications/311-drinking-water
 excerpt: ''
-date: 2025-02-01
-venue: 'Journal AWWA (forthcoming)'
-paperurl: ''
-citation: 'Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot;Unveiling NYC’s Drinking Water Quality:  Perspectives on 15-Years of Customer Complaints and Call to Collaboration.&quot; <i>Journal AWWA (forthcoming)</i>.'
+date: 2025-06-10
+venue: 'Journal AWWA'
+paperurl: 'https://doi.org/10.1002/awwa.2466'
+citation: "Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot; Insights From 15 Years of New York City's Drinking Water Quality Complaints. &quot; <i>Journal AWWA, 117(6): 22-26</i>."
 category: 'environmental'
-type: 'working paper'
-co-authors: 'Adam Kulaczkowski, Jarai Sanneh, Miah Cohall*, Ali Ahmad Sabri*, Yi Wang, Anna Di Mauro, Giovanni F. Santonastaso, Armando Di Nardo, Jonathan Keck, and Juneseok Lee'
+type: 'pr'
+co-authors: 'Adam Kulaczkowski**, Jarai Sanneh**, Miah Cohall*, Ali Ahmad Sabri*, Yi Wang, Anna Di Mauro, Giovanni F. Santonastaso, Armando Di Nardo, Jonathan Keck, and Juneseok Lee'
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -21,9 +21,6 @@ co-authors: 'Adam Kulaczkowski, Jarai Sanneh, Miah Cohall*, Ali Ahmad Sabri*, Yi
 
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
-
-<i> forthcoming at the Journal AWWA </i>
-
 
 
 <details open>
