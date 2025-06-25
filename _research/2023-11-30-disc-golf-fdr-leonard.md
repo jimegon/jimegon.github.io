@@ -3,7 +3,7 @@ title: "The Effect of Seasonal Parking Fees on Disc Golfing"
 collection: research
 permalink: /research/2023-11-30-disc-golf-fdr-leonard
 excerpt: ''
-date: 2023-11-30
+date: 2024-11-30
 venue: 'SSRN Working Paper'
 paperurl: 'https://dx.doi.org/10.2139/ssrn.4636565'
 citation: 'González-Ramírez, Jimena, Liao, Kenneth, Meyer, Kevin, & Adamas, Victoria (2023). &quot;An The Effect of Seasonal Parking Fees on Disc Golfing.&quot; <i>SSRN Working Paper</i>.'
