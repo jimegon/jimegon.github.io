@@ -1,5 +1,5 @@
 ---
-title: "aluing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf"
+title: "Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf"
 collection: research
 permalink: /research/disc-golf-course-nyc
 excerpt: ''
