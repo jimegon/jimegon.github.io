@@ -1,12 +1,12 @@
 ---
-title: "Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences"
+title: "aluing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf"
 collection: research
 permalink: /research/disc-golf-course-nyc
 excerpt: ''
 date: 2025-02-17
 venue: 'Working Paper'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141484'
-citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2024). &quot; Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences.&quot; <i> SSRN Working Paper</i>.'
+citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2024). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> SSRN Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
 co-authors: 'Kevin Meyer and Kenny Liao'
