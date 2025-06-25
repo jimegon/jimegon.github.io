@@ -91,8 +91,8 @@ var addressPoints = [
   ],
   [
     "Riverdale, NY",
-    40.90056,
-    -73.90639
+    40.9006199,
+    -73.9061726
   ],
   [
     "Spokane, WA",
@@ -121,8 +121,8 @@ var addressPoints = [
   ],
   [
     "Mystic, CT",
-    41.35596665,
-    -71.95733306951581
+    41.3542366,
+    -71.9664041
   ],
   [
     "Westbury, NY",
@@ -131,8 +131,8 @@ var addressPoints = [
   ],
   [
     "Kingston, RI",
-    41.4801166,
-    -71.5227103
+    41.4729285,
+    -71.5223479
   ],
   [
     "Cleveland, OH",
@@ -153,5 +153,20 @@ var addressPoints = [
     "Rehoboth Beach, DE",
     38.7164771,
     -75.0835107
+  ],
+  [
+    "Virtual",
+    44.4939936,
+    11.3576917
+  ],
+  [
+    "Anchorage, AK",
+    61.2163129,
+    -149.894852
+  ],
+  [
+    "Burlington, VT",
+    44.4761601,
+    -73.212906
   ]
 ];
