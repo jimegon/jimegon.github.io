@@ -8,7 +8,7 @@ venue: 'Journal AWWA'
 paperurl: 'https://doi.org/10.1002/awwa.2466'
 citation: "Kulaczkowski, A., Sanneh, J. , Cohall, M., , Ahmad Sabri, A., Wang, Y. González-Ramírez, J., Di Mauro, A. Santonastaso, G., Di Nardo, A., Keck, J., & Lee, J. (2024). &quot; Insights From 15 Years of New York City's Drinking Water Quality Complaints. &quot; <i>Journal AWWA, 117(6): 22-26</i>."
 category: 'environmental'
-type: 'pr'
+type: 'other'
 co-authors: 'Adam Kulaczkowski**, Jarai Sanneh**, Miah Cohall*, Ali Ahmad Sabri*, Yi Wang, Anna Di Mauro, Giovanni F. Santonastaso, Armando Di Nardo, Jonathan Keck, and Juneseok Lee'
 ---
 
