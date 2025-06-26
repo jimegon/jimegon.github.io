@@ -6,7 +6,7 @@ permalink: /talks/Disc-Golf-Valuation-Scholars-Circle
 venue: "NAREA's Scholar's Circle - Valuation"
 date: 2025-06-25
 location: "Virtual"
-co-authors: 'Karen Flores*, Kevin Meyer, and Kenneth Liao'
+co-authors: 'Karen Flores, Kevin Meyer, and Kenneth Liao'
 ---
 
 <!-- Google tag (gtag.js) -->
