@@ -29,10 +29,6 @@ Welcome to my website! I'm an environmental economist. My other research interes
 During Fall 2025, I'm teaching [Principles of Microeconomics](Econ203-principles-of-micro.md) and [Into to Environmental Econ](Econ332-intro-to-env-econ.md).
 
 
-| * [CV](cv.md) | * [Grants](grants.html) |* [Teaching](teaching.html) |
-| * [Publications](publications.md) | * [Presentations](talks.html) | * [Teaching Resources](resources.html) | 
-| * [Current Research](Research.md) | * [Map of Presentations](talkmap.html) | * [Environmental Econ Media/Podcasts](enre.html) |
-
 
 <img src="/images/about/Nature.jpg" alt="nature" style="width: 360px; height: 240px ;">
 <img src="/images/about/nature2.jpg" alt="nature2" style="width: 360px; height: 240px;">
@@ -88,3 +84,8 @@ During Fall 2025, I'm teaching [Principles of Microeconomics](Econ203-principles
     </div>
 </body>
 
+Website Content:
+
+| [CV](cv.md) | [Grants](grants.html) | [Teaching](teaching.html) |
+| [Publications](publications.md) | [Presentations](talks.html) | [Teaching Resources](resources.html) | 
+| [Current Research](Research.md) | [Map of Presentations](talkmap.html) | [Environmental Econ Media/Podcasts](enre.html) |
