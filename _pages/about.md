@@ -33,6 +33,11 @@ During Fall 2025, I'm teaching [Principles of Microeconomics](Econ203-principles
 <img src="/images/about/Nature.jpg" alt="nature" style="width: 360px; height: 240px ;">
 <img src="/images/about/nature2.jpg" alt="nature2" style="width: 360px; height: 240px;">
 
+Website Content:
+
+| [CV](cv.md) | [Grants](grants.html) | [Teaching](teaching.html) |
+| [Publications](publications.md) | [Presentations](talks.html) | [Teaching Resources](resources.html) | 
+| [Current Research](Research.md) | [Map of Presentations](talkmap.html) | [Environmental Econ Media/Podcasts](enre.html) |
 
 <div style="background-color: #e6f3ff; padding: 20px; padding-left:20px; border-radius: 10px; text-align: center;">
         <p>I'm from Bogotá, Colombia <br>
@@ -84,8 +89,3 @@ During Fall 2025, I'm teaching [Principles of Microeconomics](Econ203-principles
     </div>
 </body>
 
-Website Content:
-
-| [CV](cv.md) | [Grants](grants.html) | [Teaching](teaching.html) |
-| [Publications](publications.md) | [Presentations](talks.html) | [Teaching Resources](resources.html) | 
-| [Current Research](Research.md) | [Map of Presentations](talkmap.html) | [Environmental Econ Media/Podcasts](enre.html) |
