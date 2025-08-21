@@ -7,7 +7,7 @@ tags:
   - monopoly
   - imperfect competition
   - oligopoly
-category: "taxes"
+category: "monopoly"
 type: "podcast"
 publisher: "NPR Planet Money"
 paperurl: 'https://www.npr.org/sections/money/2019/02/22/697170790/antitrust-3-big-tech'
