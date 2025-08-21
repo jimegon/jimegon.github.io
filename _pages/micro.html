@@ -1,0 +1,159 @@
+---
+layout: archive
+permalink: /resources/micro/
+title: "Microeconomics Podcasts & More"
+author_profile: true
+---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
+
+{% include base_path %}
+
+This wesbite includes a list of podcast, videos, and articles by topic that I have used in my courses. 
+Click on each topic to expand or collapse the section. 
+
+<h2 style="color: darkblue;">Introduction</h2>
+
+<details close>
+  <summary>
+  Introduction
+  </summary>
+  {% for post in site.micro reversed %}
+    {% if post.category == 'introduction' %}
+      {% include archive-single-podcasts.html %}
+    {% endif %}
+  {% endfor %}
+  
+</details>
+
+
+<h2 style="color: #b8035d;"> Markets </h3>
+
+<details close>
+    <summary class="id2">
+    Demand and Supply
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'demand and supply' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}  
+</details>
+
+<h2 style="color: purple;"> Markets Distortions </h2> 
+
+<details close>
+    <summary class = "id1">
+    Taxes
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'taxes' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+   
+ </details>
+
+  
+<h2 style="color: darkblue;">Comparative Advantage and Trade</h2>
+
+  <details close>
+    <summary>
+    Opportunity Cost and Benefits of Trade
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'comparative advantage' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  
+  <details close>
+    <summary>
+    International Trade
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'international trade' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+   </details>
+
+<h2 style="color: #b8035d;"> Environmental and Natural Resource Economics</h3>
+
+  <details close>
+        <summary class="id2">
+        Externalities, Public Goods and Common Resources
+        </summary>
+        <a href="https://jimegon.github.io/resources/enre/" target="_blank" rel="noopener" style="color: darkblue;">
+         See Environmental Econ Media</a>      
+  </details>
+
+
+<h2 style="color: purple;"> Producer Theory </h2> 
+
+  <details close>
+    <summary class = "id1">
+    Monopoly
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'monopoly' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class = "id1">
+    Monopolistic Competition
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'monopolistic competition' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary>
+    Oligopoly
+    </summary class = "id1">
+    {% for post in site.micro reversed %}
+      {% if post.category == 'oligopoly' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+<h2 style="color: #b8035d;"> Equity and Justice </h2> 
+
+ <details close>
+    <summary class="id2">
+    Equity and Justice
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'equity and justice' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+
+  </details>
+
+  
+
+
+  

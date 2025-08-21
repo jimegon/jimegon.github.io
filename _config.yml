@@ -221,6 +221,9 @@ collections:
   enre:
     output: true
     permalink: /:collection/:path/
+  micro:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -247,6 +250,19 @@ defaults:
       comments: true  # Enable comments for podcast
       share: true # Enable sharing options for podcast
       related: true # Show related content at the end of each publication
+
+  # _micro
+  - scope: # Define the scope of the settings
+      path: "" # Apply these settings to the root directory (all paths)
+      type: micro # Target content of type 'micro' (a collection)
+    values: # Values to be applied to the specified scope
+      layout: single # Use the 'single' layout for podcast
+      author_profile: true # Display the author's profile on the publication page
+      read_time: false  # Show estimated reading time for podcast
+      comments: true  # Enable comments for podcast
+      share: true # Enable sharing options for podcast
+      related: true # Show related content at the end of each publication
+
   # _pages
   - scope:
       path: ""

@@ -86,7 +86,9 @@ import folium
 from folium.plugins import MarkerCluster
 
 # Create a map centered roughly at the US
-m = folium.Map(location=[39.5, -98.35], zoom_start=4)
+# Zoom determines the default zoom level of the map (=4 only shows the US)
+#m = folium.Map(location=[39.5, -98.35], zoom_start=2.5) 
+m = folium.Map(location=[39.5, -60], zoom_start=2) 
 
 # Create a marker cluster
 marker_cluster = MarkerCluster().add_to(m)
