@@ -6,7 +6,7 @@ permalink: /talks/AERE-Teaching-Panel-2025
 venue: "Association of Environmental and Resource Economists (AERE) Organized sessions at the Eastern Economic Association Conference"
 date: 2025-02-22
 location: "New York, NY"
-co-authors: ''
+co-authors: 
 ---
 
 <!-- Google tag (gtag.js) -->

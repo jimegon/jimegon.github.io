@@ -3,9 +3,9 @@ title: "Estimating the Recreational Benefits of Disc Golf in the U.S."
 collection: talks
 type: "Seminar"
 permalink: /talks/Disc-Golf-Valuation-Scholars-Circle
-venue: "NAREA's Scholar's Circle - Valuation"
+venue: "NAREA's Scholar's Circle - Valuation, Virtual"
 date: 2025-06-25
-location: "Virtual"
+location: 
 co-authors: 'Karen Flores, Kevin Meyer, and Kenneth Liao'
 ---
 

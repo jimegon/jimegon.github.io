@@ -1,45 +1,1289 @@
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    	<title>Leaflet debug page</title>
-
-    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" href="leaflet_dist/screen.css" />
-
-    	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
-    	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.Default.css" />
-    	<script src="leaflet_dist/leaflet.markercluster-src.js"></script>
-    	<script src="org-locations.js"></script>
-
-    </head>
-    <body>
-
-    	<div id="map"></div>
-    	<span>Mouse over a cluster to see the bounds of its children and click a cluster to zoom to those bounds</span>
-    	<script type="text/javascript">
-    		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-              maxZoom: 18,
-              attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
-                    }),
-    			latlng = L.latLng(30, 10);
-    		var map = L.map('map', {center: latlng, zoom: 0.7, layers: [tiles]});
-    		var markers = L.markerClusterGroup({
-    			showCoverageOnHover: false,
-    			maxClusterRadius: 80
-    			});
-    		for (var i = 0; i < addressPoints.length; i++) {
-    			var a = addressPoints[i];
-    			var title = a[0];
-    			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
-    			marker.bindPopup(title);
-    			markers.addLayer(marker);
-    		}
-    		map.addLayer(markers);
-    		map.zoomIn();
-    	</script>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html>
+<head>
     
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b72b7cf9937d1740d4bbd6a5a9d3debc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b72b7cf9937d1740d4bbd6a5a9d3debc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b72b7cf9937d1740d4bbd6a5a9d3debc = L.map(
+                "map_b72b7cf9937d1740d4bbd6a5a9d3debc",
+                {
+                    center: [39.5, -98.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67444a990ba68635789d56cf6ea4e632 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_67444a990ba68635789d56cf6ea4e632.addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+            var marker_cluster_2400b655389f44cc91eef4509e195b3f = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            marker_cluster_2400b655389f44cc91eef4509e195b3f.addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+            var marker_63450e566aa4849e26498e650151a148 = L.marker(
+                [38.6280278, -90.1910154],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_e6f11b04489e43ec7de5e0526879718c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d7f1bcc411ce7040665cf6b43fd8eb1 = $(`<div id="html_5d7f1bcc411ce7040665cf6b43fd8eb1" style="width: 100.0%; height: 100.0%;">Double-dipping in Environmental Markets under Uncoordinated Regulators or under a Regulator who Ignores Pollutants’ Complementarities<br />Missouri Valley Economic Association Conference; St Louis, MO</div>`)[0];
+                popup_e6f11b04489e43ec7de5e0526879718c.setContent(html_5d7f1bcc411ce7040665cf6b43fd8eb1);
+            
+        
+
+        marker_63450e566aa4849e26498e650151a148.bindPopup(popup_e6f11b04489e43ec7de5e0526879718c)
+        ;
+
+        
+    
+    
+            var marker_3398108386c322ed43790428af1460cc = L.marker(
+                [40.1164841, -88.2430932],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_749195f371749832b56762a3d66e1575 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d739009e232101cf81b17b63ef64c971 = $(`<div id="html_d739009e232101cf81b17b63ef64c971" style="width: 100.0%; height: 100.0%;">Double-dipping in Environmental Markets under Uncoordinated Regulators or under a Regulator who Ignores Pollutants’ Complementarities<br />Heartland Environmental and Resource Economics Workshop at Illinois; Champaign, IL</div>`)[0];
+                popup_749195f371749832b56762a3d66e1575.setContent(html_d739009e232101cf81b17b63ef64c971);
+            
+        
+
+        marker_3398108386c322ed43790428af1460cc.bindPopup(popup_749195f371749832b56762a3d66e1575)
+        ;
+
+        
+    
+    
+            var marker_0e11c7113d665420882e0f92883587de = L.marker(
+                [60.1698897, 24.9384719],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_40c0ba87f5d71ea6416d6ccad58dd650 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_696afe80346c8da72e3734c5f21ba54a = $(`<div id="html_696afe80346c8da72e3734c5f21ba54a" style="width: 100.0%; height: 100.0%;">Double-dipping in Environmental Markets under Two Second Best Scenario<br />European Association of Environmental and Resource Economists Annual Conference; Helsinki, Finland</div>`)[0];
+                popup_40c0ba87f5d71ea6416d6ccad58dd650.setContent(html_696afe80346c8da72e3734c5f21ba54a);
+            
+        
+
+        marker_0e11c7113d665420882e0f92883587de.bindPopup(popup_40c0ba87f5d71ea6416d6ccad58dd650)
+        ;
+
+        
+    
+    
+            var marker_4c781331b72d8121bfba612e2cf90d65 = L.marker(
+                [37.7792588, -122.4193286],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_340ed9e8c2c0813127b19fd3193fbc45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d4c542f56c6843e0683eebb4153cc2d = $(`<div id="html_9d4c542f56c6843e0683eebb4153cc2d" style="width: 100.0%; height: 100.0%;">Adoption and Attitudes towards Cover Crops in Iowa<br />Agricultural and Applied Economics Association Annual Meeting; San Francisco, CA</div>`)[0];
+                popup_340ed9e8c2c0813127b19fd3193fbc45.setContent(html_9d4c542f56c6843e0683eebb4153cc2d);
+            
+        
+
+        marker_4c781331b72d8121bfba612e2cf90d65.bindPopup(popup_340ed9e8c2c0813127b19fd3193fbc45)
+        ;
+
+        
+    
+    
+            var marker_dd03325f4c82280c00db03bd39b92b7d = L.marker(
+                [39.100105, -94.5781416],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_3daacf99e8a6835c480794c1b05750a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f409edd00bc451fae04ba48ebe71ca6 = $(`<div id="html_1f409edd00bc451fae04ba48ebe71ca6" style="width: 100.0%; height: 100.0%;">Adoption and Attitudes towards Cover Crops in Iowa<br />Missouri Valley Economic Association Conference; Kansas City, MO</div>`)[0];
+                popup_3daacf99e8a6835c480794c1b05750a8.setContent(html_1f409edd00bc451fae04ba48ebe71ca6);
+            
+        
+
+        marker_dd03325f4c82280c00db03bd39b92b7d.bindPopup(popup_3daacf99e8a6835c480794c1b05750a8)
+        ;
+
+        
+    
+    
+            var marker_f2a193a3c536b8498f03a8aaa64f0838 = L.marker(
+                [42.0267567, -93.6170448],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_367c4c9115ede26a07439ae288b2ce56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce1c9a9dcaae6f8751ca6ebe5735d9a1 = $(`<div id="html_ce1c9a9dcaae6f8751ca6ebe5735d9a1" style="width: 100.0%; height: 100.0%;">Cost-Share Effectiveness in Planting of Cover Crops<br />Economics Department Workshop Seminar - Iowa State University; Ames, IA</div>`)[0];
+                popup_367c4c9115ede26a07439ae288b2ce56.setContent(html_ce1c9a9dcaae6f8751ca6ebe5735d9a1);
+            
+        
+
+        marker_f2a193a3c536b8498f03a8aaa64f0838.bindPopup(popup_367c4c9115ede26a07439ae288b2ce56)
+        ;
+
+        
+    
+    
+            var marker_fa4895a8f1dd2711895e820f9fd46a92 = L.marker(
+                [42.0470043, -87.6846053],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_c82e0a91f7605ae391ca6e363d173eab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70528838aad14814c9e9bfe8bbcb8ec2 = $(`<div id="html_70528838aad14814c9e9bfe8bbcb8ec2" style="width: 100.0%; height: 100.0%;">Cost-Share Effectiveness in Planting of Cover Crops<br />Midwest Economics Association Meeting; Evanston, IL</div>`)[0];
+                popup_c82e0a91f7605ae391ca6e363d173eab.setContent(html_70528838aad14814c9e9bfe8bbcb8ec2);
+            
+        
+
+        marker_fa4895a8f1dd2711895e820f9fd46a92.bindPopup(popup_c82e0a91f7605ae391ca6e363d173eab)
+        ;
+
+        
+    
+    
+            var marker_9adcc79978bac18060474ccbf6de789b = L.marker(
+                [42.3554334, -71.060511],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_731ce51817979d7f95d234487604a72a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13364a9d4058c488d4da2f509be67c68 = $(`<div id="html_13364a9d4058c488d4da2f509be67c68" style="width: 100.0%; height: 100.0%;">Gender Specific Risk Preferences, Intra-household Bargaining, and Investment Decisions: Experimental Evidence from Rural Cameroon<br />Agricultural & Applied Economics Association Conference; Boston, MA</div>`)[0];
+                popup_731ce51817979d7f95d234487604a72a.setContent(html_13364a9d4058c488d4da2f509be67c68);
+            
+        
+
+        marker_9adcc79978bac18060474ccbf6de789b.bindPopup(popup_731ce51817979d7f95d234487604a72a)
+        ;
+
+        
+    
+    
+            var marker_c51d7e7c0722dca0eb0d00decf56d627 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_927019a00b056fdef4785397320531a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5ce2ee3c82bbe3cec460f91fed3d6b7 = $(`<div id="html_a5ce2ee3c82bbe3cec460f91fed3d6b7" style="width: 100.0%; height: 100.0%;">Gender Specific Risk Preferences, Intra-household Bargaining, and Investment Decisions: Experimental Evidence from Rural Cameroon<br />Eastern Economic Association Conference; New York, NY</div>`)[0];
+                popup_927019a00b056fdef4785397320531a1.setContent(html_a5ce2ee3c82bbe3cec460f91fed3d6b7);
+            
+        
+
+        marker_c51d7e7c0722dca0eb0d00decf56d627.bindPopup(popup_927019a00b056fdef4785397320531a1)
+        ;
+
+        
+    
+    
+            var marker_58f7ac2b8b38f67b77e4f8d849903634 = L.marker(
+                [39.1014537, -84.5124602],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_d55aed0411dfc6fa27ad94310a153404 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dec8b9bc5afaacfcb559fed55c9725c = $(`<div id="html_7dec8b9bc5afaacfcb559fed55c9725c" style="width: 100.0%; height: 100.0%;">Gender Specific Risk Preferences, Intra-household Bargaining, and Investment Decisions: Experimental Evidence from Rural Cameroon<br />Midwest Economics Association Conference; Cincinnati, OH</div>`)[0];
+                popup_d55aed0411dfc6fa27ad94310a153404.setContent(html_7dec8b9bc5afaacfcb559fed55c9725c);
+            
+        
+
+        marker_58f7ac2b8b38f67b77e4f8d849903634.bindPopup(popup_d55aed0411dfc6fa27ad94310a153404)
+        ;
+
+        
+    
+    
+            var marker_5e7b09b1c7044128d5ebf889d2f03cc0 = L.marker(
+                [39.7392364, -104.984862],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_7d736b394e3eacc670ac8698c4292393 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06e0b4fb45fd04aaab5a3563be5bab98 = $(`<div id="html_06e0b4fb45fd04aaab5a3563be5bab98" style="width: 100.0%; height: 100.0%;">Student Debt Management among U.S. College Students<br />Conference on Teaching & Research in Economic Education (CTREE); Denver, CO</div>`)[0];
+                popup_7d736b394e3eacc670ac8698c4292393.setContent(html_06e0b4fb45fd04aaab5a3563be5bab98);
+            
+        
+
+        marker_5e7b09b1c7044128d5ebf889d2f03cc0.bindPopup(popup_7d736b394e3eacc670ac8698c4292393)
+        ;
+
+        
+    
+    
+            var marker_8ec7fa3f131ef298eb1f9f41ff0f3a49 = L.marker(
+                [44.9772995, -93.2654692],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_4025f187e5b1cc493471dfef70cf0511 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b287567cf6211b634a84020d023777c = $(`<div id="html_4b287567cf6211b634a84020d023777c" style="width: 100.0%; height: 100.0%;">What Determines Financial Knowledge among College Students?<br />International Symposium on Lasallian Research; Minneapolis, MN</div>`)[0];
+                popup_4025f187e5b1cc493471dfef70cf0511.setContent(html_4b287567cf6211b634a84020d023777c);
+            
+        
+
+        marker_8ec7fa3f131ef298eb1f9f41ff0f3a49.bindPopup(popup_4025f187e5b1cc493471dfef70cf0511)
+        ;
+
+        
+    
+    
+            var marker_3d0811b0268b03cc73fe39cb48d36034 = L.marker(
+                [40.7328811, -73.4458564],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_65068e4ca7876bd77ad1ab93c52eaaea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3bfe0876184f06a30d900bb884a435c = $(`<div id="html_d3bfe0876184f06a30d900bb884a435c" style="width: 100.0%; height: 100.0%;">What Determines Financial Knowledge among College Students?<br />New York State Economic Association Annual Meeting; Farmingdale, NY</div>`)[0];
+                popup_65068e4ca7876bd77ad1ab93c52eaaea.setContent(html_d3bfe0876184f06a30d900bb884a435c);
+            
+        
+
+        marker_3d0811b0268b03cc73fe39cb48d36034.bindPopup(popup_65068e4ca7876bd77ad1ab93c52eaaea)
+        ;
+
+        
+    
+    
+            var marker_ccfe37e2a8819f0429ba7649c423ca11 = L.marker(
+                [42.3554334, -71.060511],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_3e9e83ac93550e9a43e00a9427ddadef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb7b464f6198d8e02d2f8345f19902c7 = $(`<div id="html_bb7b464f6198d8e02d2f8345f19902c7" style="width: 100.0%; height: 100.0%;">What Determines Financial Knowledge among College Students?<br />Eastern Economics Association Annual Conference; Boston, MA</div>`)[0];
+                popup_3e9e83ac93550e9a43e00a9427ddadef.setContent(html_bb7b464f6198d8e02d2f8345f19902c7);
+            
+        
+
+        marker_ccfe37e2a8819f0429ba7649c423ca11.bindPopup(popup_3e9e83ac93550e9a43e00a9427ddadef)
+        ;
+
+        
+    
+    
+            var marker_f0c2dae4c4f9a41dd5c0349d65d6ad64 = L.marker(
+                [42.0470043, -87.6846053],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_5e510c8ef126d42d65bec735f5ec9b62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd04e01aff75ba0065ab7ab4f35f15e5 = $(`<div id="html_dd04e01aff75ba0065ab7ab4f35f15e5" style="width: 100.0%; height: 100.0%;">What Determines Financial Knowledge among College Students?<br />Midwest Economics Association Annual Meeting; Evanston, IL</div>`)[0];
+                popup_5e510c8ef126d42d65bec735f5ec9b62.setContent(html_dd04e01aff75ba0065ab7ab4f35f15e5);
+            
+        
+
+        marker_f0c2dae4c4f9a41dd5c0349d65d6ad64.bindPopup(popup_5e510c8ef126d42d65bec735f5ec9b62)
+        ;
+
+        
+    
+    
+            var marker_b934f11c1b48dec92d6ece3408172fb0 = L.marker(
+                [38.8950368, -77.0365427],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_65de3906ef18cf16ec42e64256afa64a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_481befbd4c6f19fc683d8bcee630a288 = $(`<div id="html_481befbd4c6f19fc683d8bcee630a288" style="width: 100.0%; height: 100.0%;">Risk Preferences among Argentine Farmers<br />Agricultural and Applied Economics Association Annual Meeting; Washington, DC, United States</div>`)[0];
+                popup_65de3906ef18cf16ec42e64256afa64a.setContent(html_481befbd4c6f19fc683d8bcee630a288);
+            
+        
+
+        marker_b934f11c1b48dec92d6ece3408172fb0.bindPopup(popup_65de3906ef18cf16ec42e64256afa64a)
+        ;
+
+        
+    
+    
+            var marker_6c8057cecdaa177836751cc557007191 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_7a0c3b296efd88c346528e9f59584928 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e358ee8bca30386ff3ad86489b8d31d = $(`<div id="html_0e358ee8bca30386ff3ad86489b8d31d" style="width: 100.0%; height: 100.0%;">Green Behaviors and Preferences among College Students<br />Eastern Economics Association Annual Conference; New York, NY</div>`)[0];
+                popup_7a0c3b296efd88c346528e9f59584928.setContent(html_0e358ee8bca30386ff3ad86489b8d31d);
+            
+        
+
+        marker_6c8057cecdaa177836751cc557007191.bindPopup(popup_7a0c3b296efd88c346528e9f59584928)
+        ;
+
+        
+    
+    
+            var marker_6e34bb3e8dd2eed831a57ad569f5ebb8 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_d89945c7c81629c571afaf153edf9b94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68e134d992da08ea84d4ae7be62c6483 = $(`<div id="html_68e134d992da08ea84d4ae7be62c6483" style="width: 100.0%; height: 100.0%;">Understanding Climate Change on Campus: Knowledge, News Credibility, and a Green Fee<br />Eastern Economics Association Annual Conference; New York, NY</div>`)[0];
+                popup_d89945c7c81629c571afaf153edf9b94.setContent(html_68e134d992da08ea84d4ae7be62c6483);
+            
+        
+
+        marker_6e34bb3e8dd2eed831a57ad569f5ebb8.bindPopup(popup_d89945c7c81629c571afaf153edf9b94)
+        ;
+
+        
+    
+    
+            var marker_46c7ef85c0fc35b4f332a7a5a70b949b = L.marker(
+                [38.6280278, -90.1910154],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_1e6704ef13aa1860fb19b1d12f407ef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fe890d9b01ad3c6aac3f58f48fced14 = $(`<div id="html_9fe890d9b01ad3c6aac3f58f48fced14" style="width: 100.0%; height: 100.0%;">Are college students willing to pay a green fee to fund sustainability projects on campus per semester?<br />Midwest Economics Association Annual Meeting (AERE Sessions); St. Louis, MO</div>`)[0];
+                popup_1e6704ef13aa1860fb19b1d12f407ef8.setContent(html_9fe890d9b01ad3c6aac3f58f48fced14);
+            
+        
+
+        marker_46c7ef85c0fc35b4f332a7a5a70b949b.bindPopup(popup_1e6704ef13aa1860fb19b1d12f407ef8)
+        ;
+
+        
+    
+    
+            var marker_3f0814c0eb36d1a5384294c3eb87f209 = L.marker(
+                [34.8688613, -111.7614394],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_96f73199e053101a26e39c954ae585be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f6b9c3450e524bba975ea7d19ea6090 = $(`<div id="html_2f6b9c3450e524bba975ea7d19ea6090" style="width: 100.0%; height: 100.0%;">Understanding Cooperation in a Populist Landscape<br />International Conference for Social Dilemmas; Sedona, AZ</div>`)[0];
+                popup_96f73199e053101a26e39c954ae585be.setContent(html_2f6b9c3450e524bba975ea7d19ea6090);
+            
+        
+
+        marker_3f0814c0eb36d1a5384294c3eb87f209.bindPopup(popup_96f73199e053101a26e39c954ae585be)
+        ;
+
+        
+    
+    
+            var marker_b90af1bf9f2aefc7677fc498bfd62419 = L.marker(
+                [53.3493795, -6.2605593],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_5e95d0a20ce2487da2e41a6016c5d3ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd47c02ef0a666b1eb6d2dad80cd3bef = $(`<div id="html_cd47c02ef0a666b1eb6d2dad80cd3bef" style="width: 100.0%; height: 100.0%;">Understanding Cooperation in a Populist Landscape<br />International Association for Conflict Management; Dublin, Ireland</div>`)[0];
+                popup_5e95d0a20ce2487da2e41a6016c5d3ac.setContent(html_cd47c02ef0a666b1eb6d2dad80cd3bef);
+            
+        
+
+        marker_b90af1bf9f2aefc7677fc498bfd62419.bindPopup(popup_5e95d0a20ce2487da2e41a6016c5d3ac)
+        ;
+
+        
+    
+    
+            var marker_74580042ecd569edf91d6284a96598ba = L.marker(
+                [40.0373323, -75.3490769],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_c236476c5179cbf4557afcb5081c6781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cabc77e71cfa63f891b984a4eab1687 = $(`<div id="html_8cabc77e71cfa63f891b984a4eab1687" style="width: 100.0%; height: 100.0%;">Sustainability Initiatives on Campus<br />Behavioral and Experimental Economists of the Mid-Atlantic (BEEMA); Villanova, PA</div>`)[0];
+                popup_c236476c5179cbf4557afcb5081c6781.setContent(html_8cabc77e71cfa63f891b984a4eab1687);
+            
+        
+
+        marker_74580042ecd569edf91d6284a96598ba.bindPopup(popup_c236476c5179cbf4557afcb5081c6781)
+        ;
+
+        
+    
+    
+            var marker_caacd7a69adb8a2ca3310ec85c3723a0 = L.marker(
+                [40.90056, -73.90639],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_51418954ddc95920423bebab4a32a51c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be4c6fda1e1b487fb2d234e7d158982a = $(`<div id="html_be4c6fda1e1b487fb2d234e7d158982a" style="width: 100.0%; height: 100.0%;">Environmental Attitudes and Green Behaviors among College Students<br />O'Malley School of Business Seminar Series (Manhattan College); Riverdale, NY</div>`)[0];
+                popup_51418954ddc95920423bebab4a32a51c.setContent(html_be4c6fda1e1b487fb2d234e7d158982a);
+            
+        
+
+        marker_caacd7a69adb8a2ca3310ec85c3723a0.bindPopup(popup_51418954ddc95920423bebab4a32a51c)
+        ;
+
+        
+    
+    
+            var marker_e6841172660b7a6f82c296decd175296 = L.marker(
+                [47.6571934, -117.42351],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_817180ae416845d76759bdce4be1990a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51ed3d063b475e68bf06fea97ee3bea7 = $(`<div id="html_51ed3d063b475e68bf06fea97ee3bea7" style="width: 100.0%; height: 100.0%;">Green Behaviors and Preferences Among College Students<br />The Association for the Advancement of Sustainability in Higher Education Conference; Spokane, WA</div>`)[0];
+                popup_817180ae416845d76759bdce4be1990a.setContent(html_51ed3d063b475e68bf06fea97ee3bea7);
+            
+        
+
+        marker_e6841172660b7a6f82c296decd175296.bindPopup(popup_817180ae416845d76759bdce4be1990a)
+        ;
+
+        
+    
+    
+            var marker_e4272c2bcfe6c091237fc6f63d440f7f = L.marker(
+                [26.1223084, -80.1433786],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_59fd48a6500ad31f8d89b5ad9729811a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8606d754ea4d1376768114ed4e042b4 = $(`<div id="html_a8606d754ea4d1376768114ed4e042b4" style="width: 100.0%; height: 100.0%;">Understanding Climate Change on Campus: Knowledge, News Credibility, and a Green Fee<br />Southern Economic Association Annual Conference; Fort Lauderdale, FL</div>`)[0];
+                popup_59fd48a6500ad31f8d89b5ad9729811a.setContent(html_a8606d754ea4d1376768114ed4e042b4);
+            
+        
+
+        marker_e4272c2bcfe6c091237fc6f63d440f7f.bindPopup(popup_59fd48a6500ad31f8d89b5ad9729811a)
+        ;
+
+        
+    
+    
+            var marker_7c1f54aa23ac982a71562debf7e29193 = L.marker(
+                [42.3554334, -71.060511],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_f244775f8dd2ccd11ad6487b693861fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd45ce30823fab3ae9026f4ff157b74a = $(`<div id="html_bd45ce30823fab3ae9026f4ff157b74a" style="width: 100.0%; height: 100.0%;">Nudging Conservation: How Effective is Changing the Default Print Setting to Duplex?<br />Eastern Economic Association Annual Conference (AERE Sessions); Boston, MA</div>`)[0];
+                popup_f244775f8dd2ccd11ad6487b693861fc.setContent(html_bd45ce30823fab3ae9026f4ff157b74a);
+            
+        
+
+        marker_7c1f54aa23ac982a71562debf7e29193.bindPopup(popup_f244775f8dd2ccd11ad6487b693861fc)
+        ;
+
+        
+    
+    
+            var marker_d44202f7fb3ac19a05b7dc654a3ad80f = L.marker(
+                [29.9559145, -90.0730259],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_c29be7dad50ec2e18d3b956aa4419921 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e361e0169e0229651e8f38b211ad53a = $(`<div id="html_1e361e0169e0229651e8f38b211ad53a" style="width: 100.0%; height: 100.0%;">The Effectiveness of a Green Default Nudge in Achieving Resource Conservation<br />Southern Economic Association Annual Conference (Hybrid); New Orleans, LA</div>`)[0];
+                popup_c29be7dad50ec2e18d3b956aa4419921.setContent(html_1e361e0169e0229651e8f38b211ad53a);
+            
+        
+
+        marker_d44202f7fb3ac19a05b7dc654a3ad80f.bindPopup(popup_c29be7dad50ec2e18d3b956aa4419921)
+        ;
+
+        
+    
+    
+            var marker_f039abde20b39f2f8f0fb19ee0e3883e = L.marker(
+                [40.90056, -73.90639],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_44b4167b98c1826ce0870c4668700dec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4064d0d512207ce654f6a8aa375fcd1b = $(`<div id="html_4064d0d512207ce654f6a8aa375fcd1b" style="width: 100.0%; height: 100.0%;">The Recreation Demand for Disc Golf near New York City<br />O'Malley School of Business Seminar Series (Manhattan College); Riverdale, NY</div>`)[0];
+                popup_44b4167b98c1826ce0870c4668700dec.setContent(html_4064d0d512207ce654f6a8aa375fcd1b);
+            
+        
+
+        marker_f039abde20b39f2f8f0fb19ee0e3883e.bindPopup(popup_44b4167b98c1826ce0870c4668700dec)
+        ;
+
+        
+    
+    
+            var marker_571acfa02342709c723776bed7764254 = L.marker(
+                [18.4724603, -77.9217357],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_2b019515fdb90f9dba1106df8f6c1e39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0bd1c6a535cf662875babed99a7ae5f = $(`<div id="html_b0bd1c6a535cf662875babed99a7ae5f" style="width: 100.0%; height: 100.0%;">The Recreation Demand for Disc Golf near New York City<br />Eastern Economic Association Annual Conference (AERE Sessions); Montego Bay, Jamaica</div>`)[0];
+                popup_2b019515fdb90f9dba1106df8f6c1e39.setContent(html_b0bd1c6a535cf662875babed99a7ae5f);
+            
+        
+
+        marker_571acfa02342709c723776bed7764254.bindPopup(popup_2b019515fdb90f9dba1106df8f6c1e39)
+        ;
+
+        
+    
+    
+            var marker_c004c510a31ed3ca5ac644e3c1fcf079 = L.marker(
+                [25.7741728, -80.19362],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_fca762fae29eca42a464abe8152ce8d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b70f1bcbe4dabdb051d789061549638 = $(`<div id="html_7b70f1bcbe4dabdb051d789061549638" style="width: 100.0%; height: 100.0%;">The Effectiveness of a Green Default Nudge in Achieving Resource Conservation<br />Association of Environmental and Resource Economists Conference; Miami, FL</div>`)[0];
+                popup_fca762fae29eca42a464abe8152ce8d3.setContent(html_7b70f1bcbe4dabdb051d789061549638);
+            
+        
+
+        marker_c004c510a31ed3ca5ac644e3c1fcf079.bindPopup(popup_fca762fae29eca42a464abe8152ce8d3)
+        ;
+
+        
+    
+    
+            var marker_ab845008c895f2c7ab09f5b5722844c0 = L.marker(
+                [41.3542366, -71.9664041],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_d0307b37462dc04b480ff64664da518f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4750083fd5483a6a9231ade9823a62c3 = $(`<div id="html_4750083fd5483a6a9231ade9823a62c3" style="width: 100.0%; height: 100.0%;">The Demand for Disc Golf and the Value of Disc Golf Courses<br />Northeastern Agricultural and Resource Economics Association Annual Conference; Mystic, CT</div>`)[0];
+                popup_d0307b37462dc04b480ff64664da518f.setContent(html_4750083fd5483a6a9231ade9823a62c3);
+            
+        
+
+        marker_ab845008c895f2c7ab09f5b5722844c0.bindPopup(popup_d0307b37462dc04b480ff64664da518f)
+        ;
+
+        
+    
+    
+            var marker_baa62b8f8671a442583e8e5399cf2e9e = L.marker(
+                [40.7556561, -73.5876273],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_497748fee0e4544078be1813ad2980bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3db49b3ba6d6abbf857b361308ce29e = $(`<div id="html_a3db49b3ba6d6abbf857b361308ce29e" style="width: 100.0%; height: 100.0%;">Price Responsiveness and Course Substitutability among Disc Golfers<br />New York State Economic Association Conference; Westbury, NY</div>`)[0];
+                popup_497748fee0e4544078be1813ad2980bf.setContent(html_a3db49b3ba6d6abbf857b361308ce29e);
+            
+        
+
+        marker_baa62b8f8671a442583e8e5399cf2e9e.bindPopup(popup_497748fee0e4544078be1813ad2980bf)
+        ;
+
+        
+    
+    
+            var marker_9f818c434b0c9fdeb38090402a92fcc7 = L.marker(
+                [41.4729285, -71.5223479],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_045117a56c90e47c8b4dc878b1d62392 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c4575bb1c460568974f8266153c7cd1 = $(`<div id="html_4c4575bb1c460568974f8266153c7cd1" style="width: 100.0%; height: 100.0%;">The Effectiveness of a Green Default Nudge in Achieving Resource Conservation<br />Seminar Series - Department of Environmental and Natural Resource Economics, University of Rhode Island; Kingston, RI</div>`)[0];
+                popup_045117a56c90e47c8b4dc878b1d62392.setContent(html_4c4575bb1c460568974f8266153c7cd1);
+            
+        
+
+        marker_9f818c434b0c9fdeb38090402a92fcc7.bindPopup(popup_045117a56c90e47c8b4dc878b1d62392)
+        ;
+
+        
+    
+    
+            var marker_de554dc9d855c9c95663de6f79233099 = L.marker(
+                [26.1223084, -80.1433786],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_dab35079620454a800192cdc40bd56d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100aa8d5daf3c5b211977a4b23d95169 = $(`<div id="html_100aa8d5daf3c5b211977a4b23d95169" style="width: 100.0%; height: 100.0%;">Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences<br />Southern Economic Association Conference (AERE Sessions); Fort Lauderdale, FL</div>`)[0];
+                popup_dab35079620454a800192cdc40bd56d2.setContent(html_100aa8d5daf3c5b211977a4b23d95169);
+            
+        
+
+        marker_de554dc9d855c9c95663de6f79233099.bindPopup(popup_dab35079620454a800192cdc40bd56d2)
+        ;
+
+        
+    
+    
+            var marker_5992b36b34f94da20ee082dde03cd4e5 = L.marker(
+                [26.1223084, -80.1433786],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_e89448a1898781443f12a733ea013cf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b8540882c62c61b8b341424f9495bcf = $(`<div id="html_0b8540882c62c61b8b341424f9495bcf" style="width: 100.0%; height: 100.0%;">Combining Media and Team-based Learning Application Exercises to Engage Students<br />Southern Economic Association Conference; Fort Lauderdale, FL</div>`)[0];
+                popup_e89448a1898781443f12a733ea013cf2.setContent(html_0b8540882c62c61b8b341424f9495bcf);
+            
+        
+
+        marker_5992b36b34f94da20ee082dde03cd4e5.bindPopup(popup_e89448a1898781443f12a733ea013cf2)
+        ;
+
+        
+    
+    
+            var marker_587b30c395669969a5c190b418f504e8 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_9db67707bfa16af8d4184efca9fac10f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_befb300dc88f4af1a9db45684a3c0090 = $(`<div id="html_befb300dc88f4af1a9db45684a3c0090" style="width: 100.0%; height: 100.0%;">Price Responsiveness and Course Substitutability among Disc Golfers<br />Eastern Economic Association Conference (AERE Sessions); New York, NY</div>`)[0];
+                popup_9db67707bfa16af8d4184efca9fac10f.setContent(html_befb300dc88f4af1a9db45684a3c0090);
+            
+        
+
+        marker_587b30c395669969a5c190b418f504e8.bindPopup(popup_9db67707bfa16af8d4184efca9fac10f)
+        ;
+
+        
+    
+    
+            var marker_8ee1cf4ef68210be647963a5fcc0cf80 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_a355d32b7a34db9b58444348b4144ffc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b9154b05a686e673336f3f9e15e4da4 = $(`<div id="html_9b9154b05a686e673336f3f9e15e4da4" style="width: 100.0%; height: 100.0%;">Combining Media and Team-Based Learning Application Exercises to Engage Students in Environmental Economics Courses<br />Eastern Economic Association Conference (AERE Sessions); New York, NY</div>`)[0];
+                popup_a355d32b7a34db9b58444348b4144ffc.setContent(html_9b9154b05a686e673336f3f9e15e4da4);
+            
+        
+
+        marker_8ee1cf4ef68210be647963a5fcc0cf80.bindPopup(popup_a355d32b7a34db9b58444348b4144ffc)
+        ;
+
+        
+    
+    
+            var marker_580d422e35314550f744f4347bb6993b = L.marker(
+                [41.4996574, -81.6936772],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_786f97f31e20f9bab0f6fb99c367b0a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_996664584916628f72a64ff7ba8f7cbb = $(`<div id="html_996664584916628f72a64ff7ba8f7cbb" style="width: 100.0%; height: 100.0%;">The Demand for Disc Golf<br />Midwest Economics Association Annual Conference (AERE Sessions); Cleveland, OH</div>`)[0];
+                popup_786f97f31e20f9bab0f6fb99c367b0a6.setContent(html_996664584916628f72a64ff7ba8f7cbb);
+            
+        
+
+        marker_580d422e35314550f744f4347bb6993b.bindPopup(popup_786f97f31e20f9bab0f6fb99c367b0a6)
+        ;
+
+        
+    
+    
+            var marker_83877f0081b7aa426b7fddf12548020b = L.marker(
+                [40.7887113, -73.5995717],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_f5a642b0465b3e7ba198cb4cf2353cd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17cda411634f5aaff0ba10c707dde3f3 = $(`<div id="html_17cda411634f5aaff0ba10c707dde3f3" style="width: 100.0%; height: 100.0%;">Estimating Disc Golf Demand: A Travel Cost Perspective<br />New York State Economic Association Conference; Old Westbury, NY</div>`)[0];
+                popup_f5a642b0465b3e7ba198cb4cf2353cd0.setContent(html_17cda411634f5aaff0ba10c707dde3f3);
+            
+        
+
+        marker_83877f0081b7aa426b7fddf12548020b.bindPopup(popup_f5a642b0465b3e7ba198cb4cf2353cd0)
+        ;
+
+        
+    
+    
+            var marker_ffcee608dd67b9f1db3721e75b30971f = L.marker(
+                [38.8950368, -77.0365427],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_80b4f95839faf3ecb0f0b5dfba658bab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_818d8dce2966e4485a168f1deb4849a2 = $(`<div id="html_818d8dce2966e4485a168f1deb4849a2" style="width: 100.0%; height: 100.0%;">Systemic racism and environmental economic analysis<br />Association of Environmental and Natural Resource Economists Conference; Washington, DC</div>`)[0];
+                popup_80b4f95839faf3ecb0f0b5dfba658bab.setContent(html_818d8dce2966e4485a168f1deb4849a2);
+            
+        
+
+        marker_ffcee608dd67b9f1db3721e75b30971f.bindPopup(popup_80b4f95839faf3ecb0f0b5dfba658bab)
+        ;
+
+        
+    
+    
+            var marker_43d7ecab81d503aaefee58edcf428690 = L.marker(
+                [38.8950368, -77.0365427],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_d01a407caf5ebac816e3f414d2fe3f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94d9f50de1c6a35be21a9f478d6c2e3f = $(`<div id="html_94d9f50de1c6a35be21a9f478d6c2e3f" style="width: 100.0%; height: 100.0%;">From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics<br />Association of Environmental and Natural Resource Economists Conference; Washington, DC</div>`)[0];
+                popup_d01a407caf5ebac816e3f414d2fe3f59.setContent(html_94d9f50de1c6a35be21a9f478d6c2e3f);
+            
+        
+
+        marker_43d7ecab81d503aaefee58edcf428690.bindPopup(popup_d01a407caf5ebac816e3f414d2fe3f59)
+        ;
+
+        
+    
+    
+            var marker_e2b63a59a0928fe9d54acc888f340c53 = L.marker(
+                [38.7164771, -75.0835107],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_d8185a43cce145b28c3b4f04beb94817 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c8bcb929497244653286eeb509abf09 = $(`<div id="html_6c8bcb929497244653286eeb509abf09" style="width: 100.0%; height: 100.0%;">Estimating the Value of a Disc Golf Course with Revealed and Stated Preferences<br />Northeastern Agricultural and Resource Economics Association Conference; Rehoboth Beach, DE</div>`)[0];
+                popup_d8185a43cce145b28c3b4f04beb94817.setContent(html_6c8bcb929497244653286eeb509abf09);
+            
+        
+
+        marker_e2b63a59a0928fe9d54acc888f340c53.bindPopup(popup_d8185a43cce145b28c3b4f04beb94817)
+        ;
+
+        
+    
+    
+            var marker_1239e7d0dc3f1edc62c6a7a63ae553ec = L.marker(
+                [38.7164771, -75.0835107],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_500dea4163d2cf430eb5de606eacdcdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c17a8be936ec80b3bd6a7badbf6b0e52 = $(`<div id="html_c17a8be936ec80b3bd6a7badbf6b0e52" style="width: 100.0%; height: 100.0%;">From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics<br />Northeastern Agricultural and Resource Economics Association Conference; Rehoboth Beach, DE</div>`)[0];
+                popup_500dea4163d2cf430eb5de606eacdcdd.setContent(html_c17a8be936ec80b3bd6a7badbf6b0e52);
+            
+        
+
+        marker_1239e7d0dc3f1edc62c6a7a63ae553ec.bindPopup(popup_500dea4163d2cf430eb5de606eacdcdd)
+        ;
+
+        
+    
+    
+            var marker_4894fd7908ecfc264c8faf6a800364fb = L.marker(
+                [29.9559145, -90.0730259],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_64b3e289dff8f22402fa20d72002a465 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f972889245695d576d728264c0554cff = $(`<div id="html_f972889245695d576d728264c0554cff" style="width: 100.0%; height: 100.0%;">From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics<br />8th Annual Meeting of the Philosophy, Politics, and Economics Society; New Orleans, LA</div>`)[0];
+                popup_64b3e289dff8f22402fa20d72002a465.setContent(html_f972889245695d576d728264c0554cff);
+            
+        
+
+        marker_4894fd7908ecfc264c8faf6a800364fb.bindPopup(popup_64b3e289dff8f22402fa20d72002a465)
+        ;
+
+        
+    
+    
+            var marker_68376811ca25a424e2de6fbc6feb011d = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_bea082f87ae7e733fa4ab3ad4b035b4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa62e0e2f813f1aa3b77ad542e1aed14 = $(`<div id="html_aa62e0e2f813f1aa3b77ad542e1aed14" style="width: 100.0%; height: 100.0%;">AERE Panel: Advancing Pedagogy in Environmental and Natural Resource Economics<br />Association of Environmental and Resource Economists (AERE) Organized sessions at the Eastern Economic Association Conference; New York, NY</div>`)[0];
+                popup_bea082f87ae7e733fa4ab3ad4b035b4a.setContent(html_aa62e0e2f813f1aa3b77ad542e1aed14);
+            
+        
+
+        marker_68376811ca25a424e2de6fbc6feb011d.bindPopup(popup_bea082f87ae7e733fa4ab3ad4b035b4a)
+        ;
+
+        
+    
+    
+            var marker_2ed72795adb48fcbb595ba2cf4f8cc8c = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_96b4684823ce33ba04c1332b637cb661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b1c4404f9019f096180e0db42b77d3b = $(`<div id="html_5b1c4404f9019f096180e0db42b77d3b" style="width: 100.0%; height: 100.0%;">NYC Water Quality Complaints: A Continuous Variable DiD and CF Analysis from 2010 to 2024<br />Eastern Economic Association Conference; New York, NY</div>`)[0];
+                popup_96b4684823ce33ba04c1332b637cb661.setContent(html_5b1c4404f9019f096180e0db42b77d3b);
+            
+        
+
+        marker_2ed72795adb48fcbb595ba2cf4f8cc8c.bindPopup(popup_96b4684823ce33ba04c1332b637cb661)
+        ;
+
+        
+    
+    
+            var marker_3aad70bd92aa31ebc75e1c52fae6ac2f = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_4894118e6f35f8d94f3e4a715cfda16d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca5862c195481fab68ade2f0c72712db = $(`<div id="html_ca5862c195481fab68ade2f0c72712db" style="width: 100.0%; height: 100.0%;">Estimating the Value of a Disc Golf Course near New York City with Revealed and Stated Preferences<br />Association of Environmental and Resource Economists (AERE) Organized sessions at the Eastern Economic Association Conference; New York, NY</div>`)[0];
+                popup_4894118e6f35f8d94f3e4a715cfda16d.setContent(html_ca5862c195481fab68ade2f0c72712db);
+            
+        
+
+        marker_3aad70bd92aa31ebc75e1c52fae6ac2f.bindPopup(popup_4894118e6f35f8d94f3e4a715cfda16d)
+        ;
+
+        
+    
+    
+            var marker_0606be68d7281ef6c11d90db3fe9591a = L.marker(
+                [61.2163129, -149.894852],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_5991ffeddf8708af4764413109cb7516 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9f4437bea6f6b12e372ca4b4520d3bb = $(`<div id="html_b9f4437bea6f6b12e372ca4b4520d3bb" style="width: 100.0%; height: 100.0%;">NYC Water Quality Complaints: A Continuous Variable DiD and CF Analysis from 2010 to 2024<br />World Environmental & Water Resources Congress; Anchorage, AK</div>`)[0];
+                popup_5991ffeddf8708af4764413109cb7516.setContent(html_b9f4437bea6f6b12e372ca4b4520d3bb);
+            
+        
+
+        marker_0606be68d7281ef6c11d90db3fe9591a.bindPopup(popup_5991ffeddf8708af4764413109cb7516)
+        ;
+
+        
+    
+    
+            var marker_433ac4e764066323ea114900695bd5c9 = L.marker(
+                [44.4761601, -73.212906],
+                {
+}
+            ).addTo(map_b72b7cf9937d1740d4bbd6a5a9d3debc);
+        
+    
+        var popup_c47b9f7929ae10029f4a325edb4f638c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d18606eeb608e89858ce12ab582a62f = $(`<div id="html_8d18606eeb608e89858ce12ab582a62f" style="width: 100.0%; height: 100.0%;">NYC Water Quality Complaints: An Analysis from 2010 to 2024<br />Northeastern Agricultural and Resource Economics Association Conference; Burlington, VT</div>`)[0];
+                popup_c47b9f7929ae10029f4a325edb4f638c.setContent(html_8d18606eeb608e89858ce12ab582a62f);
+            
+        
+
+        marker_433ac4e764066323ea114900695bd5c9.bindPopup(popup_c47b9f7929ae10029f4a325edb4f638c)
+        ;
+
+        
+    
+</script>
+</html>

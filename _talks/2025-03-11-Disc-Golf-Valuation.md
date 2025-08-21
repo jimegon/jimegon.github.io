@@ -3,9 +3,9 @@ title: "Estimating the Value of a Disc Golf Course near New York City with Revea
 collection: talks
 type: "Seminar"
 permalink: /talks/Disc-Golf-Valuation-ASHE-Seminar
-venue: "American Society of Hispanic Economists (ASHE) Seminar"
+venue: "American Society of Hispanic Economists (ASHE) Seminar, Virtual"
 date: 2025-03-11
-location: "Virtual"
+location: 
 co-authors: 'Kevin Meyer and Kenneth Liao'
 ---
 
