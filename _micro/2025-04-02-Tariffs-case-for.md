@@ -10,7 +10,7 @@ category: "international trade"
 type: "podcast"
 publisher: "NPR Planet Money - The Indicator"
 paperurl: 'https://www.npr.org/2025/04/02/1242229719/planet-money-the-case-for-tariffs'
-duration: "3:24"
+duration: "23:28"
 ---
 
 <!-- Google tag (gtag.js) -->

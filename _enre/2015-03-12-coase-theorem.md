@@ -10,7 +10,7 @@ category: "coase theorem"
 type: "video"
 publisher: "Marginal Revolution University"
 paperurl: 'https://www.youtube.com/watch?v=00HPak2RLlQ'
-duration: "15:07"
+duration: "8:15"
 ---
 
 <!-- Google tag (gtag.js) -->
