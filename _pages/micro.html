@@ -52,6 +52,18 @@ Click on each topic to expand or collapse the section.
 
 <details close>
     <summary class = "id1">
+    Price Controls
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'price controls' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+   
+ </details>
+
+<details close>
+    <summary class = "id1">
     Taxes
     </summary>
     {% for post in site.micro reversed %}
@@ -78,7 +90,7 @@ Click on each topic to expand or collapse the section.
   </details>
 
   
-  <details close>
+<details close>
     <summary>
     International Trade
     </summary>
@@ -128,9 +140,9 @@ Click on each topic to expand or collapse the section.
   </details>
 
   <details close>
-    <summary>
+    <summary class = "id1">
     Oligopoly
-    </summary class = "id1">
+    </summary>
     {% for post in site.micro reversed %}
       {% if post.category == 'oligopoly' %}
         {% include archive-single-podcasts.html %}
@@ -138,6 +150,8 @@ Click on each topic to expand or collapse the section.
     {% endfor %}
     
   </details>
+
+
 
 <h2 style="color: #b8035d;"> Equity and Justice </h2> 
 
