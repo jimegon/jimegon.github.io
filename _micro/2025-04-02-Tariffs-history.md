@@ -1,7 +1,7 @@
 ---
 title: "The Indicator From Planet Money' explains why tariffs are back"
 date: 2025-04-02
-permalink: /resources/micro/tariffs-good-side
+permalink: /resources/micro/tariffs-history
 tags:
   - tariffs
   - trade
@@ -9,8 +9,8 @@ tags:
 category: "international trade"
 type: "podcast"
 publisher: "NPR Planet Money"
-paperurl: 'https://www.npr.org/2025/04/02/1242229719/planet-money-the-case-for-tariffs'
-duration: "24:40"
+paperurl: 'https://www.npr.org/2025/04/02/nx-s1-4985905-e1/the-indicator-from-planet-money-explains-why-tariffs-are-back'
+duration: "3:24"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -29,14 +29,8 @@ duration: "24:40"
 **<span class="bold-podcast">Duration: </span>&nbsp;<span class="text-podcast"> {{ page.duration }}</span>**
 
 **<span class="bold-podcast">Summary from website:</span>**
-What are tariffs good for?
+A brief history of U.S. tariffs: How they came into fashion, fell out of fashion, are now back again and why economists aren't too happy about it.
 
-For years, mainstream economists have basically said: tariffs are not good. They are an import tax paid by consumers, they've said, and they discourage free trade, and we want more! Because free trade has broadly led to more global economic growth.
-
-But global trade hasn't been all positive for Americans, and in the worldview of President Trump's administration, tariffs can be used to right some of those wrongs. And the U.S. has economic leverage. So if the U.S. wants to level the playing field, it should use that leverage, and use tariffs to accomplish its policy goals.
-
-<iframe src="https://www.npr.org/player/embed/1242229719/1268838261" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
-
-
+<iframe src="https://www.npr.org/player/embed/nx-s1-4985905-e1/nx-s1-5411593-1" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 
 **<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
