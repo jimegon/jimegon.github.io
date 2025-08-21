@@ -1,7 +1,7 @@
 ---
 title: "The Indicator From Planet Money' explains why tariffs are back"
 date: 2025-04-02
-permalink: /resources/micro/tariffs-history
+permalink: /resources/micro/tariffs-are-back
 tags:
   - tariffs
   - trade

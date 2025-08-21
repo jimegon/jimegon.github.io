@@ -1,7 +1,7 @@
 ---
 title: "Tariffs: What are they good for?"
 date: 2025-04-02
-permalink: /resources/micro/tariffs-good
+permalink: /resources/micro/tariffs-case-for
 tags:
   - tariffs
   - trade
