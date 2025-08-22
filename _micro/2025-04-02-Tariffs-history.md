@@ -8,7 +8,7 @@ tags:
   - international trade
 category: "international trade"
 type: "podcast"
-publisher: "NPR Planet Money"
+publisher: "NPR Planet Money - The Indicator"
 paperurl: 'https://www.npr.org/2025/04/02/nx-s1-4985905-e1/the-indicator-from-planet-money-explains-why-tariffs-are-back'
 duration: "3:24"
 ---
