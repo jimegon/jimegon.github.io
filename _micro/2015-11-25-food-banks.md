@@ -1,7 +1,7 @@
 ---
 title: "Episode 665: The Pickle Problem"
 date: 2015-11-25
-permalink: /resources/micro/make-me-a-match
+permalink: /resources/micro/food-banks
 tags:
   - markets
   - demand
