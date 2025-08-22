@@ -9,7 +9,7 @@ tags:
   - imperfect competition
 category: "oligopoly"
 type: "podcast"
-publisher: "NPR Planet Money"
+publisher: "NPR Planet Money The Indicator"
 paperurl: 'https://www.npr.org/sections/money/2019/04/10/711779666/the-maple-syrup-cartel'
 duration: "9:50"
 ---
