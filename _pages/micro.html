@@ -117,6 +117,18 @@ Click on each topic to expand or collapse the section.
 
   <details close>
     <summary class = "id1">
+    Production Decisions and Competition
+    </summary>
+    {% for post in site.micro reversed %}
+      {% if post.category == 'competition' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
+
+  <details close>
+    <summary class = "id1">
     Monopoly
     </summary>
     {% for post in site.micro reversed %}
