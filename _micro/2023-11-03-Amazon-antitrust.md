@@ -9,7 +9,7 @@ tags:
   - advertising
 category: "monopoly"
 type: "podcast"
-publisher: "NPR Planet Money The Indicator"
+publisher: "NPR Planet Money"
 paperurl: 'https://www.npr.org/2023/11/03/1197954506/lina-khan-interview-amazon-ftc-antitrust-paradox-monopoly'
 duration: "30:06"
 ---
