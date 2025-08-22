@@ -1,7 +1,7 @@
 ---
 title: "What happened to U.S. farmers during the last trade war"
 date: 2025-05-14
-permalink: /resources/micro/tariffs-are-back
+permalink: /resources/micro/farmers-trade-war
 tags:
   - tariffs
   - trade
