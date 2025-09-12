@@ -1,6 +1,6 @@
 ---
 title: "Are My Retirement Savings Invested in Fossil Fuels?? Help!"
-date: 2021-08-12
+date: 2022-07-14
 permalink: /resources/enre/retirement-savings
 tags:
   - ESG
@@ -8,7 +8,7 @@ category: "ESG"
 type: "podcast"
 publisher: "How to Save a Planey - Gimlet Media"
 paperurl: 'https://open.spotify.com/episode/43tnIL4wxnRLya124xhFck?si=74f1108417544763'
-duration: "48:25"
+duration: "48:51"
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -32,6 +32,5 @@ Guests: Andrea Egan, Leslie Samuelrich, Boris Khentov
 
 <iframe scrolling="no" frameborder="0" width="100%" height="152" allowtransparency="true" allow="encrypted-media" src="https://open.spotify.com/embed/episode/43tnIL4wxnRLya124xhFck?utm_source=generator"></iframe>
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/43tnIL4wxnRLya124xhFck?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 **<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
