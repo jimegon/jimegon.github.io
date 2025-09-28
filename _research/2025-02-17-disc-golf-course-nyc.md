@@ -28,7 +28,7 @@ co-authors: 'Kevin Meyer and Kenny Liao'
 </div>
 -->
 
-<i> Under Review</i>
+<i> R&R at the Journal of Agricultural and Resource Economics</i>
 
 <body>
 <div class="image-container">
