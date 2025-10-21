@@ -15,7 +15,7 @@ category: "subsidies"
 type: "podcast"
 publisher: "NPR The Indicator from Planet Money"
 paperurl: 'https://www.npr.org/2021/07/22/1019488080/saving-birds-with-economics'
-duration: "10:00"
+duration: "9:54"
 ---
 
 <!-- Google tag (gtag.js) -->
