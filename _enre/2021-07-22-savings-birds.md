@@ -1,7 +1,7 @@
 ---
 title: 'Saving Birds With Economics'
 date: 2021-07-22
-permalink: /resources/enre/das-green-old-deal
+permalink: /resources/enre/saving-birds-with-econ
 tags:
   - subsidies
   - climate change
