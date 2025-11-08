@@ -1,12 +1,12 @@
 ---
-title: "The Effect of Seasonal Parking Fees on Disc Golfing"
+title: "Paying to Play: How Seasonal Fees Affect Disc Golf Course Choice"
 collection: research
-permalink: /research/2023-11-30-disc-golf-fdr-leonard
+permalink: /research/disc-golf-fdr-leonard
 excerpt: ''
-date: 2024-11-30
+date: 2025-11-07
 venue: 'SSRN Working Paper'
 paperurl: 'https://dx.doi.org/10.2139/ssrn.4636565'
-citation: 'González-Ramírez, Jimena, Liao, Kenneth, Meyer, Kevin, & Adamas, Victoria (2023). &quot;An The Effect of Seasonal Parking Fees on Disc Golfing.&quot; <i>SSRN Working Paper</i>.'
+citation: 'Liao, Kenneth, González-Ramírez, Jimena, Meyer, Kevin, & Adamas, Victoria (2023). &quot;An Paying to Play: How Seasonal Fees Affect Disc Golf Course Choice.&quot; <i>SSRN Working Paper</i>.'
 category: 'environmental'
 type: "working paper"
 co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'
@@ -22,7 +22,7 @@ co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<i> R&R at Journal of Sports Economics</i>
+<i> Resubmitted at Journal of Sports Economics</i>
 
 <body>
 <div class="image-container">
@@ -49,7 +49,7 @@ Abstract
 </summary>
 
 <p>
-This study investigates the impact of price changes on the behavior of disc golf players using a natural experiment involving two nearby courses. One of these courses enforces a seasonal parking fee, while the other remains free all year. By integrating data from a popular disc golf scorekeeping app, state park fee schedules, and weather conditions, we assess the fee's effect on the visitation dynamics between the two courses. Our results indicate that introducing a parking fee can lead to a drop of up to 30 percent in daily visits to the course with the fee, compared to times when both courses are free. However, considering the potential substitution to the free course, the daily share of visits to the fee-charging course diminishes by about 6 percent, and the average monthly visits per player decrease by around 7 percent. This research sheds light on how pricing affects participation in recreational activities, offering insights that can inform decisions related to course management, pricing strategies, and the promotion of disc golf.
+This paper measures how a seasonal vehicle entry fee affects disc golf course choice in Westchester County, New York. We use ten years of user-level data from the UDisc app, covering 30,531 visits by 758 players from 2015 to 2024, in a setting with two nearby and broadly comparable courses. One course is located within a state park that charges a predictable $10 per-vehicle fee on a seasonal calendar, while the other course is free year-round. We estimate a within-user probit model of course choice, controlling for weather differences and a linear time index, with fixed effects for user, day of week, holiday, and year. When the fee is in effect, the probability of choosing the fee course falls by about 1.5 percentage points, a result that is robust to logit and linear probability models.
 </p>
 
 </details>
