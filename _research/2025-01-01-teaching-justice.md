@@ -4,7 +4,7 @@ collection: research
 permalink: /research/teaching-justice
 excerpt: ''
 date: 2025-01-02
-venue: ''
+venue: 'Working Paper'
 paperurl: ''
 citation: ''
 category: 'pedagogy'
