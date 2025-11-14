@@ -8,7 +8,7 @@ venue: 'Working Paper'
 paperurl: ''
 citation: 'Ahmad Sabri, Ali, González-Ramírez, Jimena, & Lee, Juneseok (2024). &quot; Can STEM Designation Increase Diversity in Economics?.&quot; <i> Working Paper</i>.'
 category: 'pedagogy'
-type: "work in progress"
+type: "working paper"
 co-authors: 'José Fernández'
 ---
 

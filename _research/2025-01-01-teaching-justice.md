@@ -8,7 +8,7 @@ venue: ''
 paperurl: ''
 citation: ''
 category: 'pedagogy'
-type: 'work in progress'
+type: 'working paper'
 co-authors: 'Sarah Jacobson, Jill Caviglia-Harris, Fidel Gonzalez, Sumeet Gulati, Danae Hernandez-Cortes, and Diya Mazumder'
 ---
 
