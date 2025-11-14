@@ -22,11 +22,11 @@ co-authors: 'Kevin Meyer and Kenny Liao'
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<!--
+
 <div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
-<a href="http://jimegon.github.io/files/Gonzalez-Ramírez_Value_of_Disc_Golf_Course.pdf" target="_blank">Download the paper</a> 
+<a href="http://jimegon.github.io/files/Gonzalez-Ramírez_Value_of_Disc_Golf_Course.pdf" target="_blank">Download most recent version of here</a> 
 </div>
--->
+
 
 <i> R&R at the Journal of Agricultural and Resource Economics</i>
 
