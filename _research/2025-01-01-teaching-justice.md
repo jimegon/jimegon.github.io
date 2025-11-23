@@ -22,6 +22,13 @@ co-authors: 'Sarah Jacobson, Jill Caviglia-Harris, Fidel Gonzalez, Sumeet Gulati
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
+
+
+<div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
+<a href="https://just-enviro-econ.github.io/" target="_blank">Just Environmental Econ Website</a> 
+</div>
+
+
 <body>
 <div class="image-container">
         <figure>
