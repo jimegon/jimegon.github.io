@@ -71,10 +71,10 @@ for file in g:
 
 # From ChatGPT: Instead of storing just the geocoded location object, 
 # store both the description and coordinates.
-geo = geocoder.geocode(location, timeout=TIMEOUT)
-if geo:
-    location_dict[description] = (geo.latitude, geo.longitude)
-    print(description, geo.latitude, geo.longitude)
+#geo = geocoder.geocode(location, timeout=TIMEOUT)
+#if geo:
+#    location_dict[description] = (geo.latitude, geo.longitude)
+#    print(description, geo.latitude, geo.longitude)
 
 # Save the map
 #m = getorg.orgmap.create_map_obj()
@@ -95,6 +95,7 @@ marker_cluster = MarkerCluster().add_to(m)
 
 for description, geo in location_dict.items():
     if geo:  # Only add if geocoding worked
+        
         folium.Marker(
             location=[geo.latitude, geo.longitude],
             popup=description,
