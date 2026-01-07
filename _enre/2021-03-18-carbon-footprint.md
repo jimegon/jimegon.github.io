@@ -6,7 +6,7 @@ tags:
   - climate change
 category: "climate change"
 type: "podcast"
-publisher: "How to Save a Planey - Gimlet Media"
+publisher: "How to Save a Planet - Gimlet Media"
 paperurl: 'https://gimletmedia.com/shows/howtosaveaplanet/xjh53gn'
 duration: "43:17"
 ---
