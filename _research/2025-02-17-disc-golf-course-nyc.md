@@ -30,8 +30,6 @@ co-authors: 'Kevin Meyer and Kenny Liao'
 </div>
 
 
-
-
 <body>
 <div class="image-container">
         <figure>
