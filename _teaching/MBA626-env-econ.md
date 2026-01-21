@@ -32,9 +32,9 @@ cat: "grad"
 
 This course is part of an economics and finance concentration available to MBA students. 
 
-<h1 style="color: darkblue;">Course Videos </h1>
+<h1 style="color: purple;">Course Videos </h1>
 
-<h2 style="color: darkblue;">Course Videos </h2>
+<h2 style="color: darkblue;">Intro </h2>
 
 <details>
   <summary>Intro Video</summary>
@@ -49,5 +49,32 @@ This course is part of an economics and finance concentration available to MBA s
   </div>
 </details>
 
-<h2 style="color: darkblue;">Week 1: </h2>
+<details>
+  <summary>Review of Market Theory and Welfare Analysis</summary>
+
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/WzUDbhrBKpg"
+      title="Review of Market Theory and Welfare Analysis"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
+
+<h2 style="color: darkblue;">Week 1: Market Failure: Externalities, Common-Pool Resources, and Public Goods</h2>
+
+<details>
+  <summary> Problem 1</summary>
+
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/3QE7t1-vx-Y"
+      title="Problem 1"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
