@@ -8,6 +8,7 @@
 
 #RUN THE FOLLOWING COMMAND TO START THE SERVER:
 # bundle exec jekyll serve -l -H localhost
+# bundle exec jekyll serve --incremental -l -H localhost
 # AND USE CTRL-C TO EXIT
 
 # Basic Site Settings
