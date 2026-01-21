@@ -26,7 +26,7 @@ redirect_from:
 
 Welcome to my website! I'm an environmental economist. My other research interests include behavioral economics and pedagogy.
 
-During Fall 2025, I'm teaching [Principles of Microeconomics](/teaching/principles-of-microeconomics.html) and [Into to Environmental Econ](/teaching/intro-to-environmental-econ.html).
+During Spring 2026, I'm teaching [Principles of Microeconomics](/teaching/principles-of-microeconomics.html), [Applied Environmental Economics](/teaching/applied-environmental-econ.html), and [MBA - Environmental Economics and Policy](/teaching/environmental-economics-and-policy-mba.html).
 
 
 
