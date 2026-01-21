@@ -2,7 +2,7 @@
 title: "Econ 204 Principles of Macroeconomics"
 collection: teaching
 type: "Undergraduate introductory core course"
-permalink: /teaching/principles-of-microeconomics
+permalink: /teaching/principles-of-macroeconomics
 venue: "Manhattan University"
 years: 2016-2017
 location: "Riverdale, New York"
