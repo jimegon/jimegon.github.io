@@ -32,3 +32,14 @@ cat: "grad"
 
 This course is part of an economics and finance concentration available to MBA students. 
 
+<h2 style="color: darkblue;">Intro to Course </h2>
+
+<details open>
+<summary>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dVQq7FbzzyE?si=DghaTjsZvSTjF1Lb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</summary>
+
+</details>
+
+<h2 style="color: darkblue;">Week 1: </h2>
+
