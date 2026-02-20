@@ -5,7 +5,7 @@ permalink: /resources/enre/history-of-environmmental-econ-with-spencer-banzhaf
 tags:
   - history
   - environmental economics
-category: "general"
+category: "history"
 type: "podcast"
 publisher: "RFF Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/the-history-of-environmental-economics-with-spencer-banzhaf/'

@@ -278,3 +278,15 @@ Click on each topic to expand or collapse the section.
     {% endfor %}
     
   </details>
+
+    <details close>
+    <summary>
+    History
+    </summary>
+    {% for post in site.enre reversed %}
+      {% if post.category == 'history' %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+    
+  </details>
