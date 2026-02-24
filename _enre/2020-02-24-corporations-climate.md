@@ -32,6 +32,6 @@ duration: "27:33"
 **<span class="bold-podcast">Summary from website:</span>**
 One letter to executives around the world has prioritized climate change on corporate agendas. But will this make a difference without government regulation?
 
-<iframe src="https://open.spotify.com/embed/episode/7i5rpldof0mG9v7VTFoTKm?utm_source=generator" width="100%" height="290" frameborder="0" scrolling="no" title="Can Corporations Stop Climate Change"></iframe>
+Go to the website. If you are an MU student, look at the syllabus and sign up for the NYT subscription. 
 
 **<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
