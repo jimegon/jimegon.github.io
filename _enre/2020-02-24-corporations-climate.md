@@ -32,6 +32,6 @@ duration: "27:33"
 **<span class="bold-podcast">Summary from website:</span>**
 One letter to executives around the world has prioritized climate change on corporate agendas. But will this make a difference without government regulation?
 
-This podcast is for NYT subscribers. If you are an MU student, look at the syllabus and sign up for the NYT subscription with your MU email (it is free). Log into the NYT on your browser. Then open the link below and listen to the podcast. 
+This podcast is for NYT subscribers. If you are an MU student, sign up using this link (https://www.nytimes.com/activate-access/edu-access/manhattan-college-bronx-ny) - it is free. Log into the NYT on your browser. Then open the link below and listen to the podcast. 
 
 **<span class="small-podcast">Link:</span>&nbsp;<span class="links-podcast">[{{ page.paperurl }}]({{ page.paperurl }})</span>**
