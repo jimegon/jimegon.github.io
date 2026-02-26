@@ -26,7 +26,7 @@ co-authors: 'José Fernández'
 <body>
 <div class="image-container">
         <figure>
-            <img src="/images/co-authors/jose_fernandez.png.png" alt="Image 1" width="100" height="auto">
+            <img src="/images/co-authors/jose_fernandez.png" alt="Image 1" width="100" height="auto">
             <figcaption><a href="https://louisville.edu/faculty/jmfern02" target="_blank">José Fernández</a></figcaption>
         </figure>
         <!-- Add more images as needed -->
