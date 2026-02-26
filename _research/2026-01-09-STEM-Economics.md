@@ -23,8 +23,6 @@ co-authors: 'José Fernández'
 </script>
 
 
-<i> Under review </i>
-
 <body>
 <div class="image-container">
         <figure>
