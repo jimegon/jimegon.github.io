@@ -27,12 +27,12 @@ co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'
 <body>
 <div class="image-container">
         <figure>
-            <img src="/images/co-authors/kevin_meyer.png" alt="Image 1" width="100" height="auto">
-            <figcaption><a href="https://www.kmmeyer.com/" target="_blank">Kevin Meyer</a></figcaption>
-        </figure>
-        <figure>
             <img src="/images/co-authors/kenny_liao.png" alt="Image 2" width="100" height="auto">
             <figcaption><a href="https://kenneth-liao.com/" target="_blank">Kenny Liao</a></figcaption>
+        </figure>
+        <figure>
+            <img src="/images/co-authors/kevin_meyer.png" alt="Image 1" width="100" height="auto">
+            <figcaption><a href="https://www.kmmeyer.com/" target="_blank">Kevin Meyer</a></figcaption>
         </figure>
         <figure>
             <img src="/images/co-authors/victoria_adams.png" alt="Image 2" width="100" height="auto">
