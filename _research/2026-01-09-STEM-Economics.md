@@ -22,7 +22,7 @@ co-authors: 'José Fernández'
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<i> Under Review </i>
+<i> R&R at the Journal of Economic Education</i>
 
 <body>
 <div class="image-container">
