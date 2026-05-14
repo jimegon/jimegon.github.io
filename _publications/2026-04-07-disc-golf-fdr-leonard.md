@@ -5,8 +5,8 @@ permalink: /publications/disc-golf-fdr-leonard
 excerpt: ''
 date: 2025-04-07
 venue: 'Journal of Sports Economics'
-paperurl: 'https://dx.doi.org/10.2139/ssrn.4636565'
-citation: 'Liao, Kenneth, González-Ramírez, Jimena, Meyer, Kevin, & Adamas, Victoria (2023). &quot;An Paying to Play: How Seasonal Fees Affect Disc Golf Course Choice.&quot; <i>SSRN Working Paper</i>.'
+paperurl: 'https://doi.org/10.1177/15270025261450148'
+citation: 'Liao, Kenneth, González-Ramírez, Jimena, Meyer, Kevin, & Adamas, Victoria (2026). &quot;An Paying to Play: How Seasonal Fees Affect Disc Golf Course Choice.&quot; <i>Journal of Sports Economics</i>.'
 category: 'environmental'
 type: "pr"
 co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'
@@ -22,7 +22,6 @@ co-authors: 'Kenny Liao, Kevin Meyer, and Victoria Adams*'
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-<i> Accepted at Journal of Sports Economics</i>
 
 <body>
 <div class="image-container">
