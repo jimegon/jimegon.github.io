@@ -1,0 +1,142 @@
+{
+  "St Louis, MO": {
+    "latitude": 38.6254063,
+    "longitude": -90.190009
+  },
+  "Champaign, IL": {
+    "latitude": 40.1164841,
+    "longitude": -88.2430932
+  },
+  "Helsinki, Finland": {
+    "latitude": 60.1666204,
+    "longitude": 24.9435408
+  },
+  "San Francisco, CA": {
+    "latitude": 37.7879363,
+    "longitude": -122.4075201
+  },
+  "Kansas City, MO": {
+    "latitude": 39.100105,
+    "longitude": -94.5781416
+  },
+  "Ames, IA": {
+    "latitude": 42.0267567,
+    "longitude": -93.6170448
+  },
+  "Evanston, IL": {
+    "latitude": 42.0693991,
+    "longitude": -87.682932
+  },
+  "Boston, MA": {
+    "latitude": 42.3588336,
+    "longitude": -71.0578303
+  },
+  "New York, NY": {
+    "latitude": 40.7127281,
+    "longitude": -74.0060152
+  },
+  "Cincinnati, OH": {
+    "latitude": 39.1014537,
+    "longitude": -84.5124602
+  },
+  "Denver, CO": {
+    "latitude": 39.7392364,
+    "longitude": -104.984862
+  },
+  "Minneapolis, MN": {
+    "latitude": 44.9772995,
+    "longitude": -93.2654692
+  },
+  "Farmingdale, NY": {
+    "latitude": 40.7328811,
+    "longitude": -73.4458564
+  },
+  "Washington, DC, United States": {
+    "latitude": 38.8950982,
+    "longitude": -77.0363849
+  },
+  "St. Louis, MO": {
+    "latitude": 38.6254063,
+    "longitude": -90.190009
+  },
+  "Sedona, AZ": {
+    "latitude": 34.8688613,
+    "longitude": -111.7614394
+  },
+  "Dublin, Ireland": {
+    "latitude": 53.3493795,
+    "longitude": -6.2605593
+  },
+  "Villanova, PA": {
+    "latitude": 40.0373323,
+    "longitude": -75.3490769
+  },
+  "Riverdale, NY": {
+    "latitude": 40.90056,
+    "longitude": -73.90639
+  },
+  "Spokane, WA": {
+    "latitude": 47.6571934,
+    "longitude": -117.42351
+  },
+  "Fort Lauderdale, FL": {
+    "latitude": 26.1223084,
+    "longitude": -80.1433786
+  },
+  "New Orleans, LA": {
+    "latitude": 29.9561422,
+    "longitude": -90.0733934
+  },
+  "Montego Bay, Jamaica": {
+    "latitude": 18.4724603,
+    "longitude": -77.9217357
+  },
+  "Miami, FL": {
+    "latitude": 25.7741566,
+    "longitude": -80.1935973
+  },
+  "Mystic, CT": {
+    "latitude": 41.3560375,
+    "longitude": -71.9573331
+  },
+  "Westbury, NY": {
+    "latitude": 40.7556561,
+    "longitude": -73.5876273
+  },
+  "Kingston, RI": {
+    "latitude": 41.4725975,
+    "longitude": -71.5221723
+  },
+  "Cleveland, OH": {
+    "latitude": 41.4996574,
+    "longitude": -81.6936772
+  },
+  "Old Westbury, NY": {
+    "latitude": 40.7887113,
+    "longitude": -73.5995717
+  },
+  "Washington, DC": {
+    "latitude": 38.8950982,
+    "longitude": -77.0363849
+  },
+  "Rehoboth Beach, DE": {
+    "latitude": 38.7164771,
+    "longitude": -75.0835107
+  },
+  "Anchorage, AK": {
+    "latitude": 61.2163129,
+    "longitude": -149.894852
+  },
+  "Burlington, VT": {
+    "latitude": 44.4761601,
+    "longitude": -73.212906
+  },
+  "Tampa, FL": {
+    "latitude": 27.9449854,
+    "longitude": -82.4583107
+  },
+  "La Romana, Dominican Republic": {
+    "latitude": 18.4230137,
+    "longitude": -68.9661104
+  }
+}
