@@ -304,13 +304,15 @@ Click on each topic to expand or collapse the section.
     var resultsDiv = document.getElementById('enre-results');
     if (!input || !resultsDiv) return;
 
-    var sectionH2s = Array.from(document.querySelectorAll('h2')).filter(function (h) {
-      return !h.closest('details');
-    });
+    // Capture section data before any search runs, so outerHTML is always clean
+    var sections = Array.from(document.querySelectorAll('h2'))
+      .filter(function (h) { return !h.closest('details'); })
+      .map(function (h) { return { el: h, html: h.outerHTML }; });
+
     var allDetails = Array.from(document.querySelectorAll('details'));
 
     function showOriginal() {
-      sectionH2s.forEach(function (h) { h.style.display = ''; });
+      sections.forEach(function (s) { s.el.style.display = ''; });
       allDetails.forEach(function (det) { det.style.display = ''; });
       resultsDiv.style.display = 'none';
       resultsDiv.innerHTML = '';
@@ -321,15 +323,12 @@ Click on each topic to expand or collapse the section.
 
       if (!query) { showOriginal(); return; }
 
-      sectionH2s.forEach(function (h) { h.style.display = 'none'; });
-      allDetails.forEach(function (det) { det.style.display = 'none'; });
-
       var html = '';
       var count = 0;
 
-      sectionH2s.forEach(function (h2) {
+      sections.forEach(function (section) {
         var sectionHtml = '';
-        var next = h2.nextElementSibling;
+        var next = section.el.nextElementSibling;
         while (next && !(next.tagName === 'H2' && !next.closest('details'))) {
           if (next.tagName === 'DETAILS') {
             var subsection = next.querySelector('summary').textContent.trim();
@@ -344,9 +343,7 @@ Click on each topic to expand or collapse the section.
           }
           next = next.nextElementSibling;
         }
-        if (sectionHtml) {
-          html += h2.outerHTML + sectionHtml;
-        }
+        if (sectionHtml) html += section.html + sectionHtml;
       });
 
       if (count === 0) {
@@ -355,6 +352,8 @@ Click on each topic to expand or collapse the section.
         html = '<p style="color:#555; font-size:0.9em; margin-bottom:0.5em;">' + count + ' result' + (count > 1 ? 's' : '') + '</p>' + html;
       }
 
+      sections.forEach(function (s) { s.el.style.display = 'none'; });
+      allDetails.forEach(function (det) { det.style.display = 'none'; });
       resultsDiv.innerHTML = html;
       resultsDiv.style.display = '';
     });
