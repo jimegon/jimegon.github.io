@@ -324,6 +324,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('h2').forEach(function (h2) {
       if (!query) { h2.style.display = ''; return; }
+      if (h2.closest('details')) return; // skip item-title h2s inside details
       var sib = h2.nextElementSibling;
       var visible = false;
       while (sib && sib.tagName !== 'H2') {
