@@ -24,6 +24,7 @@ Click on each topic to expand or collapse the section.
   <input type="text" id="enre-search" placeholder="Search "
          style="width: 100%; padding: 8px 12px; font-size: 1em; border: 4px solid darkblue; border-radius: 4px; box-sizing: border-box;">
 </div>
+<div id="enre-content">
 <h2 style="color: darkblue;">Market Failure</h2>
 
 <details close>
@@ -295,6 +296,8 @@ Click on each topic to expand or collapse the section.
 
   </details>
 
+</div>
+
 <script>
 document.getElementById('enre-search').addEventListener('input', function() {
   var query = this.value.toLowerCase();
@@ -314,16 +317,20 @@ document.getElementById('enre-search').addEventListener('input', function() {
       detail.removeAttribute('open');
     }
   });
-  document.querySelectorAll('h2').forEach(function(h2) {
-    if (h2.closest('details')) return;
-    if (query === '') { h2.style.display = ''; return; }
-    var next = h2.nextElementSibling;
-    var hasOpen = false;
-    while (next && next.tagName !== 'H2') {
-      if (next.tagName === 'DETAILS' && next.hasAttribute('open')) { hasOpen = true; break; }
-      next = next.nextElementSibling;
-    }
-    h2.style.display = hasOpen ? '' : 'none';
-  });
+  var content = document.getElementById('enre-content');
+  if (content) {
+    var currentH2 = null;
+    var currentHasOpen = false;
+    Array.from(content.children).forEach(function(el) {
+      if (el.tagName === 'H2') {
+        if (currentH2) currentH2.style.display = (query === '' || currentHasOpen) ? '' : 'none';
+        currentH2 = el;
+        currentHasOpen = false;
+      } else if (el.tagName === 'DETAILS') {
+        if (el.hasAttribute('open')) currentHasOpen = true;
+      }
+    });
+    if (currentH2) currentH2.style.display = (query === '' || currentHasOpen) ? '' : 'none';
+  }
 });
 </script>
