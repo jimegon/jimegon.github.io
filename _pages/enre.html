@@ -298,71 +298,99 @@ Click on each topic to expand or collapse the section.
   </details>
 
 <script>
+var ENRE_ITEMS = [
+  {% for post in site.enre reversed %}
+  { t: {{ post.title | jsonify }}, u: "{{ post.url }}", c: {{ post.category | jsonify }}, p: {{ post.publisher | jsonify }}, k: {{ post.type | jsonify }}, d: "{{ post.date | date: '%B, %Y' }}", r: {{ post.duration | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+var ENRE_META = {
+  'externalities':          { sec: 'Market Failure',                          color: 'darkblue',  sub: 'Externalities' },
+  'tragedy of the commons': { sec: 'Market Failure',                          color: 'darkblue',  sub: 'Tragedy of the Commons' },
+  'public goods':           { sec: 'Market Failure',                          color: 'darkblue',  sub: 'Public Goods' },
+  'command-and-control':    { sec: 'Policies',                                color: 'purple',    sub: 'Command-and-Control' },
+  'subsidies':              { sec: 'Policies',                                color: 'purple',    sub: 'Subsidies' },
+  'carbon tax':             { sec: 'Policies',                                color: 'purple',    sub: 'Carbon Tax' },
+  'cap-and-trade':          { sec: 'Policies',                                color: 'purple',    sub: 'Cap-and-Trade' },
+  'coase theorem':          { sec: 'Private Solutions and Voluntary Strategies', color: '#b8035d', sub: 'Coase Theorem' },
+  'recycling':              { sec: 'Private Solutions and Voluntary Strategies', color: '#b8035d', sub: 'Recycling' },
+  'benefit-cost':           { sec: 'Benefit-Cost Analysis',                   color: 'darkblue',  sub: 'Benefit-Cost Analysis' },
+  'benefits':               { sec: 'Benefits',                                color: 'purple',    sub: 'Benefits - General' },
+  'hedonic':                { sec: 'Benefits',                                color: 'purple',    sub: 'Hedonic Pricing Method' },
+  'travel cost':            { sec: 'Benefits',                                color: 'purple',    sub: 'Travel Cost Method' },
+  'stated preferences':     { sec: 'Benefits',                                color: 'purple',    sub: 'Stated Preference Methods' },
+  'other valuation':        { sec: 'Benefits',                                color: 'purple',    sub: 'Other Valuation Methods' },
+  'climate change':         { sec: 'Climate Change',                          color: '#b8035d',   sub: 'Climate Change' },
+  'carbon offsets':         { sec: 'Climate Change',                          color: '#b8035d',   sub: 'Carbon Offsets' },
+  'energy':                 { sec: 'Other Topics',                            color: 'darkblue',  sub: 'Energy' },
+  'environmental justice':  { sec: 'Other Topics',                            color: 'darkblue',  sub: 'Environmental Justice' },
+  'ESG':                    { sec: 'Other Topics',                            color: 'darkblue',  sub: 'ESG' },
+  'history':                { sec: 'Other Topics',                            color: 'darkblue',  sub: 'History' }
+};
+
+var ENRE_SECTION_ORDER = [
+  'Market Failure', 'Policies', 'Private Solutions and Voluntary Strategies',
+  'Benefit-Cost Analysis', 'Benefits', 'Climate Change', 'Other Topics'
+];
+
 (function () {
-  function init() {
+  function run() {
     var input = document.getElementById('enre-search');
     var resultsDiv = document.getElementById('enre-results');
     if (!input || !resultsDiv) return;
 
-    // Capture section data before any search runs, so outerHTML is always clean
-    var sections = Array.from(document.querySelectorAll('h2'))
-      .filter(function (h) { return !h.closest('details'); })
-      .map(function (h) { return { el: h, html: h.outerHTML }; });
-
-    var allDetails = Array.from(document.querySelectorAll('details'));
+    var pageH2s = Array.from(document.querySelectorAll('h2')).filter(function (h) { return !h.closest('details'); });
+    var pageDets = Array.from(document.querySelectorAll('details'));
 
     function showOriginal() {
-      sections.forEach(function (s) { s.el.style.display = ''; });
-      allDetails.forEach(function (det) { det.style.display = ''; });
+      pageH2s.forEach(function (h) { h.style.display = ''; });
+      pageDets.forEach(function (d) { d.style.display = ''; });
       resultsDiv.style.display = 'none';
       resultsDiv.innerHTML = '';
     }
 
     input.addEventListener('input', function () {
       var query = this.value.toLowerCase().trim();
-
       if (!query) { showOriginal(); return; }
 
-      var html = '';
-      var count = 0;
+      pageH2s.forEach(function (h) { h.style.display = 'none'; });
+      pageDets.forEach(function (d) { d.style.display = 'none'; });
 
-      sections.forEach(function (section) {
-        var sectionHtml = '';
-        var next = section.el.nextElementSibling;
-        while (next && !(next.tagName === 'H2' && !next.closest('details'))) {
-          if (next.tagName === 'DETAILS') {
-            var subsection = next.querySelector('summary').textContent.trim();
-            next.querySelectorAll('.list__item').forEach(function (item) {
-              if (!item.textContent.toLowerCase().includes(query)) return;
-              sectionHtml += '<div style="border-bottom:1px solid #e0e0e0; padding:0.6em 0 0.4em;">'
-                           + '<div style="font-size:0.75em; color:#888; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.2em;">' + subsection + '</div>'
-                           + item.innerHTML
-                           + '</div>';
-              count++;
-            });
-          }
-          next = next.nextElementSibling;
-        }
-        if (sectionHtml) html += section.html + sectionHtml;
+      var matches = ENRE_ITEMS.filter(function (item) {
+        return [item.t, item.c, item.p, item.k, item.d, item.r].join(' ').toLowerCase().indexOf(query) !== -1;
       });
 
-      if (count === 0) {
-        html = '<p style="color:#888; margin-top:0.5em;">No results found.</p>';
-      } else {
-        html = '<p style="color:#555; font-size:0.9em; margin-bottom:0.5em;">' + count + ' result' + (count > 1 ? 's' : '') + '</p>' + html;
-      }
+      var html = '';
+      ENRE_SECTION_ORDER.forEach(function (secName) {
+        var secItems = matches.filter(function (item) {
+          var m = ENRE_META[item.c];
+          return m && m.sec === secName;
+        });
+        if (!secItems.length) return;
+        var color = ENRE_META[secItems[0].c].color;
+        html += '<h2 style="color:' + color + ';">' + secName + '</h2>';
+        secItems.forEach(function (item) {
+          var meta = ENRE_META[item.c] || {};
+          html += '<div style="border-bottom:1px solid #e0e0e0;padding:0.5em 0 0.3em;">'
+                + '<div style="font-size:0.75em;color:#888;text-transform:uppercase;letter-spacing:0.04em;">' + (meta.sub || item.c) + '</div>'
+                + '<h2 class="archive__item-title"><a href="' + item.u + '">' + item.t + '</a></h2>'
+                + '<p class="page__date"><strong>Published:</strong> ' + item.d + '.&nbsp; <strong>Publisher:</strong> ' + (item.p || '—') + '.&nbsp; <strong>Type:</strong> ' + (item.k || '—') + '.&nbsp; <strong>Duration:</strong> ' + (item.r || '—') + '.</p>'
+                + '</div>';
+        });
+      });
 
-      sections.forEach(function (s) { s.el.style.display = 'none'; });
-      allDetails.forEach(function (det) { det.style.display = 'none'; });
+      if (!matches.length) html = '<p style="color:#888;margin-top:0.5em;">No results found.</p>';
+      else html = '<p style="color:#555;font-size:0.9em;margin-bottom:0.5em;">' + matches.length + ' result' + (matches.length !== 1 ? 's' : '') + '</p>' + html;
+
       resultsDiv.innerHTML = html;
       resultsDiv.style.display = '';
     });
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', run);
   } else {
-    init();
+    run();
   }
 })();
 </script>
