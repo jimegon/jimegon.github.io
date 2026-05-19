@@ -327,18 +327,26 @@ Click on each topic to expand or collapse the section.
       var html = '';
       var count = 0;
 
-      allDetails.forEach(function (det) {
-        var section = det.querySelector('summary').textContent.trim();
-        det.querySelectorAll('.list__item').forEach(function (item) {
-          if (!item.textContent.toLowerCase().includes(query)) return;
-          html += '<div style="border-bottom:1px solid #e0e0e0; padding:0.6em 0 0.4em;">'
-                + '<div style="font-size:0.75em; color:#888; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.2em;">'
-                + section
-                + '</div>'
-                + item.innerHTML
-                + '</div>';
-          count++;
-        });
+      sectionH2s.forEach(function (h2) {
+        var sectionHtml = '';
+        var next = h2.nextElementSibling;
+        while (next && !(next.tagName === 'H2' && !next.closest('details'))) {
+          if (next.tagName === 'DETAILS') {
+            var subsection = next.querySelector('summary').textContent.trim();
+            next.querySelectorAll('.list__item').forEach(function (item) {
+              if (!item.textContent.toLowerCase().includes(query)) return;
+              sectionHtml += '<div style="border-bottom:1px solid #e0e0e0; padding:0.6em 0 0.4em;">'
+                           + '<div style="font-size:0.75em; color:#888; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.2em;">' + subsection + '</div>'
+                           + item.innerHTML
+                           + '</div>';
+              count++;
+            });
+          }
+          next = next.nextElementSibling;
+        }
+        if (sectionHtml) {
+          html += h2.outerHTML + sectionHtml;
+        }
       });
 
       if (count === 0) {
