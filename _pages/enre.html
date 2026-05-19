@@ -314,5 +314,16 @@ document.getElementById('enre-search').addEventListener('input', function() {
       detail.removeAttribute('open');
     }
   });
+  document.querySelectorAll('h2').forEach(function(h2) {
+    if (h2.closest('details')) return;
+    if (query === '') { h2.style.display = ''; return; }
+    var next = h2.nextElementSibling;
+    var hasOpen = false;
+    while (next && next.tagName !== 'H2') {
+      if (next.tagName === 'DETAILS' && next.hasAttribute('open')) { hasOpen = true; break; }
+      next = next.nextElementSibling;
+    }
+    h2.style.display = hasOpen ? '' : 'none';
+  });
 });
 </script>
