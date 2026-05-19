@@ -17,8 +17,14 @@ author_profile: true
 
 {% include base_path %}
 
-This wesbite includes a list of podcast, videos, and articles by topic that I have used in my courses. 
-Click on each topic to expand or collapse the section. 
+This wesbite includes a list of podcast, videos, and articles by topic that I have used in my courses.
+Click on each topic to expand or collapse the section.
+
+<div style="margin: 1em 0 1em;">
+  <input type="text" id="micro-search" placeholder="Search "
+         style="width: 100%; padding: 8px 12px; font-size: 1em; border: 4px solid darkblue; border-radius: 4px; box-sizing: border-box;">
+</div>
+<div id="micro-results" style="display:none;"></div>
 
 <h2 style="color: darkblue;">Introduction</h2>
 
@@ -179,7 +185,92 @@ Click on each topic to expand or collapse the section.
 
   </details>
 
-  
+<script>
+var MICRO_ITEMS = [
+  {% for post in site.micro reversed %}
+  { t: {{ post.title | jsonify }}, u: "{{ post.url }}", c: {{ post.category | jsonify }}, p: {{ post.publisher | jsonify }}, k: {{ post.type | jsonify }}, d: "{{ post.date | date: '%B, %Y' }}", r: {{ post.duration | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+var MICRO_META = {
+  'introduction':             { sec: 'Introduction',                    color: 'darkblue',  sub: 'Introduction' },
+  'demand and supply':        { sec: 'Markets',                         color: '#b8035d',   sub: 'Demand and Supply' },
+  'price controls':           { sec: 'Markets Distortions',             color: 'purple',    sub: 'Price Controls' },
+  'taxes':                    { sec: 'Markets Distortions',             color: 'purple',    sub: 'Taxes' },
+  'comparative advantage':    { sec: 'Comparative Advantage and Trade', color: 'darkblue',  sub: 'Opportunity Cost and Benefits of Trade' },
+  'international trade':      { sec: 'Comparative Advantage and Trade', color: 'darkblue',  sub: 'International Trade' },
+  'competition':              { sec: 'Producer Theory',                 color: 'purple',    sub: 'Production Decisions and Competition' },
+  'monopoly':                 { sec: 'Producer Theory',                 color: 'purple',    sub: 'Monopoly' },
+  'monopolistic competition': { sec: 'Producer Theory',                 color: 'purple',    sub: 'Monopolistic Competition' },
+  'oligopoly':                { sec: 'Producer Theory',                 color: 'purple',    sub: 'Oligopoly' },
+  'equity and justice':       { sec: 'Equity and Justice',              color: 'darkblue',  sub: 'Equity and Justice' }
+};
+
+var MICRO_SECTION_ORDER = [
+  'Introduction', 'Markets', 'Markets Distortions', 'Comparative Advantage and Trade', 'Producer Theory', 'Equity and Justice'
+];
+
+(function () {
+  function run() {
+    var input = document.getElementById('micro-search');
+    var resultsDiv = document.getElementById('micro-results');
+    if (!input || !resultsDiv) return;
+
+    var pageH2s = Array.from(document.querySelectorAll('h2')).filter(function (h) { return !h.closest('details'); });
+    var pageDets = Array.from(document.querySelectorAll('details'));
+
+    function showOriginal() {
+      pageH2s.forEach(function (h) { h.style.display = ''; });
+      pageDets.forEach(function (d) { d.style.display = ''; });
+      resultsDiv.style.display = 'none';
+      resultsDiv.innerHTML = '';
+    }
+
+    input.addEventListener('input', function () {
+      var query = this.value.toLowerCase().trim();
+      if (!query) { showOriginal(); return; }
+
+      pageH2s.forEach(function (h) { h.style.display = 'none'; });
+      pageDets.forEach(function (d) { d.style.display = 'none'; });
+
+      var matches = MICRO_ITEMS.filter(function (item) {
+        return [item.t, item.c, item.p, item.k, item.d, item.r].join(' ').toLowerCase().indexOf(query) !== -1;
+      });
+
+      var html = '';
+      MICRO_SECTION_ORDER.forEach(function (secName) {
+        var secItems = matches.filter(function (item) {
+          var m = MICRO_META[item.c];
+          return m && m.sec === secName;
+        });
+        if (!secItems.length) return;
+        var color = MICRO_META[secItems[0].c].color;
+        html += '<h2 style="color:' + color + ';">' + secName + '</h2>';
+        secItems.forEach(function (item) {
+          var meta = MICRO_META[item.c] || {};
+          html += '<div style="border-bottom:1px solid #e0e0e0;padding:0.5em 0 0.3em;">'
+                + '<div style="font-size:0.75em;color:#888;text-transform:uppercase;letter-spacing:0.04em;">' + (meta.sub || item.c) + '</div>'
+                + '<h2 class="archive__item-title"><a href="' + item.u + '">' + item.t + '</a></h2>'
+                + '<p class="page__date"><strong>Published:</strong> ' + item.d + '.&nbsp; <strong>Publisher:</strong> ' + (item.p || '—') + '.&nbsp; <strong>Type:</strong> ' + (item.k || '—') + '.&nbsp; <strong>Duration:</strong> ' + (item.r || '—') + '.</p>'
+                + '</div>';
+        });
+      });
+
+      if (!matches.length) html = '<p style="color:#888;margin-top:0.5em;">No results found.</p>';
+      else html = '<p style="color:#555;font-size:0.9em;margin-bottom:0.5em;">' + matches.length + ' result' + (matches.length !== 1 ? 's' : '') + '</p>' + html;
+
+      resultsDiv.innerHTML = html;
+      resultsDiv.style.display = '';
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
+  }
+})();
+</script>
 
 
   
