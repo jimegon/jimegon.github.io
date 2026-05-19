@@ -20,10 +20,11 @@ author_profile: true
 This wesbite includes a list of podcast, videos, and articles by topic that I have used in my courses.
 Click on each topic to expand or collapse the section.
 
-<div style="margin: 1em 0 1.5em;">
+<div style="margin: 1em 0 1em;">
   <input type="text" id="enre-search" placeholder="Search "
          style="width: 100%; padding: 8px 12px; font-size: 1em; border: 4px solid darkblue; border-radius: 4px; box-sizing: border-box;">
 </div>
+<div id="enre-results" style="display:none;"></div>
 
 <h2 style="color: darkblue;">Market Failure</h2>
 
@@ -297,42 +298,64 @@ Click on each topic to expand or collapse the section.
   </details>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var input = document.getElementById('enre-search');
-  if (!input) return;
+(function () {
+  function init() {
+    var input = document.getElementById('enre-search');
+    var resultsDiv = document.getElementById('enre-results');
+    if (!input || !resultsDiv) return;
 
-  input.addEventListener('input', function () {
-    var query = this.value.toLowerCase().trim();
-    var allDetails = document.querySelectorAll('details');
+    var sectionH2s = Array.from(document.querySelectorAll('h2')).filter(function (h) {
+      return !h.closest('details');
+    });
+    var allDetails = Array.from(document.querySelectorAll('details'));
 
-    allDetails.forEach(function (det) {
-      var items = det.querySelectorAll('.list__item');
+    function showOriginal() {
+      sectionH2s.forEach(function (h) { h.style.display = ''; });
+      allDetails.forEach(function (det) { det.style.display = ''; });
+      resultsDiv.style.display = 'none';
+      resultsDiv.innerHTML = '';
+    }
+
+    input.addEventListener('input', function () {
+      var query = this.value.toLowerCase().trim();
+
+      if (!query) { showOriginal(); return; }
+
+      sectionH2s.forEach(function (h) { h.style.display = 'none'; });
+      allDetails.forEach(function (det) { det.style.display = 'none'; });
+
+      var html = '';
       var count = 0;
-      items.forEach(function (item) {
-        var matches = !query || item.textContent.toLowerCase().includes(query);
-        item.style.display = matches ? '' : 'none';
-        if (matches) count++;
-      });
-      if (query) {
-        det.style.display = count > 0 ? '' : 'none';
-        if (count > 0) det.open = true;
-      } else {
-        det.style.display = '';
-        items.forEach(function (item) { item.style.display = ''; });
-      }
-    });
 
-    document.querySelectorAll('h2').forEach(function (h2) {
-      if (!query) { h2.style.display = ''; return; }
-      if (h2.closest('details')) return; // skip item-title h2s inside details
-      var sib = h2.nextElementSibling;
-      var visible = false;
-      while (sib && sib.tagName !== 'H2') {
-        if (sib.tagName === 'DETAILS' && sib.style.display !== 'none') { visible = true; break; }
-        sib = sib.nextElementSibling;
+      allDetails.forEach(function (det) {
+        var section = det.querySelector('summary').textContent.trim();
+        det.querySelectorAll('.list__item').forEach(function (item) {
+          if (!item.textContent.toLowerCase().includes(query)) return;
+          html += '<div style="border-bottom:1px solid #e0e0e0; padding:0.6em 0 0.4em;">'
+                + '<div style="font-size:0.75em; color:#888; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.2em;">'
+                + section
+                + '</div>'
+                + item.innerHTML
+                + '</div>';
+          count++;
+        });
+      });
+
+      if (count === 0) {
+        html = '<p style="color:#888; margin-top:0.5em;">No results found.</p>';
+      } else {
+        html = '<p style="color:#555; font-size:0.9em; margin-bottom:0.5em;">' + count + ' result' + (count > 1 ? 's' : '') + '</p>' + html;
       }
-      h2.style.display = visible ? '' : 'none';
+
+      resultsDiv.innerHTML = html;
+      resultsDiv.style.display = '';
     });
-  });
-});
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
 </script>
