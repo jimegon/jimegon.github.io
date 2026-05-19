@@ -17,8 +17,13 @@ author_profile: true
 
 {% include base_path %}
 
-This wesbite includes a list of podcast, videos, and articles by topic that I have used in my courses. 
-Click on each topic to expand or collapse the section. 
+This wesbite includes a list of podcast, videos, and articles by topic that I have used in my courses.
+Click on each topic to expand or collapse the section.
+
+<div style="margin: 1em 0 1.5em;">
+  <input type="text" id="enre-search" placeholder="Search titles, publishers, types..."
+         style="width: 100%; padding: 8px 12px; font-size: 1em; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+</div>
 
 <h2 style="color: darkblue;">Market Failure</h2>
 
@@ -288,5 +293,45 @@ Click on each topic to expand or collapse the section.
         {% include archive-single-podcasts.html %}
       {% endif %}
     {% endfor %}
-    
+
   </details>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var input = document.getElementById('enre-search');
+  if (!input) return;
+
+  input.addEventListener('input', function () {
+    var query = this.value.toLowerCase().trim();
+    var allDetails = document.querySelectorAll('details');
+
+    allDetails.forEach(function (det) {
+      var items = det.querySelectorAll('.list__item');
+      var count = 0;
+      items.forEach(function (item) {
+        var matches = !query || item.textContent.toLowerCase().includes(query);
+        item.style.display = matches ? '' : 'none';
+        if (matches) count++;
+      });
+      if (query) {
+        det.style.display = count > 0 ? '' : 'none';
+        if (count > 0) det.open = true;
+      } else {
+        det.style.display = '';
+        items.forEach(function (item) { item.style.display = ''; });
+      }
+    });
+
+    document.querySelectorAll('h2').forEach(function (h2) {
+      if (!query) { h2.style.display = ''; return; }
+      var sib = h2.nextElementSibling;
+      var visible = false;
+      while (sib && sib.tagName !== 'H2') {
+        if (sib.tagName === 'DETAILS' && sib.style.display !== 'none') { visible = true; break; }
+        sib = sib.nextElementSibling;
+      }
+      h2.style.display = visible ? '' : 'none';
+    });
+  });
+});
+</script>
