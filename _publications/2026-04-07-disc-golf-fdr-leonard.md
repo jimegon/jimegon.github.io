@@ -3,7 +3,7 @@ title: "Paying to Play: How Seasonal Fees Affect Disc Golf Course Choice"
 collection: publications
 permalink: /publications/disc-golf-fdr-leonard
 excerpt: ''
-date: 2025-04-07
+date: 2026-05-14
 venue: 'Journal of Sports Economics'
 paperurl: 'https://doi.org/10.1177/15270025261450148'
 citation: 'Liao, Kenneth, González-Ramírez, Jimena, Meyer, Kevin, & Adamas, Victoria (2026). &quot;An Paying to Play: How Seasonal Fees Affect Disc Golf Course Choice.&quot; <i>Journal of Sports Economics</i>.'
