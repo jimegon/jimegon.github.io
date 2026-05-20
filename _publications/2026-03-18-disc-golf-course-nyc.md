@@ -1,14 +1,14 @@
 ---
 title: "Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf"
-collection: research
-permalink: /research/disc-golf-course-nyc
+collection: publications
+permalink: /publications/disc-golf-course-nyc
 excerpt: ''
-date: 2025-11-14
-venue: 'SSRN Working Paper'
+date: 2026-03-18
+venue: 'Journal of Agricultural and Resource Economics'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141484'
-citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2025). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> SSRN Working Paper</i>.'
+citation: 'Meyer, Kevin, González-Ramírez, Jimena, Liao, & Kenneth (2026). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> Journal of Agricultural and Resource Economics</i>.'
 category: 'environmental'
-type: "working paper"
+type: "pr"
 co-authors: 'Kevin Meyer and Kenny Liao'
 ---
 
@@ -23,7 +23,7 @@ co-authors: 'Kevin Meyer and Kenny Liao'
 </script>
 
 
-<i> R&R at the Journal of Agricultural and Resource Economics</i>
+<i> Forthcoming at the Journal of Agricultural and Resource Economics</i>
 
 <div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
 <a href="http://jimegon.github.io/files/Gonzalez-Ramirez_Value_of_Disc_Golf_Course.pdf" target="_blank">Download most recent version of here</a> 
