@@ -34,6 +34,15 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+<hr>
+<h2 style="color: darkblue;"> Study Abroad Courses</h2>
+
+{% for post in site.teaching reversed %}
+  {% if post.cat == 'study abroad' %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
+{% endfor %}
+
 <h2 style="color: purple;">Teaching Resources</h2>
 
 <a href="/resources/enre/" style="color: #007BFF; font-size: 20px;">Environmental Economics Podcasts, Media, and Articles</a>
