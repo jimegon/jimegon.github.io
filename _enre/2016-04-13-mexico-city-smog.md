@@ -4,7 +4,7 @@ date: 2016-04-13
 permalink: /resources/enre/mexico-city-smog
 tags:
   - externalites
-  - command and control
+  - command-and-control
 category: "command-and-control"
 type: "podcast"
 publisher: "NPR All Things Considered"
