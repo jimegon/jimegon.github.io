@@ -9,7 +9,7 @@ category: "command-and-control"
 type: "podcast"
 publisher: "NPR All Things Considered"
 paperurl: 'https://www.npr.org/sections/parallels/2016/04/13/474098405/in-mexico-city-the-return-of-terrible-smog'
-duration: "22:54"
+duration: "3:40"
 ---
 
 <!-- Google tag (gtag.js) -->
