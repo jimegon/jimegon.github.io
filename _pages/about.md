@@ -45,6 +45,7 @@ Website Content:
         <b>2016</b>: Ph.D. in economics, Iowa State University <br>
         <b>2016 - 2022</b>: Assistant Professor, O'Malley School of Business, Manhattan College <br>
         <b>2022 - Present</b>: Associate Professor, O'Malley School of Business,  Manhattan University</p>
+        <b>2026 - Present</b>: Chair, Department of Economics and Finance, O'Malley School of Business,  Manhattan University</p>
 </div>
 
 <body>
