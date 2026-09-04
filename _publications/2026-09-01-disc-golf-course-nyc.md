@@ -6,7 +6,7 @@ excerpt: ''
 date: 2026-09-01
 venue: 'Journal of Agricultural and Resource Economics'
 paperurl: 'https://doi.org/10.22004/ag.econ.376287'
-citation: 'Meyer, Kevin, González-Ramírez, Jimena, Liao, & Kenneth (2026). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> Journal of Agricultural and Resource Economics</i>.'
+citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2026). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> Journal of Agricultural and Resource Economics</i>.'
 category: 'environmental'
 type: "pr"
 co-authors: 'Kevin Meyer and Kenny Liao'
