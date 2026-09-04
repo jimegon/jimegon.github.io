@@ -3,9 +3,9 @@ title: "Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Go
 collection: publications
 permalink: /publications/disc-golf-course-nyc
 excerpt: ''
-date: 2026-03-18
+date: 2026-09-01
 venue: 'Journal of Agricultural and Resource Economics'
-paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141484'
+paperurl: 'https://doi.org/10.22004/ag.econ.376287'
 citation: 'Meyer, Kevin, González-Ramírez, Jimena, Liao, & Kenneth (2026). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> Journal of Agricultural and Resource Economics</i>.'
 category: 'environmental'
 type: "pr"
@@ -22,13 +22,13 @@ co-authors: 'Kevin Meyer and Kenny Liao'
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
 
-
+<!--
 <i> Forthcoming at the Journal of Agricultural and Resource Economics</i>
 
 <div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
 <a href="http://jimegon.github.io/files/Gonzalez-Ramirez_Value_of_Disc_Golf_Course.pdf" target="_blank">Download most recent version of here</a> 
 </div>
-
+-->
 
 <body>
 <div class="image-container">
@@ -51,7 +51,7 @@ Abstract
 </summary>
 
 <p>
-This paper applies a travel cost model combining revealed and stated preference data to estimate the recreational value of a disc golf course near New York City, where such facilities were limited at the time of the study. Using intercept survey data from Franklin D. Roosevelt and Heckscher State Parks, we estimate individual consumer surplus per trip with a fixed-effects Poisson regression. The survey collects travel costs and contingent behavior responses, capturing how trip frequency would change with reduced travel time. By combining revealed and stated preferences, we control for individual-specific factors influencing demand. Supplementary data from the UDisc scorekeeping app provides an estimate of total annual visits, allowing us to calculate aggregate consumer surplus. We estimate individual surplus at approximately $68 per trip and total annual surplus at about $6 million. These results can inform policymakers considering the allocation of public land.
+This paper applies a travel cost model combining revealed and stated preference data to estimate the recreational value of a disc golf course near New York City, where such facilities were limited at the time of the study. Using intercept survey data from Franklin D. Roosevelt and Heckscher State Parks, we estimate individual consumer surplus per trip with a fixed-effects Poisson regression. The survey collects travel costs and contingent behavior responses, capturing how trip frequency would change with reduced travel time. By combining revealed and stated preferences, we control for individual-specific factors influencing demand. Supplementary data from the UDisc scorekeeping app provides an estimate of total annual visits, allowing us to calculate aggregate consumer surplus. We estimate individual surplus at approximately $68 per trip and total annual surplus for the course at about $6 million. These results can inform policymakers considering the allocation of public land.
 </p>
 
 </details>
@@ -60,17 +60,15 @@ This paper applies a travel cost model combining revealed and stated preference 
 <summary>
 Keywords
 </summary>
-disc golf <br>
+contingent behavior <br>
 
-frisbee golf <br>
+disc golf <br>
 
 recreation demand <br>
 
 non-market valuation <br> 
 
 travel cost <br> 
-
-contingent valuation <br> 
 
 stated preference <br>
 
