@@ -8,7 +8,7 @@ venue: ''
 paperurl: ''
 citation: 'Meyer, Kevin, Penn, Jerrod, González-Ramírez, Jimena, (2026). &quot;Valuing Student Preferences for Short-Term Study Abroad: Evidence from a Discrete Choice Experiment; <i> </i>.'
 category: 'pedagogy'
-type: "work in progress"
+type: "working paper"
 co-authors: 'Kevin Meyer and Jerrod Penn'
 ---
 
