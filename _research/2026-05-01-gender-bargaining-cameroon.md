@@ -1,9 +1,9 @@
 ---
-title: "Gender, Bargaining, and Investment: Experimental Evidence from Rural Cameroon"
+title: "Bargaining Power, Social Norms, and Household Investment: Experimental Evidence from Rural Cameroon"
 collection: research
-permalink: /research/2024-05-16-bargaining-gender-cameroon  
+permalink: /research/bargaining-gender-cameroon  
 excerpt: ''
-date: 2024-05-16
+date: 2026-05-01
 venue: 'Working Paper'
 paperurl: ''
 citation: 'Bernini, Andrea, Harnack-Eber, Max, González-Ramírez, Jimena, &  Meriggi, Niccolò (2024). &quot;Gender, Bargaining, and Investment: Experimental Evidence from Rural Cameroon &quot; <i></i>.'
