@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/daylight-saving-time-eea
 venue: "Eastern Economic Association Meeting"
-date: 2025-05-08
+date: 2026-05-08
 location: "La Romana, Dominican Republic"
 co-authors: 'Kevin Meyer (Presenter) and Kenneth Liao'
 ---
