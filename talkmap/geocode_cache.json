@@ -138,5 +138,9 @@
   "La Romana, Dominican Republic": {
     "latitude": 18.4230137,
     "longitude": -68.9661104
+  },
+  "Bogot\u00e1, Colombia": {
+    "latitude": 4.6533817,
+    "longitude": -74.0836331
   }
 }
