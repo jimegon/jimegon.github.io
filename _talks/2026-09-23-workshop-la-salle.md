@@ -1,7 +1,7 @@
 ---
 title: "Recomendaciones sobre el proceso de publicación y el uso de la IA en la investigación"
 collection: talks
-type: "Presentation"
+type: "Workshop Facilitator"
 permalink: /talks/workshop-la-salle
 venue: "V Congreso de Investigaci´on Doctoral - La Salle Business School"
 date: 2026-09-23

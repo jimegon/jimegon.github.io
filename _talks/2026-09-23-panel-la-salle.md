@@ -1,7 +1,7 @@
 ---
 title: "Sostenibilidad Integral"
 collection: talks
-type: "Presentation"
+type: "Panel"
 permalink: /talks/panel-la-salle
 venue: "V Congreso de Investigaci´on Doctoral - La Salle Business School"
 date: 2026-09-23
