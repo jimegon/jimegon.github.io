@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/disc-golf-national-eea
 venue: "Eastern Economic Association Conference"
-date: 2026-05-07
+date: 2026-05-08
 location: "La Romana, Dominican Republic"
 co-authors: 'Kevin Meyer and Kenneth Liao'
 ---
