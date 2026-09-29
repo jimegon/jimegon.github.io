@@ -2,11 +2,11 @@
 title: "From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics"
 collection: talks
 type: "Presentation"
-permalink: /talks/just-enviro-econ-sea
-venue: "Southern Economic Association Annual Meeting"
-date: 2025-11-23
-location: "Tampa, FL"
-co-authors: 'Sarah Jacobson, Fidel González, Sumeet Gulati, Danae Hernández-Cortes, and Diya Mazumder'
+permalink: /talks/just-enviro-econ-wcere
+venue: "World Congress of Environmental and Resource Economists"
+date: 2026-06-30
+location: "Carvalos, Portugal"
+co-authors: 'Sarah Jacobson (Presenter), Fidel González, Sumeet Gulati, Danae Hernández-Cortes, and Diya Mazumder'
 ---
 
 <!-- Google tag (gtag.js) -->
