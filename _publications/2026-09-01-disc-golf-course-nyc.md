@@ -6,7 +6,7 @@ excerpt: ''
 date: 2026-09-01
 venue: 'Journal of Agricultural and Resource Economics'
 paperurl: 'https://doi.org/10.22004/ag.econ.376287'
-citation: 'González-Ramírez, Jimena, Meyer, Kevin, Liao, & Kenneth (2026). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> Journal of Agricultural and Resource Economics</i>.'
+citation: 'González-Ramírez, J., Meyer, K., & Liao, K. (2026). &quot; Valuing Recreation Opportunities Near Urban Areas: Evidence from Disc Golf.&quot; <i> Journal of Agricultural and Resource Economics</i>.'
 category: 'environmental'
 type: "pr"
 co-authors: 'Kevin Meyer and Kenny Liao'
@@ -74,3 +74,11 @@ stated preference <br>
 
 </details>
 
+<details open>
+<summary>Media Mentions</summary>
+<ul>
+  <li>"<a href="https://udisc.com/disc-golf-growth-report/2025" target="_blank">Disc Golf Growth Report 2025</a>," <i>UDisc</i>. (February 2025).</li>
+  <li>"<a href="https://www.youtube.com/live/6Vq_BVIRqvI?t=1535s" target="_blank">Sweet Chain Pie's #203! UDisc Growth Report 2025</a>," <i>Sweet Chain Live</i>. (February 27, 2025).</li>
+  <li>"<a href="https://youtu.be/YLR80PI5kJI?t=1396" target="_blank">Is Disc Golf Still Growing? Plus Ken Climo Competes and All-Star Preview</a>," <i>Grip Locked</i>. (February 24, 2025).</li>
+</ul>
+</details>
