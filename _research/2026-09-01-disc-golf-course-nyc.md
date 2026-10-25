@@ -1,0 +1,72 @@
+---
+title: "Daylight Saving Time and Outdoor Recreation"
+collection: research
+permalink: /research/daylight-saving
+excerpt: ''
+date: 2026-10-01
+venue: ''
+paperurl: 'https://doi.org/10.22004/ag.econ.376287'
+citation: 'Liao, K. González-Ramírez, J., & Meyer, K. (2026). &quot; Daylight Saving Time and Outdoor Recreation.&quot; <i> </i>.'
+category: 'environmental'
+type: "pr"
+co-authors: 'Kenny Liao and Kevin Meyer'
+---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95WSVMDNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q95WSVMDNZ');
+</script>
+
+<!--
+<i> Forthcoming at the Journal of Agricultural and Resource Economics</i>
+
+<div style="background-color: #e6f3ff; padding: 10px; padding-left:10px; border-radius: 10px; text-align: center; font-weight: bold; font-size: 20px; color = #003366;"> 
+<a href="http://jimegon.github.io/files/Gonzalez-Ramirez_Value_of_Disc_Golf_Course.pdf" target="_blank">Download most recent version of here</a> 
+</div>
+-->
+
+<body>
+<div class="image-container">
+        <figure>
+            <img src="/images/co-authors/kenny_liao.png" alt="Image 2" width="100" height="auto">
+            <figcaption><a href="https://kenneth-liao.com/" target="_blank">Kenny Liao</a></figcaption>
+        </figure>
+        <figure>
+            <img src="/images/co-authors/kevin_meyer.png" alt="Image 1" width="100" height="auto">
+            <figcaption><a href="https://www.kmmeyer.com/" target="_blank">Kevin Meyer</a></figcaption>
+        </figure>
+        <!-- Add more images as needed -->
+    </div>
+</body>
+
+
+<details open>
+<summary>
+Abstract
+</summary>
+
+<p>
+Daylight saving time (DST) does not change how much daylight there is; it changes when daylight falls relative to daily routines. We study how this timing shift affects outdoor recreation, using app-recorded disc golf visits from UDisc. Arizona does not observe DST, which provides a natural comparison with nearby states that do (CA, CO, NV, NM and UT). We use more than 1,000 courses and over 100,000 course-days within two weeks of the fall clock change from 2021 to 2025. With difference-in-differences Poisson fixed-effects models that control for weather and daylight duration, we find that the return to standard time reduces visits by 6.1% overall. The drop is concentrated on weekdays, when visits fall by 13.4%, while weekend visits show no statistically detectable change. The spring transition, which moves daylight into the evening, coincides with more weekday play, but differing pre-transition trends make that evidence less reliable than the fall results. Our results are intuitive: weekday rounds tend to start in the late afternoon, so earlier sunsets cut into outdoor play. Because outdoor recreation promotes physical and mental health, these findings point to a cost of clock policy that is often overlooked. As the United States debates permanent standard or daylight time, the timing of evening daylight deserves a place alongside energy, sleep and safety in that discussion.
+</p>
+
+</details>
+
+<details open>
+<summary>
+Keywords
+</summary>
+daylight saving time <br>
+
+recreation <br>
+
+difference-in-difference <br>
+
+event study <br> 
+
+</details>
+
