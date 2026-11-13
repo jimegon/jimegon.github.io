@@ -8,7 +8,7 @@ venue: ''
 paperurl: ''
 citation: 'Guerrero Flores, N., & González-Ramírez, J. (2026). &quot;The Indirect Price of Scenic Amenities: Evidence from Central Park Housing.&quot; Working paper.'
 category: 'environmental'
-type: "wp"
+type: "working paper"
 co-authors: 'Naomy Guerrero Flores'
 ---
 
@@ -22,8 +22,6 @@ co-authors: 'Naomy Guerrero Flores'
 
   gtag('config', 'G-Q95WSVMDNZ');
 </script>
-
-
 
 
 
