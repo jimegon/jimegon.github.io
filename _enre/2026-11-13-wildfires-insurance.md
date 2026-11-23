@@ -5,6 +5,9 @@ permalink: /resources/enre/wildfires-and-insurance
 tags:
   - climate change
   - moral hazard
+  - fires
+  - wild fires
+  - insurance
 category: "climate change"
 type: "podcast"
 publisher: "NPR Planet Money"
